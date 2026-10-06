@@ -1,0 +1,4 @@
+[
+  ["ID tài liệu", "ID doanh nghiệp", "Trường thông tin", "Giá trị đọc từ PDF", "Trang PDF", "Phương pháp", "URL nguồn"],
+  ["DOCUMENT_ID", "COMPANY_ID", "Tên doanh nghiệp", "DOANH NGHIỆP MẪU", "1", "Đọc ảnh scan, đã kiểm tra", "https://example.org/document.pdf"]
+]

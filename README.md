@@ -1,0 +1,97 @@
+# CSDL CƠ BẢN
+
+Thu thập API công khai business.gov.vn, chuẩn hóa và ghi Google Sheets. Sheet là đầu ra chính. Không tiếp tục upload Google Drive.
+
+## Nguồn
+
+- https://business.gov.vn/doanh-nghiep-nho-va-vua/tim-kiem/v1
+- https://business.gov.vn/doanh-nghiep-nho-va-vua/tim-kiem?tab=1
+
+Phân trang mặc định 50 bản ghi, retry tối đa 4 lần; kiểm tra số ID duy nhất bằng tổng tại nguồn. Không dùng cookie đăng nhập.
+
+## Cài đặt
+
+Yêu cầu Python 3.10+, PowerShell 5.1 hoặc 7. PDF scan cần Poppler `pdftoppm` trên PATH. OCR tùy chọn cần Tesseract cùng ngôn ngữ `vie` và `eng`.
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+```
+
+## Thu thập
+
+Chạy trong thư mục repo:
+
+```powershell
+.\crawl.ps1
+.\.venv\Scripts\python.exe prepare_sheet.py
+```
+
+`data/` chứa snapshot, bảng chuẩn hóa, manifest và batch ghi. Thư mục này bị loại khỏi Git. Hợp nhất doanh nghiệp v1/B2B theo ID nguồn. ID, mã số thuế, điện thoại giữ dạng chuỗi. Mã địa phương giữ nguyên theo nguồn.
+
+## Ghi Google Sheet
+
+Lấy ID từ URL Sheet `/spreadsheets/d/ID/edit`. Với service account: bật Google Sheets API và chia sẻ Sheet cho email service account với quyền chỉnh sửa. Giữ khóa ngoài repo.
+
+```powershell
+$env:GOOGLE_SHEET_ID = 'YOUR_SPREADSHEET_ID'
+$env:GOOGLE_APPLICATION_CREDENTIALS = 'C:\secure\service-account.json'
+.\.venv\Scripts\python.exe sync_sheet.py
+```
+
+Hoặc dùng OAuth token còn hiệu lực, scope `https://www.googleapis.com/auth/spreadsheets`, tài khoản có quyền chỉnh sửa:
+
+```powershell
+$env:GOOGLE_SHEET_ID = 'YOUR_SPREADSHEET_ID'
+$env:GOOGLE_SHEETS_ACCESS_TOKEN = 'YOUR_SHORT_LIVED_OAUTH_TOKEN'
+.\.venv\Scripts\python.exe sync_sheet.py
+```
+
+Nếu cấu hình cả hai, script ưu tiên token. `.env.example` là mẫu; script không tự đọc `.env`. Không lưu token thật vào file hoặc commit.
+
+Trong Codex có thể gửi batch qua connector Google Sheets; cần ánh xạ sheetId theo metadata Sheet đích.
+
+| Tab quản lý | Nội dung |
+|---|---|
+| Doanh_nghiep | Thông tin kinh doanh, nguồn và thời điểm |
+| San_pham_dich_vu | Sản phẩm, nhu cầu và thị trường |
+| Tai_lieu | Chỉ mục liên kết, loại file và trạng thái đọc |
+| Nhat_ky | Tổng hợp lần chạy |
+| PDF_Tom_tat | Thông tin PDF nếu có dữ liệu trích xuất |
+
+**Đồng bộ ghi đè các tab quản lý và xóa dòng dư trong phạm vi cột quản lý.** Đặt ghi chú thủ công ở tab khác. Ghi theo nhiều batch, chưa có giao dịch nguyên tử hoặc rollback; lỗi giữa chừng có thể để lại dữ liệu ghi một phần. Các tab khác được giữ lại.
+
+Script độc lập đọc lại số dòng cột A. Chưa tự đối chiếu toàn bộ ô. Nhật ký chưa tích lũy nhiều lần chạy. Chưa có khóa nối sản phẩm với doanh nghiệp.
+
+## PDF
+
+Đặt file đã tải trong `output/`:
+
+```powershell
+.\.venv\Scripts\python.exe process_pdf.py output\document.pdf
+# OCR tùy chọn
+.\.venv\Scripts\python.exe process_pdf.py output\document.pdf --ocr
+```
+
+Kết quả gồm `pages.json` và ảnh scan trong thư mục cùng tên PDF, bỏ phần mở rộng. Đoạn khớp từ khóa là ứng viên, cần kiểm tra nội dung và trang dẫn chứng.
+
+Để ghi thông tin đã kiểm tra: sao chép `examples/pdf_summary_rows.example.json` thành `data/pdf_summary_rows.json`, thay bằng ID thật, giá trị, trang và phương pháp đọc; đồng bộ lại. Chưa tự tạo tóm tắt nghiệp vụ hoặc tải toàn bộ PDF.
+
+## Tệp và tài liệu
+
+- `crawl.ps1`: thu thập ba danh sách API.
+- `prepare_sheet.py`: chuẩn hóa và tạo batch.
+- `sync_sheet.py`: ghi Sheet theo biến môi trường.
+- `process_pdf.py`: đọc văn bản, render scan, OCR tùy chọn.
+- `transport.py`: chia chunk để sử dụng connector Codex.
+- [Sơ đồ CSDL](CSDL_SHEET_MAP.md).
+- [Tiến độ](TASKS.md), [changelog](CHANGELOG.md).
+- [Đóng góp](CONTRIBUTING.md), [bảo mật](SECURITY.md).
+
+## Trạng thái thực tế
+
+Ngày 06/10/2026: 457 doanh nghiệp v1, 220 doanh nghiệp B2B, hợp nhất 457 doanh nghiệp; 20 sản phẩm; 2.031 liên kết tài liệu, gồm 371 PDF. Số lượng có thể thay đổi theo nguồn.
+
+Đã ghi Sheet qua connector và đối chiếu bốn tab dữ liệu: 0 ô sai lệch. Đã đọc một PDF mẫu qua ảnh scan. Chưa chạy sync độc lập với credential, chưa cấu hình OCR, chưa đọc toàn bộ PDF hoặc bật lịch tự động.
+
+Repo chưa khai báo giấy phép sử dụng. Snapshot, PDF và credential không thuộc gói mã nguồn. Dữ liệu nguồn tuân theo điều kiện của đơn vị cung cấp.
