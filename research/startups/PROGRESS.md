@@ -1,0 +1,63 @@
+# Tiến độ bộ startup — chưa hoàn thành mục tiêu
+
+## Cập nhật 13/10/2026
+
+- Hàng đợi đã mở rộng đến 54 ứng viên; lưu 91 bản ghi bằng chứng. Đây là số hồ sơ và bản ghi, không phải số startup đã được duyệt.
+- Kết quả sàng lọc: 2 đạt (Selex, Hachi), 51 chờ, 1 loại theo pháp nhân thuế. Mục tiêu 50 vẫn chưa hoàn thành.
+- Cổng Thuế ghi Hachi, MST 0107578795, đang hoạt động. Hồ sơ đã bổ sung bằng chứng sản phẩm và triển khai từ NATIF cùng doanh nghiệp.
+- Pháp nhân CÔNG TY CỔ PHẦN ALTERNO VIỆT NAM, MST 0317669706, có trạng thái ngừng hoạt động nhưng chưa hoàn thành thủ tục chấm dứt hiệu lực MST. Kết luận này chỉ áp dụng cho pháp nhân được tra cứu, chưa chứng minh toàn bộ thương hiệu Alterno ngừng hoạt động.
+- Người dùng xác nhận “enfarm còn hoạt động nhé”. Đã lưu trong `data/startups/user_confirmations.jsonl` dưới loại xác nhận người dùng. MST 0317604360 vẫn là ứng viên; chưa có kết quả Thuế chính thức để duyệt cửa thuế. Lỗi CAPTCHA không phải bằng chứng doanh nghiệp ngừng hoạt động.
+- Bốn bài kiểm tra công cụ đã chạy thành công. Chưa audit đủ 50 hồ sơ; chưa đẩy bộ startup lên Sheet. Mã công cụ và bảng trạng thái được chuẩn bị để ghi vào GitHub.
+
+### Bổ sung ENFARM và Vulcan
+
+ENFARM: nguồn đối tác DPM ghi bàn giao 50 bộ Enfarm F; mốc 27/10 được đối chiếu với bài doanh nghiệp nêu rõ 27/10/2025. Bài triển khai Bắc Ninh/Quảng Trị ngày 30/06/2026 và cải tiến thiết bị tháng 8 là nguồn tự công bố. Đã lưu cờ chất lượng do website có bài cá cược không liên quan; chưa biết nguyên nhân, chưa kết luận bị xâm nhập. Cờ chưa được giải quyết giữ hồ sơ chờ, kể cả khi sau này có Thuế đang hoạt động.
+
+Vulcan: đã đọc bản tin cơ quan khoa học số 44.2025, mô tả tay giả điều khiển tín hiệu cơ, tự thiết kế điện/chip và gia công bên ngoài. Năm trên bìa dùng cho nguồn phát hiện; không gán các sự kiện cũ trong bài thành hoạt động năm 2025. Google Play ghi cập nhật ứng dụng ngày 11/09/2026, thuộc nội dung của doanh nghiệp. Chưa có nguồn thứ hai về hoạt động gần đây. Website mới dùng pháp nhân Singapore; vai trò pháp nhân Việt Nam vẫn cần đối chiếu.
+
+Lượt tra cứu Vulcan đã được người dùng cho phép nhưng cổng Thuế từ chối các mã xác nhận nhập; không lưu được kết quả Thuế và không suy ra trạng thái công ty từ lỗi này. Hai PDF gốc cùng bản text và hash được lưu cục bộ, đã xem trang liên quan. Công cụ kiểm tra hash PDF và xét ngày chỉ có năm bằng toàn khoảng năm, không tự gán ngày.
+
+Ledger Deep Research hiện có 6 claim thử nghiệm; 6/6 quote khớp snapshot offline, fidelity scanner không còn flag. Đây chỉ là kiểm tra các claim đã ghi, không phải audit toàn bộ 54 ứng viên hoặc bằng chứng hoàn thành 50 hồ sơ.
+
+Các phần bên dưới là mốc thử nghiệm trước khi mở rộng, không phải số liệu hiện tại.
+
+## Mục tiêu
+
+Thu thập và duyệt 50 startup có sản phẩm công nghệ cao hoặc đổi mới sáng tạo, ưu tiên physical; có trạng thái thuế chính thức và bằng chứng hoạt động thay thế. Google Sheet vẫn là hướng đầu ra, không tiếp tục upload Drive.
+
+## Đã chạy
+
+- `startup_tool.py fetch`: tải HTML, lưu text, hash và liên kết, ghi lỗi theo từng nguồn. Snapshot và dữ liệu nằm trong `data/startups/`, bị loại khỏi Git.
+- `startup_tool.py screen`: kiểm tra bằng chứng, ngày, pháp nhân/MST, nguồn phát hiện, sản phẩm, công nghệ, hoạt động và phản chứng. Xuất bảng sàng lọc cùng danh sách đạt tối đa 50.
+- `tests/test_startup_tool.py`: ba bài kiểm tra có các tình huống con cho cửa duyệt, thiếu bằng chứng, nguồn thuế tổng hợp, thuế cũ, MST lệch, quote sai, ngày tương lai và hai bài cùng nguồn gốc. Đã chạy thành công. Chưa phải kiểm tra độ chính xác ngữ nghĩa trên 50 công ty.
+- Hàng đợi hiện có 16 ứng viên từ nguồn quỹ đã mở: Selex Motors, Stride, Alterno, Enfarm, Neorice, Forte Biotech, N2TP, Alpha Asimov, Eureka Robotics, Geninus Vietnam, Hachi, MN Audio, Modmo, Sunbot, ThingsTwin, Vulcan Augmetics.
+- Lưu 24 bản ghi bằng chứng, gồm bản ghi review phản chứng. Đây không phải 24 xác nhận độc lập về hoạt động.
+- Kết quả screening_summary.json: một công ty đạt, 15 pending, target=50, complete=false.
+
+## Hồ sơ thử nghiệm Selex
+
+Tra cứu trực tiếp tại cổng Thuế sau khi người dùng cho phép lượt CAPTCHA: MST 0108324659, pháp nhân CÔNG TY CỔ PHẦN PHƯƠNG TIỆN ĐIỆN THÔNG MINH SELEX, trạng thái `NNT đang hoạt động`. Bảng kết quả lưu tại `data/startups/sources/selex_tax.txt`; không suy từ website tổng hợp.
+
+Hồ sơ gồm nguồn quỹ gần đây; trang doanh nghiệp nối thương hiệu/pháp nhân, mô tả R&D và sản xuất; mô tả mạng lưới vận hành tại ngày bài viết; công bố thành lập liên doanh của đối tác Petrolimex. Phân loại physical dựa trên xe, pin và trạm đổi pin.
+
+Phần hoạt động mạng lưới dùng ngày bài viết làm mốc cho phát biểu “đến nay”; đây là cách diễn giải đã ghi trong event_date_basis, không giả vờ là ngày tác giả đi kiểm tra nhà máy. Hai đơn vị xuất bản là Selex và Petrolimex; hai sự kiện khác nhau. Họ là bên tham gia giao dịch, không phải kiểm toán viên độc lập.
+
+Đã tìm phản chứng đóng cửa/ngừng/giải thể cho Selex; chưa thấy bằng chứng đóng cửa đã xác minh trong tài liệu được mở. Không suy ra rằng toàn bộ internet không có phản chứng. Trạng thái đạt phản ánh chính sách và dữ liệu tại thời điểm tra cứu, không bảo đảm hoạt động liên tục.
+
+## Các kỹ năng đã áp dụng
+
+- Deep Research: khởi tạo brief, ledger ba claim thử nghiệm; đối chiếu ba quote với snapshot offline, không có mismatch. Chưa hoàn tất kiểm tra URL, fidelity và audit toàn báo cáo 50 công ty.
+- Sharpness Ledger: rà tiêu chí, tách pháp nhân khỏi thương hiệu và ưu tiên physical. Phần mềm được xét theo cùng các cửa. Không chạy schema giả thuyết nghiên cứu cho tác vụ này.
+- Epistemic Guard: rà bản tiến độ bằng scanner và review theo evidence. Scanner hoặc schema validator không chứng minh công ty đang hoạt động.
+
+## Tiếp tục
+
+1. Mở rộng từ QVIC, TECHFEST, Startup Wheel và các quỹ đến tập ứng viên lớn hơn 50; đọc ảnh/PDF khi danh sách không có text.
+2. Nối thương hiệu với pháp nhân/MST; bỏ trùng, chi nhánh và nhóm chưa thành lập công ty.
+3. Tra cứu thuế từng pháp nhân. Quyền CAPTCHA hiện chỉ cho lượt Selex; không tự áp dụng cho các công ty khác.
+4. Thu thêm hoạt động, xác minh sản phẩm và phản chứng của 15 ứng viên hiện có cùng các ứng viên mới.
+5. Audit đủ 50 hồ sơ rồi tích hợp các tab Sheet riêng, đọc lại và đối chiếu.
+
+## Giới hạn hiện tại
+
+Collector HTML không xử lý JavaScript, ảnh hay PDF; một số nguồn timeout/trả trang thiếu nội dung, một ảnh QVIC lỗi TLS và không được bỏ qua kiểm tra chứng chỉ. Chưa duyệt đủ 50; chưa đẩy dữ liệu startup vào Sheet hoặc đẩy thay đổi này lên GitHub. Mục tiêu vẫn active.

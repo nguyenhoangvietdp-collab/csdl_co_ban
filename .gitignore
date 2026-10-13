@@ -21,3 +21,8 @@ venv/
 .vscode/
 Thumbs.db
 .DS_Store
+outputs/
+work/
+research/startups/sources/
+research/startups/ledger.jsonl
+research/startups/rows.jsonl

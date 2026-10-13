@@ -1,0 +1,230 @@
+[
+  {
+    "id": "touchstone_portfolio",
+    "source_type": "fund",
+    "publisher_owner": "Touchstone Partners",
+    "url": "https://touchstone.vc/portfolio"
+  },
+  {
+    "id": "touchstone_green_2025",
+    "source_type": "fund",
+    "publisher_owner": "Touchstone Partners",
+    "url": "https://touchstone.vc/news/touchstone-partners-launched-10-m-green-transition-fund-40184"
+  },
+  {
+    "id": "touchstone_n2tp_2026",
+    "source_type": "fund",
+    "publisher_owner": "Touchstone Partners",
+    "url": "https://touchstone.vc/news/n-2-tp-successfully-raises-seed-funding-from-touchstone-partners-advancing-the-potential-of-ai-in-scientific-research-135607"
+  },
+  {
+    "id": "adb_portfolio",
+    "source_type": "fund",
+    "publisher_owner": "Asian Development Bank",
+    "url": "https://ventures.adb.org/portfolio/"
+  },
+  {
+    "id": "startupwheel_100_2025",
+    "source_type": "competition",
+    "publisher_owner": "BSSC",
+    "url": "https://startupwheel.vn/vi/cong-bo-top-100-startup-xuat-sac-cua-startup-wheel-2025-bang-viet-nam-va-vietnam-youth-startup/"
+  },
+  {
+    "id": "nssc_100_2025",
+    "source_type": "government",
+    "publisher_owner": "NSSC",
+    "url": "https://nssc.gov.vn/techfest/official-announcement-top-100-outstanding-startups-of-the-techfest-vietnam-2025-contest/"
+  },
+  {
+    "id": "tax_guide_2026",
+    "source_type": "government",
+    "publisher_owner": "Government of Vietnam",
+    "url": "https://xaydungchinhsach.chinhphu.vn/huong-dan-tra-cuu-ma-so-thue-119260730155655352.htm"
+  },
+  {
+    "id": "tax_lookup",
+    "source_type": "tax",
+    "publisher_owner": "Vietnam Tax Authority",
+    "url": "https://tracuunnt.gdt.gov.vn/tcnnt/mstdn.jsp"
+  },
+  {
+    "id": "qvic_2025",
+    "source_type": "competition",
+    "publisher_owner": "Qualcomm",
+    "url": "https://www.qualcomm.com/company/locations/vietnam/vietnam-innovation-challenge/qvic-2025"
+  },
+  {
+    "id": "qvic_2026",
+    "source_type": "competition",
+    "publisher_owner": "Qualcomm",
+    "url": "https://qvic.bssc.vn/index.php"
+  },
+  {
+    "id": "vsv_portfolio",
+    "source_type": "fund",
+    "publisher_owner": "VSV Capital",
+    "url": "https://www.vsvcapital.com.vn/portfolio"
+  },
+  {
+    "id": "bkfund",
+    "source_type": "fund",
+    "publisher_owner": "BK Fund",
+    "url": "https://www.bkfund.vn/vi"
+  },
+  {
+    "id": "selex_company",
+    "source_type": "company",
+    "publisher_owner": "Selex",
+    "url": "https://selex.vn/gioi-thieu/"
+  },
+  {
+    "id": "enfarm_company",
+    "source_type": "company",
+    "publisher_owner": "Enfarm",
+    "url": "https://enfarm.com/"
+  },
+  {
+    "id": "selex_startup_hust",
+    "source_type": "university",
+    "publisher_owner": "HUST",
+    "url": "https://www.hust.edu.vn/vi/sinh-vien/sinh-vien-hien-tai/thong-tin-tuyen-dung-cua-cong-ty-selex-motors-654619.html"
+  },
+  {
+    "id": "selex_milestone",
+    "source_type": "company",
+    "publisher_owner": "Selex",
+    "url": "https://selex.vn/hanh-trinh-khong-duong-tat-cau-chuyen-selex-va-giac-mo-doi-pin-created-in-vietnam/"
+  },
+  {
+    "id": "petrolimex_selex_2026",
+    "source_type": "partner",
+    "publisher_owner": "Petrolimex",
+    "url": "https://donenai.petrolimex.com.vn/nd/tin-chuyen-nganh/petrolimex-cong-bo-ra-mat-cong-ty-co-phan-ha-tang-nang-luong-xanh-viet-nam.html"
+  },
+  {
+    "id": "qvic_presswire_2026",
+    "source_type": "competition",
+    "publisher_owner": "InnoEx / QVIC",
+    "url": "https://www.einpresswire.com/article/904040103/qualcomm-announces-shortlisted-teams-for-the-qualcomm-vietnam-innovation-challenge-2026"
+  },
+  {
+    "id": "datbike_jungle_2025",
+    "source_type": "fund",
+    "publisher_owner": "Jungle Ventures",
+    "url": "https://www.jungle.vc/resources/the-moment-dat-bike-built-for"
+  },
+  {
+    "id": "hachi_identity",
+    "source_type": "company",
+    "publisher_owner": "Hachi",
+    "url": "https://hachi.com.vn/lien-he/"
+  },
+  {
+    "id": "vulcan_identity",
+    "source_type": "company",
+    "publisher_owner": "Vulcan",
+    "url": "https://www.wearevulcan.com/vi/dieu-khoan-su-dung/"
+  },
+  {
+    "id": "alterno_contact",
+    "source_type": "company",
+    "publisher_owner": "Alterno",
+    "url": "https://alterno.net/vi/lien-he/"
+  },
+  {
+    "id": "davas_2025",
+    "source_type": "government",
+    "publisher_owner": "Da Nang Innovation Startup Support Center",
+    "url": "https://2025.davas.vc/vi"
+  },
+  {
+    "id": "techfest_final_hanoi_2025",
+    "source_type": "government",
+    "publisher_owner": "Hanoi Government",
+    "url": "https://english.hanoi.gov.vn/hanoi-news/national-innovation-startup-talent-search-competition-announces-winners-at-techfest-vietnam-2025-2655251215204354592.htm"
+  },
+  {
+    "id": "hachi_natif_2026",
+    "source_type": "government",
+    "publisher_owner": "NATIF / Ministry of Science and Technology",
+    "url": "https://natif.mst.gov.vn/2026/01/con-duong-phat-trien-thinh-vuong-bat-dau-tu-doi-moi-sang-tao-va-chuyen-doi-so/"
+  },
+  {
+    "id": "hachi_research",
+    "source_type": "company",
+    "publisher_owner": "Hachi",
+    "url": "https://hachi.com.vn/nghien-cuu-va-phat-trien/"
+  },
+  {
+    "id": "hachi_app",
+    "source_type": "platform",
+    "publisher_owner": "Hachi",
+    "url": "https://play.google.com/store/apps/details?hl=vi&id=com.hachi.one"
+  },
+  {
+    "id": "hachi_startup_2025",
+    "source_type": "media",
+    "publisher_owner": "Bao Tuyen Quang",
+    "url": "https://baotuyenquang.com.vn/khoa-hoc-cong-nghe/202509/nguon-luc-cho-doanh-nghiep-doi-moi-sang-tao-8ed0a01/"
+  },
+  {
+    "id": "hachi_project_2026",
+    "source_type": "company",
+    "publisher_owner": "Hachi",
+    "url": "https://hachi.com.vn/du-an/du-an-trang-trai-thuy-canh-cong-nghe-cao/"
+  },
+  {
+    "id": "enfarm_hacen_2026",
+    "source_type": "company",
+    "publisher_owner": "Enfarm",
+    "url": "https://enfarm.com/enfarm-ky-ket-mou-voi-trung-tam-hacen-truong-dai-hoc-nong-lam-thai-nguyen-2/"
+  },
+  {
+    "id": "enfarm_deployment_2026",
+    "source_type": "company",
+    "publisher_owner": "Enfarm",
+    "url": "https://enfarm.com/enfarm-mo-rong-trien-khai-cong-nghe-nong-nghiep-tai-bac-ninh-va-quang-tri/"
+  },
+  {
+    "id": "enfarm_hardware_2026",
+    "source_type": "company",
+    "publisher_owner": "Enfarm",
+    "url": "https://enfarm.com/enfarm-nang-cap-thiet-bi-phat-dap-voi-ket-noi-usb-type-c/"
+  },
+  {
+    "id": "enfarm_dpm_2025",
+    "source_type": "partner",
+    "publisher_owner": "PVFCCo",
+    "url": "https://dpm.vn/public/tin-tuc/phu-my-hop-tac-cung-enfarm-buoc-tien-lon-trong-chuyen-doi-so-nong-nghiep-viet-nam-5371"
+  },
+  {
+    "id": "vulcan_about",
+    "source_type": "company",
+    "publisher_owner": "Vulcan",
+    "url": "https://www.wearevulcan.com/about-us/"
+  },
+  {
+    "id": "enfarm_phumy_date",
+    "source_type": "company",
+    "publisher_owner": "Enfarm",
+    "url": "https://enfarm.com/%F0%9F%8C%BE-phu-my-hop-tac-cung-enfarm-buoc-tien-lon-trong-chuyen-doi-so-nong-nghiep-viet-nam/"
+  },
+  {
+    "id": "vulcan_app",
+    "source_type": "company",
+    "publisher_owner": "Vulcan",
+    "url": "https://play.google.com/store/apps/details?hl=en_US&id=com.vulcanaugmetics.client"
+  },
+  {
+    "id": "p4g_jan2026",
+    "source_type": "fund",
+    "publisher_owner": "P4G / WRI",
+    "url": "https://p4gpartnerships.org/sites/default/files/2026-01/P4G_Startup_Portfolio_Jan26.pdf"
+  },
+  {
+    "id": "vulcan_vista_2025",
+    "source_type": "government",
+    "publisher_owner": "Cục Thông tin, Thống kê / Bộ KH&CN",
+    "url": "https://vista.gov.vn/vn-uploads/startup/2025/44-2025/startup-44.2025.pdf"
+  }
+]

@@ -88,6 +88,21 @@ Kết quả gồm `pages.json` và ảnh scan trong thư mục cùng tên PDF, b
 - [Tiến độ](TASKS.md), [changelog](CHANGELOG.md).
 - [Đóng góp](CONTRIBUTING.md), [bảo mật](SECURITY.md).
 
+## Sàng lọc startup từ nguồn đầu tư và công bố
+
+`startup_tool.py` thu thập snapshot HTML và duyệt bằng chứng đã được đọc. Xem [phương pháp và các cửa kiểm tra](research/startups/SCREENING_METHOD.md).
+
+Nguồn mẫu nằm trong `startup_sources.json`. Kết quả ở `data/startups/`: bảng ứng viên, bằng chứng, screening.csv và approved_50.csv. Danh sách approved chỉ nhận công ty qua đủ các cửa; thiếu 50 thì báo complete=false. Không tự suy ra trạng thái thuế từ website tổng hợp hoặc portfolio.
+
+```powershell
+python startup_tool.py fetch --sources startup_sources.json
+python startup_tool.py screen --as-of YYYY-MM-DD
+```
+
+Trích thông tin từ ảnh/PDF và CAPTCHA cần bước đọc hoặc tra cứu được cho phép. Chưa tích hợp đầu ra startup vào Sheet. Bộ lọc ghi nhận trạng thái tại thời điểm kiểm tra, không bảo đảm hoạt động liên tục trong tương lai.
+
+Tiến độ startup: [nhật ký bằng chứng và giới hạn](research/startups/PROGRESS.md), [bảng trạng thái hiện tại](research/startups/current_screening.csv). Bảng này chứa cả hồ sơ chờ và hồ sơ loại; không phải danh sách 50 công ty đã đạt. Các script `enrich_*` là ghi nhận hồ sơ nghiên cứu cụ thể, cần snapshot cục bộ đã đọc; không phải bộ trích xuất tự động cho mọi website. `build_pilot.py` chỉ khởi tạo khi chưa có dữ liệu, để tránh ghi đè hồ sơ đã bổ sung.
+
 ## Trạng thái thực tế
 
 Ngày 06/10/2026: 457 doanh nghiệp v1, 220 doanh nghiệp B2B, hợp nhất 457 doanh nghiệp; 20 sản phẩm; 2.031 liên kết tài liệu, gồm 371 PDF. Số lượng có thể thay đổi theo nguồn.
