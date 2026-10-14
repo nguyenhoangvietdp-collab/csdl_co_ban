@@ -164,9 +164,32 @@ add('S014','counter_review','sunbot_company','KIRO Việt Nam',
     search_queries=['KIRO Việt Nam giải thể','Sunbot closed company'],
     review_note='No relevant verified closure found in these searches. Similar tanning chatbot and foreign Kiro names excluded. Tax status remains unknown; March2025 event is outside the current activity window.')
 
+neorice=next(c for c in candidates if c['id']=='S005')
+neorice.update(legal_name='CÔNG TY CỔ PHẦN HOÁ NÔNG AHA',country='VN',physical='hybrid',website='https://www.camchau.com/',
+    notes='NEORICE is described as a cultivation project/solution associated with AHA, not a separately verified incorporated startup. Government text maps the solution to AHA; exact registered spelling and candidate MST1200874529 from secondary listings still need official verification. Hybrid process/service with rice output, not proof of proprietary drone hardware. Recent government sources describe AHA technical work; startup qualification of the operating entity remains unverified. Programme investment and area targets, carbon credit eligibility, USDA certification, emissions and income claims are not independently audited.')
+add('S005','identity','neorice_khuyennong_202511','Công ty Cổ phần Hoá nông AHA đẩy mạnh giải pháp NEORICE',
+    caveat='Government associates solution and company; registered spelling/tax ID and project legal structure still require official records.')
+add('S005','product','neorice_aim','NEORICE sustainable rice cultivation process',
+    caveat='Cultivation process with agricultural output and services; not a verified proprietary hardware product.')
+add('S005','technology','neorice_aim','Professional Agriculture System (PAS)',
+    caveat='Programme describes integrated digital/organic-farming methods; technical performance not independently tested.')
+add('S005','technology','neorice_paa_2025','natural minerals combined with drone spraying technology',
+    caveat='Speaker biography describes process; no original ministry decision, hardware IP, emissions audit or organic certificate checked.')
+add('S005','activity','neorice_khuyennong_202511','đẩy mạnh giải pháp NEORICE',event_date='2025-11-13',
+    origin_id='aha_neorice_national_extension_report_20251113',activity_role='reported_current_technical_work',
+    event_date_basis='Present activity statement at article update 13/11/2025; exact field-work days not specified.',
+    caveat='Government programme report, not audited deployment counts or credited carbon issuance.')
+add('S005','activity','aha_vinhthuan_202609','Công ty Cổ phần Hóa Nông AHA thông tin về công tác phối hợp, hỗ trợ kỹ thuật',event_date='2026-09-18',
+    origin_id='aha_vinhthuan_technical_project_meeting_20260918',activity_role='reported_technical_support_meeting',
+    event_date_basis='Article explicitly dates project launch meeting 18/9/2026.',
+    caveat='Supports AHA technical participation. No explicit NEORICE brand in this article; process name matches other primary descriptions. Project budget/area belong to the whole project, not company revenue or completed delivery.')
+add('S005','counter_review','neorice_aim','NEORICE - Negative Emission Organic Rice',
+    search_queries=['Công ty Hóa nông AHA giải thể','NEORICE closed company'],
+    review_note='No verified legal closure found in relevant sources; unrelated comic/forum names excluded. October2026 rice purchase agreement is by Thien Phat, not AHA. Harvest December2026 is future. AHA/project startup status and official tax remain unverified.')
+
 with (DATA/'candidates.csv').open('w',encoding='utf-8-sig',newline='') as handle:
     writer=csv.DictWriter(handle,fieldnames=list(candidates[0])); writer.writeheader(); writer.writerows(candidates)
 (DATA/'evidence.jsonl').write_text('\n'.join(json.dumps(e,ensure_ascii=False) for e in evidence)+'\n',encoding='utf-8')
 mp.write_text(json.dumps(list(manifest.values()),ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'startup_sources.json').write_text(json.dumps([{k:r[k] for k in ('id','source_type','publisher_owner','url')} for r in manifest.values()],ensure_ascii=False,indent=2),encoding='utf-8')
-print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014']}))
+print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005']}))

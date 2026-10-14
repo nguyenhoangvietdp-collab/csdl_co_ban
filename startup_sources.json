@@ -442,5 +442,35 @@
     "source_type": "government",
     "publisher_owner": "UBND phường Yên Sở",
     "url": "https://yenso.hanoi.gov.vn/y-te-giao-duc/ngay-hoi-steam-sun-bot-cung-con-khon-lon-tai-truong-mam-non-linh-dam-2797250404095103056.htm"
+  },
+  {
+    "id": "neorice_khuyennong_202511",
+    "source_type": "government",
+    "publisher_owner": "Trung tâm Khuyến nông quốc gia",
+    "url": "https://khuyennongvn.gov.vn/1-trieu-hecta-chuyen-canh-lua-chat-luong-cao/doanh-nghiep-va-su-menh-mot-trieu-hec-ta-lua-chat-luong-cao-phat-thai-thap-31747.html"
+  },
+  {
+    "id": "aha_vinhthuan_202609",
+    "source_type": "government",
+    "publisher_owner": "UBND xã Vĩnh Thuận",
+    "url": "https://vinhthuan.angiang.gov.vn/index.php/vinh-thuan-trien-khai-du-an-ung-dung-tien-bo-ky-thuat-trong-canh-tac-lua"
+  },
+  {
+    "id": "aha_vinhthuan_202610",
+    "source_type": "government",
+    "publisher_owner": "UBND xã Vĩnh Thuận",
+    "url": "https://vinhthuan.angiang.gov.vn/index.php/vinh-thuan-ky-ket-lien-ket-san-xuat-va-bao-tieu-lua-theo-huong-huu-co"
+  },
+  {
+    "id": "neorice_aim",
+    "source_type": "government",
+    "publisher_owner": "AIM for Climate programme",
+    "url": "https://aimforclimate.org/innovation-sprints/"
+  },
+  {
+    "id": "neorice_paa_2025",
+    "source_type": "fund",
+    "publisher_owner": "Philanthropy Asia Alliance",
+    "url": "https://philanthropyasiaalliance.org/events/info/philanthropy-asia-summit-2025"
   }
 ]
