@@ -187,9 +187,16 @@ add('S005','counter_review','neorice_aim','NEORICE - Negative Emission Organic R
     search_queries=['Công ty Hóa nông AHA giải thể','NEORICE closed company'],
     review_note='No verified legal closure found in relevant sources; unrelated comic/forum names excluded. October2026 rice purchase agreement is by Thien Phat, not AHA. Harvest December2026 is future. AHA/project startup status and official tax remain unverified.')
 
+vulcan=next(c for c in candidates if c['id']=='S016')
+add('S016','activity','vulcan_tgm_fitting_202512','prosthetic hand from Vulcan Augmetics',event_date='2025-12-30',
+    origin_id='vulcan_tgm_vietnam_hand_fitting_20251230',activity_role='partner_reported_product_fitting',
+    event_date_basis='TGM explicitly states it hosted a Hand Fitting Event at its Vietnam office on December30,2025; first article publication January05,2026, updated June28,2026.',
+    caveat='Partner reports a single donated prosthetic fitting; not audited sales or a clinical performance trial. Brand product use in Vietnam, not an invoice independently tying this delivery to the VN tax entity. Singapore group legal entity is kept separate.')
+vulcan['notes']='Official VN parent tax active0315155575. Separate activity origins: Vulcan developer app update11/09/2026 and TGM partner-reported prosthetic fitting at Vietnam office30/12/2025. One reported donated fitting is not a sales/customer count audit or clinical validation. Current global site lists Singapore parent; Vietnamese brand/entity bridge retained from earlier primary identity record. Exact contracting entity for the fitting not independently checked.'
+
 with (DATA/'candidates.csv').open('w',encoding='utf-8-sig',newline='') as handle:
     writer=csv.DictWriter(handle,fieldnames=list(candidates[0])); writer.writeheader(); writer.writerows(candidates)
 (DATA/'evidence.jsonl').write_text('\n'.join(json.dumps(e,ensure_ascii=False) for e in evidence)+'\n',encoding='utf-8')
 mp.write_text(json.dumps(list(manifest.values()),ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'startup_sources.json').write_text(json.dumps([{k:r[k] for k in ('id','source_type','publisher_owner','url')} for r in manifest.values()],ensure_ascii=False,indent=2),encoding='utf-8')
-print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005']}))
+print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016']}))
