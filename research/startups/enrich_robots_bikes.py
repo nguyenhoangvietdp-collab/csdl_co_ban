@@ -273,9 +273,30 @@ add('S007','counter_review','n2tp_company','N2TP Technology Solutions JSC',
     search_queries=['N2TP giải thể','N2TP closed company'],
     review_note='No verified closure located in relevant searched sources. Website claims universal safety/proof/reproducibility and hospital counts remain unverified, not supported by the opened clinical study. Physical biosensor deployment and current official tax remain unverified.')
 
+volterra=next(c for c in candidates if c['id']=='S034')
+volterra.update(physical='hybrid',website='https://volterra.vn/vi',
+    notes='Company presents energy-management software with VolSense/VolNexus/VolRemote IoT hardware. Hybrid classification does not establish manufactured/deployed units, autonomous-operation duration or savings. Government report identifies VinUniversity spin-off; registered VN name/tax mapping still pending. Candidate MST0111314178 from secondary listings not official tax evidence. UniVentures award-report publication06/10/2026 and company Better Choice award-report08/10/2026 are different events/owners; exact award ceremony dates not independently checked. Target30000 charging stations by2030 is future, not current deployment.')
+add('S034','startup','volterra_vista_202610','Hai startup Selfomy và Volterra',
+    caveat='Government compilation calls Volterra a university spin-off/startup; not confirmation of registered company or tax status.')
+add('S034','product','volterra_hardware','Thiết bị edge-to-cloud cho hạ tầng sạc ổn định',
+    caveat='Vendor offers sensors, industrial gateway and controller alongside software; no independent production or field deployment proof.')
+add('S034','technology','volterra_hardware','cảm biến, điều phối và thực thi tại chỗ',
+    caveat='Edge-to-cloud sensing/control architecture;14-day offline operation, safety and optimization claims not independently tested.')
+add('S034','activity','volterra_vista_202610','giành chiến thắng tại UniVentures',event_date='2026-10-06',
+    origin_id='volterra_univentures_award_report_20261006',activity_role='government_reported_startup_award',
+    event_date_basis='Publication06/10/2026 of completed-award report. Exact ceremony date unknown; do not equate publication with ceremony or incubation start.',
+    caveat='Government compilation. Supports a recent published startup-development signal, not audited operations or completed Singapore incubation.2030 targets withheld from current deployment.')
+add('S034','activity','volterra_award_202610','Volterra chính thức được xướng tên',event_date='2026-10-08',
+    origin_id='volterra_better_choice_award_report_20261008',activity_role='self_reported_startup_award',
+    event_date_basis='Company article publication08/10/2026 reporting Better Choice award; exact gala date not independently checked.',
+    caveat='Company report, not independent organiser confirmation or evidence of commercial sales. Different award from UniVentures.')
+add('S034','counter_review','volterra_award_202610','Better Choice Awards 2026',
+    search_queries=['Volterra giải thể sạc','Volterra Vietnam ceased operations'],
+    review_note='No verified closure found for this VN charging startup. US fire-truck/Microsoft developer-kit firms and mathematical Volterra topics excluded. Registered legal entity, official tax and deployment counts remain unverified; partner logos are not independent confirmations.')
+
 with (DATA/'candidates.csv').open('w',encoding='utf-8-sig',newline='') as handle:
     writer=csv.DictWriter(handle,fieldnames=list(candidates[0])); writer.writeheader(); writer.writerows(candidates)
 (DATA/'evidence.jsonl').write_text('\n'.join(json.dumps(e,ensure_ascii=False) for e in evidence)+'\n',encoding='utf-8')
 mp.write_text(json.dumps(list(manifest.values()),ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'startup_sources.json').write_text(json.dumps([{k:r[k] for k in ('id','source_type','publisher_owner','url')} for r in manifest.values()],ensure_ascii=False,indent=2),encoding='utf-8')
-print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007']}))
+print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007','S034']}))

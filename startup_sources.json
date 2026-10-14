@@ -556,5 +556,29 @@
     "source_type": "research",
     "publisher_owner": "Phenikaa clinical study authors / VNU Journal",
     "url": "https://js.vnu.edu.vn/MPS/article/view/4986"
+  },
+  {
+    "id": "volterra_hardware",
+    "source_type": "company",
+    "publisher_owner": "Volterra",
+    "url": "https://volterra.vn/vi/solutions/hardware"
+  },
+  {
+    "id": "volterra_vista_202610",
+    "source_type": "government",
+    "publisher_owner": "Cục Thông tin, Thống kê / Bộ KH&CN",
+    "url": "https://vista.gov.vn/vi/news/print/khoa-hoc-ky-thuat-va-cong-nghe/hai-startup-sinh-vien-duoc-quy-singapore-ho-tro-uom-tao-13421.html"
+  },
+  {
+    "id": "volterra_award_202610",
+    "source_type": "company",
+    "publisher_owner": "Volterra",
+    "url": "https://volterra.vn/blog/volterra-gianh-giai-startup-doi-moi-sang-tao-trien-vong-tai-better-choice-awards"
+  },
+  {
+    "id": "volterra_terms",
+    "source_type": "company",
+    "publisher_owner": "Volterra",
+    "url": "https://volterra.vn/vi/terms-of-service"
   }
 ]
