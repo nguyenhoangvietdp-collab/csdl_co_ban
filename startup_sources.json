@@ -532,5 +532,29 @@
     "source_type": "company",
     "publisher_owner": "AirX / Veritas Vietnam",
     "url": "https://airxcarbon.com/storage/plant-based-negative-carbon-polypropylene-brochure.pdf"
+  },
+  {
+    "id": "n2tp_company",
+    "source_type": "company",
+    "publisher_owner": "N2TP",
+    "url": "https://n2tp.com/"
+  },
+  {
+    "id": "n2tp_hhtp_identity",
+    "source_type": "government",
+    "publisher_owner": "Ban quản lý Khu Công nghệ cao Hòa Lạc",
+    "url": "https://hhtp.gov.vn/vi/tin-tuc/ket-noi-cac-giai-phap-cong-nghe-cao-den-doanh-nghiep-2248.html"
+  },
+  {
+    "id": "n2tp_mst_event_202512",
+    "source_type": "government",
+    "publisher_owner": "Bộ Khoa học và Công nghệ",
+    "url": "https://mst.gov.vn/ngay-hoi-ket-noi-khoi-nghiep-viet-nam-han-quoc-2025-thuc-day-hop-tac-doi-moi-sang-tao-song-phuong-197251212002034956.htm"
+  },
+  {
+    "id": "n2tp_smartdose_study_2026",
+    "source_type": "research",
+    "publisher_owner": "Phenikaa clinical study authors / VNU Journal",
+    "url": "https://js.vnu.edu.vn/MPS/article/view/4986"
   }
 ]

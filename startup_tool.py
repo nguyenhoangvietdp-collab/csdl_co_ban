@@ -94,7 +94,7 @@ def fetch(args):
                 row['final_url'] = response.geturl()
             parser = Page()
             parser.feed(html)
-            text = '\n'.join(parser.text).replace('\r\n', '\n').replace('\r', '\n')
+            text = '\n'.join(parser.text).replace('\r\n', '\n').replace('\r', '\n').lstrip('\ufeff')
             key = hashlib.sha256(source['url'].encode()).hexdigest()[:20] + '_' + hashlib.sha256(body).hexdigest()
             (snapshots / f'{key}.html').write_bytes(body)
             (snapshots / f'{key}.txt').write_text(text, encoding='utf-8')

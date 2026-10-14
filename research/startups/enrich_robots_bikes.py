@@ -248,9 +248,34 @@ add('S002','counter_review','stride_p4g','Stride – ASSIST',
     search_queries=['Stride điện mặt trời giải thể','Stride solar ceased operations'],
     review_note='No verified closure located in relevant searched sources. Similar Stride software/foreign firms excluded. Multiple Vietnam legal names and NTNN IDs remain unresolved; do not infer active tax from fund status, app update or directory listings.')
 
+n2tp=next(c for c in candidates if c['id']=='S007')
+n2tp.update(legal_name='CÔNG TY CỔ PHẦN GIẢI PHÁP CÔNG NGHỆ N2TP',country='VN',physical='no',website='https://n2tp.com/',
+    notes='Historical government article names VN legal entity; candidate MST0109206584 from secondary listings not official tax evidence. Current output reviewed as software: SmartDoseAI/AI4Science. Biosensor translation and automated-lab equipment integration are not verified deployed physical outputs. Recent fund investment announcement12/08/2026 and ministry event11/12/2025 are distinct owners/origins. VNU study reports SmartDoseAI use, not validation of universal safety or future-data mathematical guarantees. Website hospital counts, speed, reproducibility and patent grant status not independently verified.')
+add('S007','identity','n2tp_hhtp_identity','Công ty Cổ phần Giải pháp Công nghệ N2TP',
+    caveat='Government event article17/05/2023 identifies company; historical mapping, not current active-tax status.')
+add('S007','startup','touchstone_n2tp_2026','Vietnamese startups building technological self-reliance',
+    caveat='Investor describes startup investment rationale in N2TP funding announcement; interested party, not audited scale or valuation.')
+add('S007','product','n2tp_company','SmartDoseAI',
+    caveat='Company offers clinical decision-support software. No treatment recommendation or approval/certification claim established here.')
+add('S007','technology','touchstone_n2tp_2026','N2TP’s core technology is the AI4Science platform',
+    caveat='AI hypothesis/simulation/experimental-feedback architecture described by investor; productivity and performance claims not independently replicated.')
+add('S007','technology','n2tp_smartdose_study_2026','Dose adjustments were performed based on AUC estimation using SmartDoseAI® software',
+    caveat='Retrospective hospital study reports software use July2025–March2026. Does not establish general clinical safety, regulatory approval, causal software benefit or total hospital deployments.')
+add('S007','activity','touchstone_n2tp_2026','announced that it has received investment from Touchstone Partners.',event_date='2026-08-12',
+    origin_id='n2tp_touchstone_seed_announcement_20260812',activity_role='investor_reported_funding',
+    event_date_basis='Dateline12/08/2026 in article; not an independently audited transaction closing date.',
+    caveat='Investor announcement; no disclosed amount or bank confirmation used. Patent applications not treated as grants.')
+add('S007','activity','n2tp_mst_event_202512','N2TP Solutions Technology của Việt Nam đã giới thiệu giải pháp AI',event_date='2025-12-11',
+    origin_id='n2tp_vietnam_korea_startup_pitch_20251211',activity_role='government_reported_technical_presentation',
+    event_date_basis='Event date11/12/2025 in body; publication13/12/2025 kept separate.',
+    caveat='Presentation evidence, not completed hospital sales. Ministry sentence ambiguously joins two startups/solutions; do not attribute used-EV trading platform to N2TP.')
+add('S007','counter_review','n2tp_company','N2TP Technology Solutions JSC',
+    search_queries=['N2TP giải thể','N2TP closed company'],
+    review_note='No verified closure located in relevant searched sources. Website claims universal safety/proof/reproducibility and hospital counts remain unverified, not supported by the opened clinical study. Physical biosensor deployment and current official tax remain unverified.')
+
 with (DATA/'candidates.csv').open('w',encoding='utf-8-sig',newline='') as handle:
     writer=csv.DictWriter(handle,fieldnames=list(candidates[0])); writer.writeheader(); writer.writerows(candidates)
 (DATA/'evidence.jsonl').write_text('\n'.join(json.dumps(e,ensure_ascii=False) for e in evidence)+'\n',encoding='utf-8')
 mp.write_text(json.dumps(list(manifest.values()),ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'startup_sources.json').write_text(json.dumps([{k:r[k] for k in ('id','source_type','publisher_owner','url')} for r in manifest.values()],ensure_ascii=False,indent=2),encoding='utf-8')
-print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002']}))
+print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007']}))
