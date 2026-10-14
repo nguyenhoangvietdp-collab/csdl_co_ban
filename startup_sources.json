@@ -376,5 +376,53 @@
     "source_type": "government",
     "publisher_owner": "Cục Sở hữu trí tuệ",
     "url": "https://ipvietnam.gov.vn/documents/20182/1598756/CB430A2.pdf/fd08e407-a705-49b6-9562-4e54b32d5876"
+  },
+  {
+    "id": "airx_startupwheel_2025",
+    "source_type": "competition",
+    "publisher_owner": "AirX Carbon",
+    "url": "https://startupwheel.vn/vi/startup/netzero-pallet/"
+  },
+  {
+    "id": "airx_bpp_2026",
+    "source_type": "government",
+    "publisher_owner": "Business Partnerships Platform / DFAT programme",
+    "url": "https://thebpp.com.au/blog/bpp-partnership-impact-series-strengthening-climate-adaptation-through-women-led-enterprise/"
+  },
+  {
+    "id": "airx_p4g",
+    "source_type": "fund",
+    "publisher_owner": "P4G / WRI",
+    "url": "https://p4gpartnerships.org/pioneering-green-partnerships/all-p4g-partnerships/airx-carbon-action-poverty"
+  },
+  {
+    "id": "airx_company",
+    "source_type": "company",
+    "publisher_owner": "AirX Carbon",
+    "url": "https://airxcarbon.com/"
+  },
+  {
+    "id": "buyo_techport",
+    "source_type": "government",
+    "publisher_owner": "BUYO",
+    "url": "https://techport.vn/nha-cung-ung/cong-ty-tnhh-giai-phap-cong-nghe-buyo-8983.html"
+  },
+  {
+    "id": "buyo_company",
+    "source_type": "company",
+    "publisher_owner": "BUYO",
+    "url": "https://buyosolutions.com/"
+  },
+  {
+    "id": "buyo_antler",
+    "source_type": "fund",
+    "publisher_owner": "Antler",
+    "url": "https://ar.antler.co/location/vietnam"
+  },
+  {
+    "id": "airx_legal_lead",
+    "source_type": "company",
+    "publisher_owner": "AirX Carbon / AirX Coffee",
+    "url": "https://airxcoffee.com/collections/b2b"
   }
 ]

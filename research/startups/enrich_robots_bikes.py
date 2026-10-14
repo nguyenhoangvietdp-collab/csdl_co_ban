@@ -108,9 +108,47 @@ add('S006','counter_review','forte_contact','Forte Biotech Vietnam',
     review_note='No verified closure in opened relevant sources. Singapore parent and Vietnam company kept distinct; current tax still requires direct lookup. Fin-fish target launch in Q3/2026 is not proof of completed launch.')
 forte['notes']='Vietnam company identified in IPO gazette; candidate MST0317428355 from secondary lead, official lookup pending. Physical RAPID device. P4G active Vietnam partnership, dated Business Times operating report and developer app update. Do not combine grant target with completed farms, or infer entire group manufacturing from VN legal existence.'
 
+for brand,source in [('AirX Carbon','airx_startupwheel_2025'),('BUYO','buyo_antler')]:
+    if not any(normal(c['brand'])==normal(brand) for c in candidates):
+        c=dict.fromkeys(candidates[0],'')
+        c.update(id=f'S{max(int(c["id"][1:]) for c in candidates)+1:03}',brand=brand,
+            physical='yes',discovery_url=manifest[source]['url'])
+        candidates.append(c)
+airx=next(c for c in candidates if c['brand']=='AirX Carbon')
+airx.update(website='https://airxcarbon.com/',notes='NetZero Pallet is a product, not a second company. AirX Coffee identifies operator Veritas Vietnam JSC, candidate MST0313231485; legal-brand chain and official tax not yet fully checked. P4G partnership Completed does not establish company closure. No independently checked carbon-negative LCA, certifications or current capacity.')
+add(airx['id'],'discovery','airx_startupwheel_2025','AirX Carbon là một startup',source_type='competition',published_at='2025-02-05',
+    date_basis='Vietnamese profile displays Published on 05/02/2025; DD/MM/YYYY interpretation.',
+    caveat='Company-style first-person profile on organizer site; not independent verification of first-in-world or environmental claims.')
+add(airx['id'],'discovery','airx_bpp_2026','AirX Carbon transforms biomaterials',source_type='government',published_at='2026-02-19',
+    caveat='Government-funded programme publication; carbon-negative characterization not an independently checked LCA.')
+add(airx['id'],'startup','airx_startupwheel_2025','AirX Carbon là một startup',caveat='Brand/startup characterization; older legal operator may require stage clarification.')
+add(airx['id'],'product','airx_p4g','NetZero Pallet®, an eco-efficient pallet solution manufactured from agricultural byproducts')
+add(airx['id'],'technology','airx_startupwheel_2025','phế phẩm nông nghiệp và chất dẻo',
+    caveat='Bio-composite processing, not proof of 100% plant content or full biodegradation.')
+add(airx['id'],'activity','airx_bpp_2026','AirX Carbon operates as a hybrid circular model spanning direct sales, pallet leasing and technology licensing.',event_date='2026-02-19',origin_id='airx_bpp_business_model_asof_20260219',
+    event_date_basis='Present operations reported at publication date; no transaction-level audit.',
+    caveat='USD1.2 million for 2025 is explicitly a projection. Programme concluded November 2025, not company closure.')
+add(airx['id'],'counter_review','airx_p4g','Status\nCompleted\nCountries of Operation\nVietnam',
+    search_queries=['AirX Carbon giải thể ngừng hoạt động','AirX Carbon closed ceased operations'],
+    review_note='No verified company closure in opened relevant material. Programme completion kept distinct from tax/legal closure. AirX Coffee/Veritas operator lead needs legal mapping; not counted as another startup.')
+
+buyo=next(c for c in candidates if c['brand']=='BUYO')
+buyo.update(legal_name='Công ty TNHH Giải pháp công nghệ Buyo',country='VN',website='https://buyosolutions.com/',
+    notes='Primary Techport profile states candidate tax ID0110114634; official tax still pending. Buyoplastic is a portfolio alias, not another company. Antler portfolio undated; 2022 is company year, not publication date. Factory 30 tonnes/month and 100-tonne target are undated/self-authored; not verified current output. Safety/biodegradation and patent claims not independently checked.')
+add(buyo['id'],'identity','buyo_techport','Công ty TNHH Giải pháp công nghệ Buyo',caveat='Provider profile on government-hosted platform; business tax status not established by this page.')
+add(buyo['id'],'discovery','buyo_antler','Buyo\nWe upcycle discarded biowaste',source_type='fund',published_at='',
+    caveat='Undated investor portfolio; not sufficient for recent-publication gate. Environmental assertions are investee claims.')
+add(buyo['id'],'startup','buyo_antler','Hanh Do\nCo-Founder\nBUYO',caveat='Early-stage Antler-backed venture; founder testimonial, not independent operational verification.')
+add(buyo['id'],'product','buyo_techport','vật liệu composite sinh học dùng làm bao bì')
+add(buyo['id'],'technology','buyo_company','The treated bio-residues will then be compounded with bio-polymers to create biodegradable bio-resins with high performance.',
+    caveat='Company describes material processing. No independent biodegradation/safety verification or grant-validity check.')
+add(buyo['id'],'counter_review','buyo_techport','Mã số thuế\n0110114634',
+    search_queries=['CÔNG TY TNHH GIẢI PHÁP CÔNG NGHỆ BUYO giải thể','BUYO bioplastics closed ceased operations'],
+    review_note='No verified legal closure in opened relevant sources. Similar furniture/fuel names excluded. Old forecasts and undated capacities withheld from current-activity evidence; official tax required.')
+
 with (DATA/'candidates.csv').open('w',encoding='utf-8-sig',newline='') as handle:
     writer=csv.DictWriter(handle,fieldnames=list(candidates[0])); writer.writeheader(); writer.writerows(candidates)
 (DATA/'evidence.jsonl').write_text('\n'.join(json.dumps(e,ensure_ascii=False) for e in evidence)+'\n',encoding='utf-8')
 mp.write_text(json.dumps(list(manifest.values()),ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'startup_sources.json').write_text(json.dumps([{k:r[k] for k in ('id','source_type','publisher_owner','url')} for r in manifest.values()],ensure_ascii=False,indent=2),encoding='utf-8')
-print(json.dumps({'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006']}))
+print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id']]}))

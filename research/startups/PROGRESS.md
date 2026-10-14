@@ -2,6 +2,13 @@
 
 ## Cập nhật 14/10/2026
 
+- Bổ sung AirX Carbon và BUYO: hiện 56 ứng viên, 133 bản ghi bằng chứng; 5 đạt, 50 chờ, 1 loại theo pháp nhân Thuế. AirX Carbon/NetZero Pallet giữ chung một ứng viên; BUYO/Buyoplastic giữ chung một ứng viên. Chưa tra cứu Thuế hai hồ sơ mới; chưa duyệt họ vào danh sách đạt.
+- AirX: nguồn Startup Wheel có ngày 05/02/2025, BPP có ngày 19/02/2026. P4G ghi chương trình đã hoàn thành; không suy thành công ty đóng cửa. AirX Coffee công bố operator Veritas Việt Nam và MST ứng viên 0313231485, nhưng chuỗi thương hiệu/pháp nhân vẫn cần đối chiếu trước khi duyệt. Dự báo doanh thu 2025 không được ghi thành kết quả thực tế.
+- BUYO: Techport ghi pháp nhân và MST ứng viên 0110114634; đây là thông tin hồ sơ nhà cung ứng, không phải kết quả Thuế. Portfolio Antler không có ngày công bố; năm 2022 không được đổi thành ngày đầu tư/công bố. Mục tiêu công suất 100 tấn/tháng cuối 2025–đầu 2026, nhận định an toàn/biodegradation và bằng sáng chế chưa được dùng như kết quả đã xác minh.
+- Ledger hiện có 15 claim chọn lọc, 15/15 quote khớp snapshot offline, fidelity không có flag. Chưa audit đầy đủ 56 hồ sơ hoặc đạt mục tiêu 50 công ty. Lượt Forte vẫn chờ xác nhận CAPTCHA, không tự coi im lặng là cho phép.
+
+### Mốc trước khi bổ sung hai hồ sơ vật liệu
+
 - 54 ứng viên; 120 bản ghi bằng chứng. Bộ lọc hiện cho 5 đạt: Selex, Hachi, ENFARM, Alpha Asimov và Dat Bike; 48 chờ; 1 loại theo pháp nhân thuế. Chưa đủ 50.
 - Đã thu trực tiếp 7 kết quả Thuế cấp công ty mẹ: 6 đang hoạt động, 1 ngừng hoạt động. Bốn kết quả mới là Dat Bike 0401942142, Alpha Asimov 0109810355, ENFARM 0317604360 và Vulcan 0315155575. Trạng thái được kiểm tra ngày 13/10, không gán ngày kiểm tra mới chỉ vì chạy lại bộ lọc ngày 14/10.
 - Dat Bike: công ty mẹ đang hoạt động, hai chi nhánh đã chấm dứt MST. Bằng chứng thay thế là thông báo thương mại về cửa hàng và ưu đãi đối tác Ahamove đang hiển thị; chưa kiểm toán giao dịch bán/thuê thực tế.
