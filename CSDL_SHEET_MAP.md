@@ -82,6 +82,29 @@ Chu kỳ cập nhật thủ công
 - Chưa bật lịch tự động; chưa đọc toàn bộ PDF; chưa cấu hình OCR tự động.
 - Google Sheet là đầu ra chính. Drive chỉ giữ định hướng lưu trữ, không tiếp tục tải tệp lên.
 
+## Bộ startup đã triển khai — 14/10/2026
+
+```text
+CSDL CƠ BẢN
+├── Startup_Danh_sach — 56 hồ sơ, 13 cột
+│   ├── Khóa: Mã hồ sơ S001…; thương hiệu và pháp nhân giữ riêng
+│   ├── MST mẹ: chữ, không bỏ số 0 đầu; không thay bằng MST chi nhánh
+│   ├── Sàng lọc: đầu ra vật lý, kết quả, điều kiện còn thiếu
+│   └── Truy vết: ngày bộ lọc, ngày/trạng thái Thuế, nguồn và giới hạn
+├── Startup_Dat — công thức lọc từ Startup_Danh_sach
+│   ├── Hiện có 6 hồ sơ đạt; mục tiêu 50 chưa hoàn tất
+│   └── Tự phản ánh bảng nguồn; không tự tra Thuế hoặc duyệt chứng cứ
+└── Startup_Bang_chung — 147 bản ghi, 13 cột
+    ├── Khóa: Mã bằng chứng; khóa nối: Mã hồ sơ → Startup_Danh_sach
+    ├── Nội dung: loại bằng chứng, chủ nội dung, URL nguồn
+    ├── Ngày: sự kiện, công bố, thu thập, kiểm tra Thuế giữ riêng
+    └── Đánh giá: giữ ngoài duyệt hoặc hợp lệ theo kiểm tra; xem giới hạn
+```
+
+`prepare_startup_sheet.py` xuất các yêu cầu ghi ô; connector gửi vào workbook đã đọc metadata. ID hiện tại: danh sách 1006, đạt 1007, bằng chứng 1008. Không dùng ID này cho workbook khác khi chưa ánh xạ. Không ghi đè chỉnh sửa thủ công khi chưa đối chiếu dữ liệu.
+
+`Startup_Dat!A2` dùng FILTER theo nhãn “Đạt”, phủ tới dòng 1000. Các điều kiện Thuế, ngày và bằng chứng được xét ở bộ lọc trước khi ghi bảng nguồn; đổi nhãn thủ công không thay thế xác minh. Nguồn thuộc cùng chủ nội dung hoặc cùng sự kiện không được tính thành hai nguồn hoạt động khác nhau. “Hợp lệ theo kiểm tra” chỉ nói bản ghi qua cửa kỹ thuật và review, không chứng minh mọi tuyên bố của nguồn đúng.
+
 ## Mở rộng đề xuất — chưa triển khai
 
 ```text

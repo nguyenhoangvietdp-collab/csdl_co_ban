@@ -97,9 +97,12 @@ Nguồn mẫu nằm trong `startup_sources.json`. Kết quả ở `data/startups
 ```powershell
 python startup_tool.py fetch --sources startup_sources.json
 python startup_tool.py screen --as-of YYYY-MM-DD
+python prepare_startup_sheet.py
 ```
 
-Trích thông tin từ ảnh/PDF và CAPTCHA cần bước đọc hoặc tra cứu được cho phép. Chưa tích hợp đầu ra startup vào Sheet. Bộ lọc ghi nhận trạng thái tại thời điểm kiểm tra, không bảo đảm hoạt động liên tục trong tương lai.
+Trích thông tin từ ảnh/PDF và CAPTCHA cần bước đọc hoặc tra cứu được cho phép. Đầu ra startup đã ghi vào ba tab `Startup_Danh_sach`, `Startup_Dat`, `Startup_Bang_chung` trong Sheet CSDL CƠ BẢN. `prepare_startup_sheet.py` chuẩn bị `data/startups/sheet_startup_payload.json` để gửi qua connector; không tự ghi hoặc xác thực tài khoản. Đọc metadata Sheet đích và ánh xạ lại sheetId trước mỗi lần gửi. Các ID 1006–1008 và công thức dấu chấm phẩy đang dành cho workbook tiếng Việt này. Không dùng file payload để ghi đè tab có chỉnh sửa thủ công khi chưa đối chiếu.
+
+`Startup_Dat` tự lọc các dòng “Đạt” từ danh sách; không tự tra Thuế hoặc duyệt bằng chứng mới. Bộ lọc ghi nhận trạng thái tại thời điểm kiểm tra, không bảo đảm hoạt động liên tục trong tương lai. Khi cập nhật danh sách dài hơn 1.000 dòng cần mở rộng vùng công thức và grid. Xem [sơ đồ Sheet](CSDL_SHEET_MAP.md).
 
 Tiến độ startup: [nhật ký bằng chứng và giới hạn](research/startups/PROGRESS.md), [bảng trạng thái hiện tại](research/startups/current_screening.csv). Bảng này chứa cả hồ sơ chờ và hồ sơ loại; không phải danh sách 50 công ty đã đạt. Các script `enrich_*` là ghi nhận hồ sơ nghiên cứu cụ thể, cần snapshot cục bộ đã đọc; không phải bộ trích xuất tự động cho mọi website. `build_pilot.py` chỉ khởi tạo khi chưa có dữ liệu, để tránh ghi đè hồ sơ đã bổ sung.
 
