@@ -2,10 +2,12 @@
 
 ## Cập nhật 14/10/2026
 
-- Bổ sung AirX Carbon và BUYO: hiện 56 ứng viên, 133 bản ghi bằng chứng; 5 đạt, 50 chờ, 1 loại theo pháp nhân Thuế. AirX Carbon/NetZero Pallet giữ chung một ứng viên; BUYO/Buyoplastic giữ chung một ứng viên. Chưa tra cứu Thuế hai hồ sơ mới; chưa duyệt họ vào danh sách đạt.
+- Bổ sung 6 bằng chứng Sunbot: tổng 139 bản ghi, số hồ sơ đạt vẫn 5/50. Nguồn Yên Sở nối chương trình với KIRO Việt Nam; nguồn Phù Ninh ghi sử dụng robot ngày 04/04/2026. Đây là sử dụng sản phẩm tại trường, chưa chứng minh giao dịch hoặc việc KIRO trực tiếp cung cấp trong năm 2026. Sunbot xếp hybrid vì kết hợp robot với dịch vụ giáo dục; chưa kiểm chứng phần cứng tự thiết kế/sản xuất. MST ứng viên 0108919688 chỉ là đầu mối thứ cấp, chưa ghi thành kết quả Thuế. Số 300 trường/45.000 trẻ và thẩm định VNIES vẫn là phát biểu doanh nghiệp chưa đối chiếu độc lập.
+- Sửa chuẩn hóa xuống dòng trước khi tính hash text trong bộ thu thập HTML trên Windows. Đã thu lại ba nguồn Sunbot và lưu qua kiểm tra hash/trích đoạn có sẵn; chưa chạy lại toàn bộ bộ test trong lượt bổ sung này.
+- Mốc trước khi bổ sung Sunbot: AirX Carbon và BUYO nâng hàng đợi lên 56 ứng viên, 133 bản ghi bằng chứng; 5 đạt, 50 chờ, 1 loại theo pháp nhân Thuế. AirX Carbon/NetZero Pallet giữ chung một ứng viên; BUYO/Buyoplastic giữ chung một ứng viên. Chưa tra cứu Thuế hai hồ sơ mới; chưa duyệt họ vào danh sách đạt.
 - AirX: nguồn Startup Wheel có ngày 05/02/2025, BPP có ngày 19/02/2026. P4G ghi chương trình đã hoàn thành; không suy thành công ty đóng cửa. AirX Coffee công bố operator Veritas Việt Nam và MST ứng viên 0313231485, nhưng chuỗi thương hiệu/pháp nhân vẫn cần đối chiếu trước khi duyệt. Dự báo doanh thu 2025 không được ghi thành kết quả thực tế.
 - BUYO: Techport ghi pháp nhân và MST ứng viên 0110114634; đây là thông tin hồ sơ nhà cung ứng, không phải kết quả Thuế. Portfolio Antler không có ngày công bố; năm 2022 không được đổi thành ngày đầu tư/công bố. Mục tiêu công suất 100 tấn/tháng cuối 2025–đầu 2026, nhận định an toàn/biodegradation và bằng sáng chế chưa được dùng như kết quả đã xác minh.
-- Ledger hiện có 15 claim chọn lọc, 15/15 quote khớp snapshot offline, fidelity không có flag. Chưa audit đầy đủ 56 hồ sơ hoặc đạt mục tiêu 50 công ty. Lượt Forte vẫn chờ xác nhận CAPTCHA, không tự coi im lặng là cho phép.
+- Ledger hiện có 16 claim chọn lọc, 16/16 quote khớp snapshot offline. Fidelity có 15 OK và 1 flag đã rà soát: cùng ngày 04.4.2026 được trình bày thành 04/04/2026; không thêm ngày mới. Chưa audit đầy đủ 56 hồ sơ hoặc đạt mục tiêu 50 công ty. Lượt Forte vẫn chờ xác nhận CAPTCHA, không tự coi im lặng là cho phép.
 
 ### Mốc trước khi bổ sung hai hồ sơ vật liệu
 

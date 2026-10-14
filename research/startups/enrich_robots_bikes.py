@@ -146,9 +146,27 @@ add(buyo['id'],'counter_review','buyo_techport','Mã số thuế\n0110114634',
     search_queries=['CÔNG TY TNHH GIẢI PHÁP CÔNG NGHỆ BUYO giải thể','BUYO bioplastics closed ceased operations'],
     review_note='No verified legal closure in opened relevant sources. Similar furniture/fuel names excluded. Old forecasts and undated capacities withheld from current-activity evidence; official tax required.')
 
+sunbot=next(c for c in candidates if c['id']=='S014')
+sunbot.update(legal_name='CÔNG TY CỔ PHẦN CÔNG NGHỆ GIÁO DỤC KIRO VIỆT NAM',country='VN',physical='hybrid',website='https://sunbot.vn/',
+    notes='Sunbot is a KIRO educational programme combining robots and teaching services. Government report links KIRO to the brand; 2026 government event confirms product use, not a sale or current KIRO delivery. Candidate MST0108919688 is a secondary procurement lead, not official tax evidence. Hardware originality/manufacture and second recent activity origin remain unverified. Vendor claims of VNIES appraisal/300 schools/45000 children not independently checked.')
+add('S014','identity','sunbot_yenso_2025','Công ty cổ phần công nghệ giáo dục KIRO Vietnam',
+    caveat='Government report names the organiser of a Sunbot school event on 28/03/2025; historical identity bridge, not current tax status.')
+add('S014','product','sunbot_company','Sunbot là sản phẩm giáo dục công nghệ của KIRO Việt Nam',
+    caveat='Robot-assisted educational programme; hybrid hardware and services. Original hardware manufacture not established.')
+add('S014','technology','sunbot_company','Trẻ điều khiển robot bằng thẻ lệnh logic',
+    caveat='Describes programming interaction; does not establish proprietary electronics or independent learning outcomes.')
+add('S014','discovery','sunbot_phuninh_2026','NGÀY HỘI STEAM – ĐẤU TRƯỜNG SUNBOT 2026',source_type='government',published_at='2026-04-04',
+    caveat='Dated government product-use report; not a startup award or certification of original hardware.')
+add('S014','activity','sunbot_phuninh_2026','Trường Mầm non Thanh Lâm tổ chức ngày hội STEAM – đấu trường SunBot',event_date='2026-04-04',
+    origin_id='sunbot_thanhlam_school_event_20260404',activity_role='customer_product_use',
+    caveat='Government event report supports use of the product. It does not identify the supplying legal entity or prove a new sale/current company delivery.')
+add('S014','counter_review','sunbot_company','KIRO Việt Nam',
+    search_queries=['KIRO Việt Nam giải thể','Sunbot closed company'],
+    review_note='No relevant verified closure found in these searches. Similar tanning chatbot and foreign Kiro names excluded. Tax status remains unknown; March2025 event is outside the current activity window.')
+
 with (DATA/'candidates.csv').open('w',encoding='utf-8-sig',newline='') as handle:
     writer=csv.DictWriter(handle,fieldnames=list(candidates[0])); writer.writeheader(); writer.writerows(candidates)
 (DATA/'evidence.jsonl').write_text('\n'.join(json.dumps(e,ensure_ascii=False) for e in evidence)+'\n',encoding='utf-8')
 mp.write_text(json.dumps(list(manifest.values()),ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'startup_sources.json').write_text(json.dumps([{k:r[k] for k in ('id','source_type','publisher_owner','url')} for r in manifest.values()],ensure_ascii=False,indent=2),encoding='utf-8')
-print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id']]}))
+print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014']}))

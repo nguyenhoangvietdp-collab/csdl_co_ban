@@ -424,5 +424,23 @@
     "source_type": "company",
     "publisher_owner": "AirX Carbon / AirX Coffee",
     "url": "https://airxcoffee.com/collections/b2b"
+  },
+  {
+    "id": "sunbot_company",
+    "source_type": "company",
+    "publisher_owner": "KIRO Việt Nam / Sunbot",
+    "url": "https://sunbot.vn/"
+  },
+  {
+    "id": "sunbot_phuninh_2026",
+    "source_type": "government",
+    "publisher_owner": "UBND xã Phù Ninh",
+    "url": "https://phuninh.phutho.gov.vn/tin-tuc/tin-tuc-su-kien/ngay-hoi-steam-dau-truong-sunbot-2026/"
+  },
+  {
+    "id": "sunbot_yenso_2025",
+    "source_type": "government",
+    "publisher_owner": "UBND phường Yên Sở",
+    "url": "https://yenso.hanoi.gov.vn/y-te-giao-duc/ngay-hoi-steam-sun-bot-cung-con-khon-lon-tai-truong-mam-non-linh-dam-2797250404095103056.htm"
   }
 ]
