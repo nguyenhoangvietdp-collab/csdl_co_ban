@@ -16,6 +16,10 @@ Xây công cụ thu thập và duyệt đủ 50 startup có pháp nhân Việt N
 
 Cờ chất lượng nguồn (`source_integrity_flag`) chưa có giải trình đối chiếu (`resolution`) cũng giữ hồ sơ chờ. Nội dung không liên quan trên website không tự chứng minh doanh nghiệp ngừng hoạt động. Bằng chứng PDF giữ cả hash văn bản lẫn hash tệp gốc; số trang giúp người duyệt đối chiếu. Ngày chỉ có năm được xét bằng toàn khoảng 01/01–31/12, không gán ngày chính xác giả.
 
+Khi bảng Thuế có nhiều chi nhánh, trích đúng hàng MST mẹ 10 chữ số. MST xuất hiện ở dạng tiền tố của `MST-001` không đủ. Tên pháp nhân, MST và nhãn trạng thái phải nằm trong trích đoạn được duyệt, ngoài kiểm tra snapshot gốc. Chi nhánh chấm dứt MST không tự làm công ty mẹ bị loại.
+
+Tín hiệu hoạt động phải ghi rõ loại: triển khai tự công bố, công bố thương mại, ưu đãi đối tác đang hiển thị, chương trình tài trợ có trạng thái active, hoặc mốc R&D/hành chính. Ngày quan sát trạng thái hiện tại không được trình bày thành ngày bắt đầu chương trình. Trúng thầu không chứng minh đã ký hợp đồng, bàn giao hoặc nghiệm thu. Ngày công bố bản mô tả sáng chế không được đổi thành ngày cấp bằng hoặc ngày triển khai sản phẩm.
+
 Các ngưỡng 30/365/730 ngày là chính sách sàng lọc của dự án, không phải quy định pháp luật. Trạng thái thuế tại thời điểm tra cứu không bảo đảm công ty hoạt động liên tục trong tương lai.
 
 ## Ưu tiên physical

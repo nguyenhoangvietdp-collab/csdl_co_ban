@@ -82,6 +82,16 @@ class Gates(unittest.TestCase):
             self.assertIn('not_official_tax_source', errors)
             evidence['url'] = 'https://tracuunnt.gdt.gov.vn/tcnnt/mstdn.jsp'
             self.assertEqual(validate_evidence(evidence, date(2026,10,6), root), [])
+            branch_text='Sample Company CHI NHANH 0123456789-001 ' + TAX_STATUS
+            (root/'branch.txt').write_text(branch_text,encoding='utf-8')
+            branch=dict(evidence,snapshot='branch.txt',quote=branch_text,sha256=hashlib.sha256(branch_text.encode()).hexdigest())
+            self.assertIn('tax_id_not_exact_in_quote',validate_evidence(branch,date(2026,10,6),root))
+            mixed_text='0123456789 Sample Company NNT ngừng hoạt động\n0123456789-001 Sample Company CHI NHANH '+TAX_STATUS
+            (root/'mixed.txt').write_text(mixed_text,encoding='utf-8')
+            mixed=dict(evidence,snapshot='mixed.txt',quote=mixed_text,sha256=hashlib.sha256(mixed_text.encode()).hexdigest())
+            self.assertIn('tax_quote_not_single_entity',validate_evidence(mixed,date(2026,10,6),root))
+            unrelated=dict(evidence,quote='Sample Company 0123456789')
+            self.assertIn('tax_status_not_in_quote',validate_evidence(unrelated,date(2026,10,6),root))
             evidence['checked_at'] = '2025-01-01'
             self.assertIn('stale_tax_check', validate_evidence(evidence, date(2026,10,6), root))
 

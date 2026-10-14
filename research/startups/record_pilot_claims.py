@@ -9,6 +9,8 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 DATA = ROOT/'data/startups'
 LEDGER = Path('C:/Users/Admin/.codex/plugins/cache/local-project-tools/deep-research/3.2.0/skills/deep-research/scripts/research_ledger.py')
+if (HERE/'ledger.jsonl').exists() and (HERE/'ledger.jsonl').read_text(encoding='utf-8').strip():
+    raise FileExistsError('Pilot ledger initialization requires an empty ledger; preserve later claims and shared tax query captures.')
 evidence = {e['id']:e for e in map(json.loads,(DATA/'evidence.jsonl').read_text(encoding='utf-8').splitlines())}
 selections = [
     ('E001','Q1','Touchstone names Selex Motors, Stride, Alterno, Enfarm, Neorice and Forte Biotech among backed companies.'),

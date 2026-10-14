@@ -226,5 +226,155 @@
     "source_type": "government",
     "publisher_owner": "Cục Thông tin, Thống kê / Bộ KH&CN",
     "url": "https://vista.gov.vn/vn-uploads/startup/2025/44-2025/startup-44.2025.pdf"
+  },
+  {
+    "id": "alpha_company",
+    "source_type": "company",
+    "publisher_owner": "Alpha Asimov",
+    "url": "https://alphaasimov.com/?lang=vi"
+  },
+  {
+    "id": "alpha_about",
+    "source_type": "company",
+    "publisher_owner": "Alpha Asimov",
+    "url": "https://alphaasimov.com/about?lang=en"
+  },
+  {
+    "id": "alpha_jetro_2026",
+    "source_type": "government",
+    "publisher_owner": "Alpha Asimov",
+    "url": "https://www.jetro.go.jp/j-bridge/companies/2026/alphaasimov.html"
+  },
+  {
+    "id": "datbike_about",
+    "source_type": "company",
+    "publisher_owner": "Dat Bike",
+    "url": "https://dat.bike/ve-dat-bike/"
+  },
+  {
+    "id": "datbike_company",
+    "source_type": "company",
+    "publisher_owner": "Dat Bike",
+    "url": "https://dat.bike/"
+  },
+  {
+    "id": "alpha_facts",
+    "source_type": "company",
+    "publisher_owner": "Alpha Asimov",
+    "url": "https://alphaasimov.com/vi/thong-tin-cong-ty"
+  },
+  {
+    "id": "alpha_privacy",
+    "source_type": "company",
+    "publisher_owner": "Alpha Asimov",
+    "url": "https://alphaasimov.com/policy/privacy"
+  },
+  {
+    "id": "datbike_store_2026",
+    "source_type": "company",
+    "publisher_owner": "Dat Bike",
+    "url": "https://dat.bike/dat-bike-khai-truong-store-viet-thanh-pham-van-dong-ha-noi/"
+  },
+  {
+    "id": "datbike_seriesb",
+    "source_type": "company",
+    "publisher_owner": "Dat Bike",
+    "url": "https://dat.bike/dat-bike-goi-von-22-trieu-usd-series-b/"
+  },
+  {
+    "id": "datbike_era",
+    "source_type": "company",
+    "publisher_owner": "Dat Bike",
+    "url": "https://dat.bike/era/"
+  },
+  {
+    "id": "datbike_ahamove_2026",
+    "source_type": "partner",
+    "publisher_owner": "Ahamove",
+    "url": "https://ahamove.com/chuong-trinh-xe-dien"
+  },
+  {
+    "id": "alpha_patent_51180",
+    "source_type": "government",
+    "publisher_owner": "Cục Sở hữu trí tuệ",
+    "url": "https://www.ipvietnam.gov.vn/documents/20182/2142281/51180.pdf/8bf5d9f4-5256-4d55-955c-d8d83a3df1c9"
+  },
+  {
+    "id": "alpha_patent_52312",
+    "source_type": "government",
+    "publisher_owner": "Cục Sở hữu trí tuệ",
+    "url": "https://www.ipvietnam.gov.vn/documents/20182/2168816/52312.pdf/29f0a42b-0a75-42fd-9f2d-d68ba4ce2956"
+  },
+  {
+    "id": "vulcan_stng_catalog",
+    "source_type": "partner",
+    "publisher_owner": "ST&G USA",
+    "url": "https://stngco.com/catalog"
+  },
+  {
+    "id": "vulcan_stng_news",
+    "source_type": "partner",
+    "publisher_owner": "ST&G USA",
+    "url": "https://stngco.com/news-events"
+  },
+  {
+    "id": "enfarm_award_mirror",
+    "source_type": "procurement_mirror",
+    "publisher_owner": "DauThau.info",
+    "url": "https://dauthau.asia/ketqua/luachon-nhathau/goi-thau-so-02-cung-cap-va-lap-dat-he-thong-giam-sat-dinh-duong-dat-2834929.html"
+  },
+  {
+    "id": "enfarm_procurement",
+    "source_type": "government",
+    "publisher_owner": "Trung tâm Động lực học Thủy khí Môi trường",
+    "url": "https://muasamcong.mpi.gov.vn/web/guest/contractor-selection?p_p_id=egpportalcontractorselectionv2_WAR_egpportalcontractorselectionv2&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_egpportalcontractorselectionv2_WAR_egpportalcontractorselectionv2_render=detail-v2&type=es-notify-contractor&stepCode=notify-contractor-step-4-kqlcnt&id=IB2600287567&notifyId=IB2600287567&inputResultId=fd47eebb-3ba8-4f31-8baf-4e59c597a773&bidOpenId=undefined&techReqId=undefined&bidPreNotifyResultId=undefined&bidPreOpenId=undefined&processApply=LDT&bidMode=1_MTHS&notifyNo=IB2600287567&planNo=PL2600153073&pno=undefined&step=kqlcnt&isInternet=0&caseKHKQ=1&bidForm=CDTRG"
+  },
+  {
+    "id": "forte_company",
+    "source_type": "company",
+    "publisher_owner": "Forte Biotech",
+    "url": "https://www.fortebio.tech/"
+  },
+  {
+    "id": "forte_contact",
+    "source_type": "company",
+    "publisher_owner": "Forte Biotech",
+    "url": "https://www.fortebio.tech/contact"
+  },
+  {
+    "id": "forte_about",
+    "source_type": "company",
+    "publisher_owner": "Forte Biotech",
+    "url": "https://www.fortebio.tech/about"
+  },
+  {
+    "id": "forte_news",
+    "source_type": "company",
+    "publisher_owner": "Forte Biotech",
+    "url": "https://www.fortebio.tech/news"
+  },
+  {
+    "id": "forte_p4g",
+    "source_type": "fund",
+    "publisher_owner": "P4G / WRI",
+    "url": "https://p4gpartnerships.org/pioneering-green-partnerships/all-p4g-partnerships/forte-biotech-action-poverty"
+  },
+  {
+    "id": "forte_enterprisesg_2025",
+    "source_type": "media",
+    "publisher_owner": "The Business Times / SPH Media",
+    "url": "https://www.enterprisesg.gov.sg/resources/media-centre/news/2025/november/singapores-agri-tech-firms-find-fertile-ground"
+  },
+  {
+    "id": "forte_app",
+    "source_type": "company",
+    "publisher_owner": "Forte Biotech",
+    "url": "https://play.google.com/store/apps/details?id=tech.fortebio.aotomatic"
+  },
+  {
+    "id": "forte_design_gazette_202401",
+    "source_type": "government",
+    "publisher_owner": "Cục Sở hữu trí tuệ",
+    "url": "https://ipvietnam.gov.vn/documents/20182/1598756/CB430A2.pdf/fd08e407-a705-49b6-9562-4e54b32d5876"
   }
 ]

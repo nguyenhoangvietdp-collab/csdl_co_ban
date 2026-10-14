@@ -36,7 +36,12 @@ def add(company, kind, source, quote, **extra):
     assert normal(quote) in normal((DATA/r['snapshot']).read_text(encoding='utf-8'))
     assert not validate_evidence(record,date(2026,10,13),DATA)
     old = next((e for e in evidence if e['id']==record['id']),None)
-    if old: evidence[evidence.index(old)] = record
+    if old:
+        for key in ('resolution','resolution_evidence_ids'):
+            if key in old: record[key]=old[key]
+        if old.get('reviewed') is False:
+            record.update(reviewed=False,reviewer=old['reviewer'])
+        evidence[evidence.index(old)] = record
     else: evidence.append(record)
 
 enfarm = next(c for c in candidates if c['id']=='S004')
@@ -63,7 +68,8 @@ add('S004','source_integrity_flag','enfarm_company','1win App for Android Bonus 
 add('S004','counter_review','enfarm_dpm_2025','Giai đoạn đầu, hai bên đã bàn giao 50 bộ thiết bị đo dinh dưỡng đất thông minh Enfarm F',
     search_queries=['Enfarm ngừng hoạt động giải thể','Enfarm closed ceased operations 2026'],
     review_note='No verified closure found in opened relevant primary sources. Site integrity anomaly flagged separately. Tax CAPTCHA failure is not inactivity evidence.')
-enfarm['notes']='User confirms active. Candidate MST 0317604360 remains unverified officially. Physical soil sensing hardware supported by DPM handover; company deployment needs client corroboration because unrelated gambling articles are present. No independently checked lab accuracy or revenue.'
+if not any(e['id']=='E_enfarm_procurement_activity_S004' for e in evidence):
+    enfarm['notes']='Physical soil sensing hardware supported by DPM handover. Tax and independent deployment status are recorded separately; site integrity anomaly needs corroboration. No independently checked lab accuracy or revenue.'
 
 vulcan = next(c for c in candidates if c['id']=='S016')
 vulcan.update(legal_name='Công ty TNHH Doanh Nghiệp Xã Hội Vulcan',country='VN',physical='yes',website='https://www.wearevulcan.com/')
@@ -84,7 +90,7 @@ add('S016','activity','vulcan_app','Updated on\nSep 11, 2026',event_date='2026-0
 add('S016','counter_review','vulcan_about','VULCAN AUGMETICS PTE. LTD (202133119C)',
     search_queries=['Vulcan Augmetics ngừng hoạt động giải thể','Vulcan Augmetics closed ceased operations'],
     review_note='No verified closure located in opened relevant sources; other Vulcan brands are unrelated. Current site uses Singapore parent; VN legal and operating roles need separate confirmation.')
-vulcan['notes']='Candidate MST0315155575 from secondary lead only; official portal rejected CAPTCHA attempts, no tax result saved. Vietnam footer maps legal company; global claims often name Singapore parent. One dated recent app update; need another publisher/activity origin. Historical government profile not current operational proof.'
+vulcan['notes']=('Official tax capture available. ' if any(e.get('company_id')==vulcan['id'] and e.get('kind')=='tax' for e in evidence) else 'Official tax lookup pending. ')+'Vietnam footer maps legal company; global claims often name Singapore parent. One dated recent app update; need another publisher/activity origin. Historical government profile not current operational proof.'
 
 with (DATA/'candidates.csv').open('w',encoding='utf-8-sig',newline='') as handle:
     writer=csv.DictWriter(handle,fieldnames=list(candidates[0])); writer.writeheader(); writer.writerows(candidates)

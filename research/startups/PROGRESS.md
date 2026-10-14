@@ -1,5 +1,19 @@
 # Tiến độ bộ startup — chưa hoàn thành mục tiêu
 
+## Cập nhật 14/10/2026
+
+- 54 ứng viên; 120 bản ghi bằng chứng. Bộ lọc hiện cho 5 đạt: Selex, Hachi, ENFARM, Alpha Asimov và Dat Bike; 48 chờ; 1 loại theo pháp nhân thuế. Chưa đủ 50.
+- Đã thu trực tiếp 7 kết quả Thuế cấp công ty mẹ: 6 đang hoạt động, 1 ngừng hoạt động. Bốn kết quả mới là Dat Bike 0401942142, Alpha Asimov 0109810355, ENFARM 0317604360 và Vulcan 0315155575. Trạng thái được kiểm tra ngày 13/10, không gán ngày kiểm tra mới chỉ vì chạy lại bộ lọc ngày 14/10.
+- Dat Bike: công ty mẹ đang hoạt động, hai chi nhánh đã chấm dứt MST. Bằng chứng thay thế là thông báo thương mại về cửa hàng và ưu đãi đối tác Ahamove đang hiển thị; chưa kiểm toán giao dịch bán/thuê thực tế.
+- Alpha Asimov: Thuế khớp kết quả người dùng cung cấp, nay có bảng gốc. Bằng chứng thay thế gồm phát biểu pilot trạm biến áp tại ngày cập nhật trang và mốc công bố bản mô tả sáng chế. Ngày công bố không bị đổi thành ngày cấp hoặc ngày triển khai. Hồ sơ JETRO do doanh nghiệp tự soạn, không được tính thành một xác nhận hoạt động độc lập.
+- ENFARM: đối chiếu trực tiếp kết quả trúng thầu IB2600287567 trên Hệ thống đấu thầu quốc gia, đúng pháp nhân/MST; kết hợp báo cáo bàn giao từ DPM. Đã giữ ngoài phần bằng chứng duyệt phát biểu triển khai từ website doanh nghiệp. Cờ nguồn được xử lý trong phạm vi sàng lọc bằng nguồn ngoài, không tuyên bố website đã sửa. Trúng thầu chưa chứng minh nghiệm thu. Danh sách hàng hóa ghi CWT Trung Quốc cho cảm biến S7, Điện Quang Việt Nam cho node/gateway; không ghi toàn bộ phần cứng do ENFARM tự sản xuất.
+- Vulcan: Thuế đang hoạt động nhưng vẫn chờ nguồn thứ hai về hoạt động gần đây. Đã đọc danh mục ST&G March2026, không tìm thấy Vulcan trong phần text; điều này không chứng minh không có hợp tác.
+- Forte Biotech: đã đọc nguồn P4G, bài Business Times được EnterpriseSG đăng lại, ứng dụng cập nhật 10/08/2026 và công báo sở hữu công nghiệp 01/2024 nêu pháp nhân Việt Nam. Công bố máy gia nhiệt không được trình bày thành bằng sáng chế phát minh hoặc chứng nhận hiệu năng. Tra cứu Thuế MST ứng viên 0317428355 đang chờ người dùng cho phép lượt CAPTCHA.
+- Bốn bài kiểm tra công cụ thành công ở lần chạy gần nhất; bao gồm tách MST mẹ khỏi tiền tố chi nhánh. Chưa audit toàn bộ 54 ứng viên; chưa ghi bộ startup lên Sheet. Mục tiêu vẫn active.
+- Ledger Deep Research đã bổ sung kết quả Thuế và nguồn chính thức: 12/12 trích đoạn khớp snapshot offline, fidelity scanner không có flag. Chỉ xác minh những claim đã ghi; chưa kiểm tra URL toàn bộ hoặc audit đủ 50 hồ sơ. Cache cùng URL Thuế giữ riêng từng lượt tra cứu theo MST, không thay kết quả công ty này bằng công ty khác.
+
+Phần 13/10 bên dưới là lịch sử trước khi có các bảng Thuế và kết quả trúng thầu mới.
+
 ## Cập nhật 13/10/2026
 
 - Hàng đợi đã mở rộng đến 54 ứng viên; lưu 91 bản ghi bằng chứng. Đây là số hồ sơ và bản ghi, không phải số startup đã được duyệt.

@@ -171,6 +171,13 @@ def validate_evidence(evidence, today, directory=DATA):
         for field in ('tax_id', 'legal_name', 'status'):
             if not evidence.get(field) or normal(evidence[field]) not in normal(text):
                 errors.append(f'tax_{field}_not_in_snapshot')
+            if not evidence.get(field) or normal(evidence[field]) not in normal(quote):
+                errors.append(f'tax_{field}_not_in_quote')
+        if not re.search(r'(?<!\d)' + re.escape(evidence.get('tax_id', '')) + r'(?![\d-])', quote):
+            errors.append('tax_id_not_exact_in_quote')
+        quoted_ids = set(re.findall(r'(?<!\d)\d{10}(?:-\d{3})?(?!\d)', quote))
+        if quoted_ids != {evidence.get('tax_id')}:
+            errors.append('tax_quote_not_single_entity')
     return errors
 
 
