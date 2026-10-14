@@ -580,5 +580,23 @@
     "source_type": "company",
     "publisher_owner": "Volterra",
     "url": "https://volterra.vn/vi/terms-of-service"
+  },
+  {
+    "id": "nhtc_company",
+    "source_type": "company",
+    "publisher_owner": "Nha Trang Hitech",
+    "url": "https://nhtc.com.vn/"
+  },
+  {
+    "id": "nhtc_app_2026",
+    "source_type": "company",
+    "publisher_owner": "Nha Trang Hitech",
+    "url": "https://play.google.com/store/apps/details?id=com.nhtc.smartsafe.android"
+  },
+  {
+    "id": "nhtc_vtb_report_2026",
+    "source_type": "company",
+    "publisher_owner": "Công ty CP Điện tử Tân Bình / VTB",
+    "url": "https://staticfile.hsx.vn/Uploads/UploadDocuments/2450878/20260403%20-%20VTB%20-%2010.BAO%20CAO%20KET%20QUA%20KINH%20DOANH%202025%20VA%20KE%20HOACH%202026.pdf"
   }
 ]

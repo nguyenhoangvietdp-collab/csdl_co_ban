@@ -294,9 +294,28 @@ add('S034','counter_review','volterra_award_202610','Better Choice Awards 2026',
     search_queries=['Volterra giải thể sạc','Volterra Vietnam ceased operations'],
     review_note='No verified closure found for this VN charging startup. US fire-truck/Microsoft developer-kit firms and mathematical Volterra topics excluded. Registered legal entity, official tax and deployment counts remain unverified; partner logos are not independent confirmations.')
 
+pdf=DATA/'sources/nhtc_vtb_report_2026.pdf'
+txt=pdf.with_suffix('.txt')
+manifest['nhtc_vtb_report_2026']=dict(id='nhtc_vtb_report_2026',source_type='company',publisher_owner='Công ty CP Điện tử Tân Bình / VTB',platform_operator='HOSE',url='https://staticfile.hsx.vn/Uploads/UploadDocuments/2450878/20260403%20-%20VTB%20-%2010.BAO%20CAO%20KET%20QUA%20KINH%20DOANH%202025%20VA%20KE%20HOACH%202026.pdf',status='fetched_pdf',fetched_at='2026-10-14',snapshot='sources/nhtc_vtb_report_2026.txt',sha256=hashlib.sha256(txt.read_text(encoding='utf-8').encode()).hexdigest(),pdf_file='sources/nhtc_vtb_report_2026.pdf',pdf_sha256=hashlib.sha256(pdf.read_bytes()).hexdigest())
+nhtc=next(c for c in candidates if c['id']=='S028')
+nhtc.update(legal_name='CÔNG TY TNHH MỘT THÀNH VIÊN CÔNG NGHỆ CAO NHA TRANG',tax_id='4201292624',country='VN',physical='yes',website='https://nhtc.com.vn/',
+    notes='Own website identifies VN legal name and candidate tax4201292624, and says15+ years experience. Startup/scale-up stage not established by QVIC participation alone. Physical RTLS/IoT products and UWB/BLE/RFID mechanism described; accuracy, manufacturing volumes, patents and customer totals not independently checked. OnSafe developer app updated16/03/2026. VTB report hosted by HOSE names Nha Trang Hitech for increased IoT cooperation, without dated contract or completed delivery; not counted as independent current activity. Tax and second recent activity owner still required.')
+add('S028','identity','nhtc_company','Nha Trang Hitech Company, Ltd.\nCông ty TNHH Một Thành Viên Công Nghệ Cao Nha Trang',
+    caveat='Company self-identification; candidate MST in same page, not official active-tax result.')
+add('S028','product','nhtc_company','ONTRAK ChainFlow',
+    caveat='Physical IoT/RTLS ecosystem described by manufacturer; current output and deployment quantities not audited.')
+add('S028','technology','nhtc_company','UWB+BLE+RFID',
+    caveat='Real-time location technology stack;10cm accuracy and uptime values are vendor claims, not independently tested.')
+add('S028','activity','nhtc_app_2026','Updated on\nMar 16, 2026',event_date='2026-03-16',
+    origin_id='nhtc_onsafe_app_update_20260316',platform_operator='Google Play',
+    caveat='Developer maintenance activity; Google hosts the app and is not an independent publisher or proof of new hardware sales.')
+add('S028','counter_review','nhtc_vtb_report_2026','Nha Trang Hitech',page=3,
+    search_queries=['Công Nghệ Cao Nha Trang giải thể','Nha Trang Hitech closed company'],
+    review_note='No verified closure found for exact company in relevant searched sources. Historical2020–2021 insurance-debt lists surfaced but were not verified as current status; no closure inferred. VTB increased-cooperation wording lacks dated contract/completed delivery; not counted as a recent independent activity.15+ year company history leaves startup qualification unresolved.')
+
 with (DATA/'candidates.csv').open('w',encoding='utf-8-sig',newline='') as handle:
     writer=csv.DictWriter(handle,fieldnames=list(candidates[0])); writer.writeheader(); writer.writerows(candidates)
 (DATA/'evidence.jsonl').write_text('\n'.join(json.dumps(e,ensure_ascii=False) for e in evidence)+'\n',encoding='utf-8')
 mp.write_text(json.dumps(list(manifest.values()),ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'startup_sources.json').write_text(json.dumps([{k:r[k] for k in ('id','source_type','publisher_owner','url')} for r in manifest.values()],ensure_ascii=False,indent=2),encoding='utf-8')
-print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007','S034']}))
+print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007','S034','S028']}))
