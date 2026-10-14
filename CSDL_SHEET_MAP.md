@@ -94,7 +94,7 @@ CSDL CƠ BẢN
 ├── Startup_Dat — công thức lọc từ Startup_Danh_sach
 │   ├── Hiện có 6 hồ sơ đạt; mục tiêu 50 chưa hoàn tất
 │   └── Tự phản ánh bảng nguồn; không tự tra Thuế hoặc duyệt chứng cứ
-└── Startup_Bang_chung — 147 bản ghi, 13 cột
+└── Startup_Bang_chung — 151 bản ghi, 13 cột
     ├── Khóa: Mã bằng chứng; khóa nối: Mã hồ sơ → Startup_Danh_sach
     ├── Nội dung: loại bằng chứng, chủ nội dung, URL nguồn
     ├── Ngày: sự kiện, công bố, thu thập, kiểm tra Thuế giữ riêng

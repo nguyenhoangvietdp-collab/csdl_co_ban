@@ -194,6 +194,22 @@ add('S016','activity','vulcan_tgm_fitting_202512','prosthetic hand from Vulcan A
     caveat='Partner reports a single donated prosthetic fitting; not audited sales or a clinical performance trial. Brand product use in Vietnam, not an invoice independently tying this delivery to the VN tax entity. Singapore group legal entity is kept separate.')
 vulcan['notes']='Official VN parent tax active0315155575. Separate activity origins: Vulcan developer app update11/09/2026 and TGM partner-reported prosthetic fitting at Vietnam office30/12/2025. One reported donated fitting is not a sales/customer count audit or clinical validation. Current global site lists Singapore parent; Vietnamese brand/entity bridge retained from earlier primary identity record. Exact contracting entity for the fitting not independently checked.'
 
+buyo['tax_id']='0110114634'
+buyo['discovery_url']=manifest['buyo_p4g_grant_202504']['url']
+add(buyo['id'],'discovery','buyo_p4g_grant_202504','BUYO – ASSIST',source_type='fund',published_at='2025-04-16',
+    caveat='Primary P4G grant announcement; total4.7M is for17 partnerships, not BUYO alone. Announcement does not establish VN tax status.')
+add(buyo['id'],'startup','buyo_p4g_active','The startup utilizes innovative technologies',
+    caveat='P4G describes BUYO as a startup; no independent certifications or environmental-performance audit here.')
+add(buyo['id'],'activity','buyo_p4g_active','Status\nActive\nCountries of Operation\nVietnam',event_date='2026-10-14',
+    origin_id='buyo_p4g_active_vietnam_partnership_observed_20261014',activity_role='observed_active_partner_programme',
+    event_date_basis='Live P4G partnership status on capture date; not factory commissioning or tax status.',
+    caveat='Active grant partnership is external programme evidence. 100ton/month by end2025 is an old target, not verified current capacity. Certification, biodegradation, carbon and sales claims not independently audited.')
+add(buyo['id'],'activity','buyo_conference_202606','On June 26th 2026, BUYO collaborated with the Institute of Strategy and Policy on Agriculture and Environment (ISPAE)',event_date='2026-06-26',
+    origin_id='buyo_ispae_hanoi_conference_20260626',activity_role='self_reported_technical_policy_conference',
+    event_date_basis='Event date explicit in article body; publication17/07/2026 kept separate.',
+    caveat='Company account of conference; independent ISPAE attendance confirmation not opened. Different owner and origin from P4G partnership-status signal, not verified production or sales.')
+buyo['notes']='MST0110114634 from primary Techport provider profile is a candidate ID, not official tax status. Recent P4G grant release16/04/2025; active Vietnam partnership observed14/10/2026 plus company-reported ISPAE conference26/06/2026. Old capacity targets and certification/carbon claims not independently checked. Current P4G profile mentions corporate identity BUYO Solutions Company Limited; exact current Vietnamese registered name awaits tax lookup. Singapore company202313125C not substituted for Vietnam entity.'
+
 with (DATA/'candidates.csv').open('w',encoding='utf-8-sig',newline='') as handle:
     writer=csv.DictWriter(handle,fieldnames=list(candidates[0])); writer.writeheader(); writer.writerows(candidates)
 (DATA/'evidence.jsonl').write_text('\n'.join(json.dumps(e,ensure_ascii=False) for e in evidence)+'\n',encoding='utf-8')

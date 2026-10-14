@@ -478,5 +478,29 @@
     "source_type": "partner",
     "publisher_owner": "TGM Research",
     "url": "https://tgmresearch.com/tgm-step-up-and-give-a-hand-2025.html"
+  },
+  {
+    "id": "buyo_p4g_active",
+    "source_type": "fund",
+    "publisher_owner": "P4G / WRI",
+    "url": "https://p4gpartnerships.org/pioneering-green-partnerships/all-p4g-partnerships/buyo-assist"
+  },
+  {
+    "id": "buyo_conference_202606",
+    "source_type": "company",
+    "publisher_owner": "BUYO",
+    "url": "https://buyosolutions.com/News/Detail/buyo-x-ispae-conference-on-reducing-plastic-pollution-the-role-of-policy-technology-and-innovation"
+  },
+  {
+    "id": "buyo_cantho_202504",
+    "source_type": "government",
+    "publisher_owner": "Khoa học và Phát triển",
+    "url": "https://sokhcn.cantho.gov.vn/default.aspx?nid=28781&pid=57"
+  },
+  {
+    "id": "buyo_p4g_grant_202504",
+    "source_type": "fund",
+    "publisher_owner": "P4G / WRI",
+    "url": "https://p4gpartnerships.org/news-events/release-p4g-award-47-million-17-new-partnerships-scale-innovative-climate-solutions"
   }
 ]
