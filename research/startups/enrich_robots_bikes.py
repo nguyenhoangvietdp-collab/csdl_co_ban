@@ -210,6 +210,22 @@ add(buyo['id'],'activity','buyo_conference_202606','On June 26th 2026, BUYO coll
     caveat='Company account of conference; independent ISPAE attendance confirmation not opened. Different owner and origin from P4G partnership-status signal, not verified production or sales.')
 buyo['notes']='MST0110114634 from primary Techport provider profile is a candidate ID, not official tax status. Recent P4G grant release16/04/2025; active Vietnam partnership observed14/10/2026 plus company-reported ISPAE conference26/06/2026. Old capacity targets and certification/carbon claims not independently checked. Current P4G profile mentions corporate identity BUYO Solutions Company Limited; exact current Vietnamese registered name awaits tax lookup. Singapore company202313125C not substituted for Vietnam entity.'
 
+pdf=DATA/'sources/airx_brochure.pdf'
+txt=pdf.with_suffix('.txt')
+manifest['airx_brochure']=dict(id='airx_brochure',source_type='company',publisher_owner='AirX / Veritas Vietnam',url='https://airxcarbon.com/storage/plant-based-negative-carbon-polypropylene-brochure.pdf',status='fetched_pdf',fetched_at='2026-10-14',snapshot='sources/airx_brochure.txt',sha256=hashlib.sha256(txt.read_text(encoding='utf-8').encode()).hexdigest(),pdf_file='sources/airx_brochure.pdf',pdf_sha256=hashlib.sha256(pdf.read_bytes()).hexdigest())
+airx.update(legal_name='CÔNG TY CỔ PHẦN VERITAS VIỆT NAM',tax_id='0313231485',country='VN',
+    notes='Candidate VN operator Veritas Viet Nam and MST0313231485 stated by AirX merchant site. Company brochure links AirX trademark to Veritas Vietnam JSC; JETRO company-authored profile maps AirX Carbon to Veritas Vietnam JSC as of01/04/2026. English/Vietnamese legal-name chain still requires official registration/tax comparison before approval. Current merchant offer plus BPP report19/02/2026 provide distinct activity owners/origins; merchant offering is not completed sales. NetZero Pallet remains product alias. P4G Completed describes programme, not company closure. Carbon-negative LCA, certification validity and current capacity not independently checked.')
+add(airx['id'],'identity','airx_brochure','AirX is a trademark of the Veritas Vietnam JSC.',page=1,
+    caveat='Historical company brochure, undated. Original PDF/hash and page1 visually checked; not a trademark-register extract or current registered VN name proof.')
+add(airx['id'],'identity','airx_jetro_2026','AirX Carbon（Veritas Vietnam JSC）',
+    caveat='Company-authored JETRO profile identifies English brand/operator name as of01/04/2026; JETRO disclaimer does not independently certify accuracy. VN tax spelling still pending.')
+add(airx['id'],'identity','airx_commercial_live','AirX\nCông Ty Cổ Phần Veritas Việt Nam\nMST: 0313231485',
+    caveat='Merchant footer identifies Vietnamese operator and candidate tax ID; cross-brand link retained separately, not an official active-tax result.')
+add(airx['id'],'activity','airx_commercial_live','AirX in logo và nhận diện',event_date='2026-10-14',
+    origin_id='airx_vietnam_merchant_b2b_offer_observed_20261014',activity_role='observed_company_commercial_offer',
+    event_date_basis='Live business-order offer observed at capture; exact launch date unknown.',
+    caveat='Public offer for co-branded coffee-residue products, not verified paid orders or production totals. Brand portfolio relation supported by brochure and company-authored JETRO profile; official VN tax still pending.')
+
 stride=next(c for c in candidates if c['id']=='S002')
 stride.update(physical='hybrid',website='https://www.stride.vn/',
     notes='Hybrid solar installation/financing/digital monitoring platform, not proof of in-house panel manufacturing. Google Play names STRIDE MTV COMPANY LIMITED; candidate VN entities include MTV0316841954, Solar0316839754 and newer Solar Solutions0319337720 from secondary listings. NTNN IDs and Singapore financing parent must remain separate. Exact Vietnam operating legal entity/tax mapping unresolved. Active P4G partnership observed14/10/2026 and developer app update26/05/2026; programme system/revenue/carbon totals not independently audited or assigned exact commissioning dates.')

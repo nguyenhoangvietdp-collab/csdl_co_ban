@@ -514,5 +514,23 @@
     "source_type": "company",
     "publisher_owner": "Stride",
     "url": "https://play.google.com/store/apps/details?id=com.stride.customer"
+  },
+  {
+    "id": "airx_jetro_2026",
+    "source_type": "company",
+    "publisher_owner": "AirX Carbon / Veritas Vietnam",
+    "url": "https://www.jetro.go.jp/j-bridge/companies/2024/veritas_vietnam.html"
+  },
+  {
+    "id": "airx_commercial_live",
+    "source_type": "company",
+    "publisher_owner": "AirX / Veritas Việt Nam",
+    "url": "https://airxcoffee.com/pages/co-branding"
+  },
+  {
+    "id": "airx_brochure",
+    "source_type": "company",
+    "publisher_owner": "AirX / Veritas Vietnam",
+    "url": "https://airxcarbon.com/storage/plant-based-negative-carbon-polypropylene-brochure.pdf"
   }
 ]

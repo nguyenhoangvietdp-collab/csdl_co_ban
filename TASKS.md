@@ -32,7 +32,7 @@ Chưa có lịch tự động hoặc CI chạy crawler.
 ## Bộ startup — 14/10/2026
 
 - [x] Thu thập snapshot và thiết lập cửa sàng lọc Thuế/bằng chứng hoạt động.
-- [x] Ghi 56 hồ sơ, 158 bằng chứng và 6 hồ sơ đạt vào ba tab startup của Sheet.
+- [x] Ghi 56 hồ sơ, 162 bằng chứng và 6 hồ sơ đạt vào ba tab startup của Sheet.
 - [x] Đối chiếu toàn bộ vùng đã ghi và xem cách hiển thị trên Google Sheets.
 - [ ] Hoàn tất duyệt 50 startup theo đủ điều kiện; hiện đạt 6.
 - [ ] Audit đầy đủ danh sách 50 trước khi bàn giao hoàn chỉnh.
