@@ -210,9 +210,31 @@ add(buyo['id'],'activity','buyo_conference_202606','On June 26th 2026, BUYO coll
     caveat='Company account of conference; independent ISPAE attendance confirmation not opened. Different owner and origin from P4G partnership-status signal, not verified production or sales.')
 buyo['notes']='MST0110114634 from primary Techport provider profile is a candidate ID, not official tax status. Recent P4G grant release16/04/2025; active Vietnam partnership observed14/10/2026 plus company-reported ISPAE conference26/06/2026. Old capacity targets and certification/carbon claims not independently checked. Current P4G profile mentions corporate identity BUYO Solutions Company Limited; exact current Vietnamese registered name awaits tax lookup. Singapore company202313125C not substituted for Vietnam entity.'
 
+stride=next(c for c in candidates if c['id']=='S002')
+stride.update(physical='hybrid',website='https://www.stride.vn/',
+    notes='Hybrid solar installation/financing/digital monitoring platform, not proof of in-house panel manufacturing. Google Play names STRIDE MTV COMPANY LIMITED; candidate VN entities include MTV0316841954, Solar0316839754 and newer Solar Solutions0319337720 from secondary listings. NTNN IDs and Singapore financing parent must remain separate. Exact Vietnam operating legal entity/tax mapping unresolved. Active P4G partnership observed14/10/2026 and developer app update26/05/2026; programme system/revenue/carbon totals not independently audited or assigned exact commissioning dates.')
+add('S002','identity','stride_customer_app','STRIDE MTV COMPANY LIMITED',
+    caveat='Developer legal-name lead, not official VN registration/tax identity. Multiple Stride entities require matching before choosing parent MST.')
+add('S002','startup','stride_p4g','Stride is a clean tech startup in Vietnam',
+    caveat='Fund programme characterization; Vietnam operating market does not alone establish registered legal entity.')
+add('S002','product','stride_p4g','affordable solar installations',
+    caveat='Hybrid installation/financing service with physical solar output, not proprietary solar panel manufacture.')
+add('S002','technology','stride_customer_app','monitor its performance and energy output from our app',
+    caveat='Developer describes digital solar monitoring. No independent accuracy, original sensor hardware or energy-savings verification.')
+add('S002','activity','stride_p4g','Status\nActive\nCountries of Operation\nVietnam',event_date='2026-10-14',
+    origin_id='stride_p4g_active_vietnam_partnership_observed_20261014',activity_role='observed_active_partner_programme',
+    event_date_basis='Live status observed at capture, not tax status or a commissioning date.',
+    caveat='Programme reports deployment/revenue/carbon totals without exact individual dates or audit documents. Do not date all historical installations to capture day.')
+add('S002','activity','stride_customer_app','Updated on\nMay 26, 2026',event_date='2026-05-26',
+    origin_id='stride_customer_app_update_20260526',platform_operator='Google Play',
+    caveat='Developer maintenance activity; Google hosts the listing and is not an independent publisher. App update does not independently prove completed solar installations.')
+add('S002','counter_review','stride_p4g','Stride – ASSIST',
+    search_queries=['Stride điện mặt trời giải thể','Stride solar ceased operations'],
+    review_note='No verified closure located in relevant searched sources. Similar Stride software/foreign firms excluded. Multiple Vietnam legal names and NTNN IDs remain unresolved; do not infer active tax from fund status, app update or directory listings.')
+
 with (DATA/'candidates.csv').open('w',encoding='utf-8-sig',newline='') as handle:
     writer=csv.DictWriter(handle,fieldnames=list(candidates[0])); writer.writeheader(); writer.writerows(candidates)
 (DATA/'evidence.jsonl').write_text('\n'.join(json.dumps(e,ensure_ascii=False) for e in evidence)+'\n',encoding='utf-8')
 mp.write_text(json.dumps(list(manifest.values()),ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'startup_sources.json').write_text(json.dumps([{k:r[k] for k in ('id','source_type','publisher_owner','url')} for r in manifest.values()],ensure_ascii=False,indent=2),encoding='utf-8')
-print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016']}))
+print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002']}))

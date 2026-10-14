@@ -502,5 +502,17 @@
     "source_type": "fund",
     "publisher_owner": "P4G / WRI",
     "url": "https://p4gpartnerships.org/news-events/release-p4g-award-47-million-17-new-partnerships-scale-innovative-climate-solutions"
+  },
+  {
+    "id": "stride_p4g",
+    "source_type": "fund",
+    "publisher_owner": "P4G / WRI",
+    "url": "https://p4gpartnerships.org/pioneering-green-partnerships/all-p4g-partnerships/stride-assist"
+  },
+  {
+    "id": "stride_customer_app",
+    "source_type": "company",
+    "publisher_owner": "Stride",
+    "url": "https://play.google.com/store/apps/details?id=com.stride.customer"
   }
 ]
