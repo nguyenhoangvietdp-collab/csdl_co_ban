@@ -32,7 +32,8 @@ Chưa có lịch tự động hoặc CI chạy crawler.
 ## Bộ startup — 15/10/2026
 
 - [x] Thu thập snapshot và thiết lập cửa sàng lọc Thuế/bằng chứng hoạt động.
-- [x] Ghi 57 hồ sơ, 294 bản ghi bằng chứng (gồm bản giữ ngoài duyệt) và 7 hồ sơ đạt vào ba tab startup của Sheet.
+- [x] Ghi 57 hồ sơ, 302 bản ghi bằng chứng (gồm bản giữ ngoài duyệt) và 7 hồ sơ đạt vào ba tab startup của Sheet.
+- [x] Rà soát VORIA: tên nhà cung cấp, app/Hub, triển lãm SIHUB và cập nhật ứng dụng; ghi giới hạn ICU/bảo mật, chờ MST mẹ/Thuế.
 - [x] Rà soát VIZION: đối chiếu tên người sáng lập với shortlist, Smart3DTour/AIInventory; không tính ngày cập nhật cũ trên bản web store vào hoạt động gần đây.
 - [x] Rà soát UDATA: đọc catalogue PDF gốc19 trang/xem trang12 gateway; đối chiếu BK Fund và MOU BKE, chờ MST mẹ/Thuế.
 - [x] Rà soát OLOGN/NAWI: mẫu thử còn chuẩn bị thử nghiệm, báo cáo R&D và sự kiện HUTECH khác nguồn/ngày; chờ MST mẹ/Thuế.

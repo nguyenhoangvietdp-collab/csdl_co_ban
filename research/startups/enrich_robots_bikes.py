@@ -684,9 +684,35 @@ add('S033','counter_review','vizion_googleplay_web_read','20 thg 8, 2025',method
     search_queries=['"vizion.global" "2026"'],
     review_note='Opened web view lists lastupdate20Aug2025, outside365daywindow at15Oct2026; not a recentactivity event. HTTPcollector failed, saved only literal selectedfields from openedwebview; cached age may differ from currentregionalstorestate, so not claim globallylatestversiondate or closure. Google hosts developercontent, not independentpublisher; downloads/declarations not activeusers, corporateMST or independentlyauditedprivacy. Storeportalvizion.space vsglobal samebrandcontext not legalregistryhistory.')
 
+voria=next(c for c in candidates if c['id']=='S035')
+voria.update(legal_name='VORIA SOLUTION TECHNOLOGY COMPANY LIMITED',country='VN',physical='hybrid',website='https://www.voriacare.com/',
+    notes='Appleprovider givesEnglishlegalname, GooglePlaydeveloperaddressDongNaiVietnam; VNregisteredname/MST3604052503 stillsecondary, not verified officialtax/representative (directoriesdiffer). VoriaCareapp+physicalVoriaHub/thirdpartymedicaldevices classifiedhybrid, not ownmanufactureordiagnosticapproval. SelfLinkedInhealthtechstartupFounded2025 notregistrationcertificate; PublicCompanynotlisting. GooglePlayupdate24July2026 andSIHUBorganiserSmartHealthcare8Apr2026(article9Apr) distinctowner/event. Google/Applestoredevelopercontent sameVoriaowner, notindependent. VoriaICUGiaDinhcollaboration self-reportedtrial, no hospital-sideacceptance/dateorclinicaloutcomeverification. Appdisclaimernotmedicaldevice/notdiagnosis appliesapp, notverifiedclassificationallhardware/ICU. GooglePlayDataisntencrypted declarationneedsclarification, notruntimefinding orbreachproof; websitecapturefailed. No patientdataentered/appinstalled/demo/contactsent.')
+add('S035','identity','voria_appstore','VORIA SOLUTION TECHNOLOGY COMPANY LIMITED',platform_operator='Apple App Store',
+    caveat='Seller/provider self-identification linked to VoriaCare/VoriaSolution; GooglePlay same legal English name/address in DongNaiVietnam. Use sourced English name, not invented registered Vietnamese translation. Officialparenttax/VNregisteredname/representative not yet checked.')
+add('S035','startup','voria_company_linkedin','healthcare technology startup',platform_operator='LinkedIn',
+    caveat='Company explicitly describes startup and self-reportsFounded2025. Not an incorporation certificate, publicly listed company or currenttaxresult; PublicCompanyprofilecategory not exchange listing.')
+add('S035','product','voria_googleplay','official companion app for the Voria Hub',platform_operator='Google Play',
+    caveat='Developer describes app plus physical Hub bridging third-party glucose/BP/scale/oximeter devices, hence hybrid. Not proof owndevice manufacture, calibrated clinical accuracy, registereddeviceclassification or medicaloutcomes. App explicitly excludes diagnosis/treatment; no app installed or patientdataentered.')
+add('S035','technology','voria_googleplay','The app communicates with the Voria Hub via Bluetooth.',platform_operator='Google Play',
+    caveat='Vendor describes Hub-to-cloud aggregation and Bluetooth app/configuration. No interoperability, encryption, dataminimisation, alert/sensoraccuracy or performance verification; AIoTlabel alone not validated clinicalAI.')
+add('S035','activity','voria_googleplay','Jul 24, 2026',event_date='2026-07-24',platform_operator='Google Play',
+    origin_id='voria_care_android_update_20260724',activity_role='developer_reported_app_update',
+    event_date_basis='StoreUpdatedonfield in capturedpage, not medicaldevice launch, customercontract, incorporation or deploymentdate.',
+    caveat='Developer/platform update signal, not independentGoogleclinical/securityaudit or proof activeusers. Applelisting sameowner, relativeApple25Jul without independentlyverifiedyear not extra event.')
+add('S035','activity','voria_sihub_smarthealth_202604','Voria Solution với giải pháp theo dõi sức khỏe tại nhà',event_date='2026-04-08',published_at='2026-04-09',
+    origin_id='voria_smart_healthcare_exhibition_20260408',activity_role='organiser_reported_exhibition',
+    event_date_basis='SIHUBreport dated9Apr explicitly places event8Apr2026, with Voria listed among solutions.',
+    caveat='Organiser report, distinct from Julyappupdate. Bacsigiadinh/press/company versions sameexhibitionorigin, not multiple events. Showcase not regulatoryapproval, paid procurement, grant, hospitalacceptance or independent clinicalvalidation.')
+add('S035','counter_review','voria_googleplay','Data isn’t encrypted',platform_operator='Google Play',
+    search_queries=['"Voria" "giải thể"','"Voria Solution" "closed"'],
+    review_note='NoverifiedclosureforexactVNcompanyfound; LinuxVoria2004/foreignEVcharging/Greeknamesexcluded. StoreDatasafety saysDataisntencrypted while descriptioncallssecuredashboard; developerdeclarationnotruntimeaudit, scope/versionunresolved, nobreachorillegalprocessinginferred. Appnotmedicaldevice/notdiagnosisdisclaimer not regulatorydecisionforallHub/ICUsystems. Downloads/reviewsnotclinicalbenefit/users. Englishproviderprimary vsVietnameselegalname/MST3604052503secondary; representativeNguyenXuanHieu/BuiTrungKienconflictnotresolved. Websitecapturefailed notclosure. No patientdata, signup, installation or contacts.')
+add('S035','counter_review','voria_company_linkedin','trong quá trình thử nghiệm và đánh giá hệ thống Voria ICU',platform_operator='LinkedIn',
+    search_queries=['"Voria" site:bvndgiadinh.org.vn','"Voria" "Smart Healthcare 2026"'],
+    review_note='CompanyselfreportsGiaDinhICUtrial/evaluation, not finished commercialproduct, acceptedclinicaldeployment, diagnosticapproval or validatedoutcome. No exacttrialdate/hospital-sideacceptancechecked; relativepostage notconvertedtoeventdate. SeparateSmartHealthcareexhibitiondate confirmedorganiser but not hospitalclinicalvalidation. Rawpatientimages/data not collected or analysed.')
+
 with (DATA/'candidates.csv').open('w',encoding='utf-8-sig',newline='') as handle:
     writer=csv.DictWriter(handle,fieldnames=list(candidates[0])); writer.writeheader(); writer.writerows(candidates)
 (DATA/'evidence.jsonl').write_text('\n'.join(json.dumps(e,ensure_ascii=False) for e in evidence)+'\n',encoding='utf-8')
 mp.write_text(json.dumps(list(manifest.values()),ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'startup_sources.json').write_text(json.dumps([{k:r[k] for k in ('id','source_type','publisher_owner','url')} for r in manifest.values()],ensure_ascii=False,indent=2),encoding='utf-8')
-print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007','S034','S028','S027','S030','S032','S017','S057','S018','S020','S019','S022','S023','S026','S024','S025','S029','S031','S033']}))
+print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007','S034','S028','S027','S030','S032','S017','S057','S018','S020','S019','S022','S023','S026','S024','S025','S029','S031','S033','S035']}))

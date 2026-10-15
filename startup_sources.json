@@ -1120,5 +1120,41 @@
     "source_type": "company",
     "publisher_owner": "Vizion Technology",
     "url": "https://play.google.com/store/apps/details?hl=vi&id=global.vizion.tour"
+  },
+  {
+    "id": "voria_googleplay",
+    "source_type": "company",
+    "publisher_owner": "Voria Solution",
+    "url": "https://play.google.com/store/apps/details?hl=en_US&id=com.voriasolution.voria_care"
+  },
+  {
+    "id": "voria_appstore",
+    "source_type": "company",
+    "publisher_owner": "Voria Solution",
+    "url": "https://apps.apple.com/vn/app/voriacare/id6760955841"
+  },
+  {
+    "id": "voria_company_linkedin",
+    "source_type": "company",
+    "publisher_owner": "Voria Solution",
+    "url": "https://www.linkedin.com/company/voria-solution"
+  },
+  {
+    "id": "voria_company",
+    "source_type": "company",
+    "publisher_owner": "Voria Solution",
+    "url": "https://www.voriacare.com/"
+  },
+  {
+    "id": "voria_giadinh_event_post",
+    "source_type": "company",
+    "publisher_owner": "Voria Solution",
+    "url": "https://www.linkedin.com/posts/voria-solution_voriasolution-giadinhpeopleshospital-smarthealthcare2026-activity-7449856505161592832-Whyq"
+  },
+  {
+    "id": "voria_sihub_smarthealth_202604",
+    "source_type": "government",
+    "publisher_owner": "SIHUB / Smart Healthcare organisers",
+    "url": "https://www.sihub.gov.vn/en/news/trien-lam-smart-healthcare-2026-startup-connection-day"
   }
 ]
