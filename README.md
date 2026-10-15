@@ -120,6 +120,8 @@ Rà soát tiếp: [VEEP — mô hình AIoT/EEaaS, chờ MST mẹ và Thuế](res
 
 [FUTURE SPACE TECHNOLOGY — catalogue drone và các điểm còn thiếu](research/startups/FUTURE_SPACE_TECHNOLOGY.md), chưa xác minh MST/Thuế, startup và hoạt động độc lập.
 
+[MEDCAT — phần mềm AI tài liệu, giải thưởng và hoạt động hệ sinh thái](research/startups/MEDCAT.md), chờ MST mẹ/Thuế; chưa gộp pháp nhân TPA.
+
 ## Trạng thái thực tế
 
 Ngày 06/10/2026: 457 doanh nghiệp v1, 220 doanh nghiệp B2B, hợp nhất 457 doanh nghiệp; 20 sản phẩm; 2.031 liên kết tài liệu, gồm 371 PDF. Số lượng có thể thay đổi theo nguồn.

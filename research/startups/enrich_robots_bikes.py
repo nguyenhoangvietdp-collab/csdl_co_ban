@@ -543,9 +543,31 @@ add('S023','counter_review','fst_procurement_context','Tạm ngừng do nợ ph�
     search_queries=['"0316051120" "tạm ngừng"'],
     review_note='Secondary procurement directory records01/04/2025 fee suspension and explicitly frames nonpayment as stopped transactions on e-procurement system. Not official tax result, proof of legal dissolution or current company closure; do not mark excluded. Representative/name history MITECH differ across directories and are unresolved, not evidence of fraud or another parent entity. No paid report/login consulted.')
 
+medcat=next(c for c in candidates if c['id']=='S026')
+medcat.update(legal_name='CÔNG TY CỔ PHẦN MEDCAT',country='VN',physical='no',website='https://medcat.vn/',
+    notes='Company own Hanoi launch report explicitly names Công ty Cổ phần MedCAT. Parent candidate MST0110578065 from secondary directories only, not official tax or entered as verified ID. Keep MedCAT TPA candidate0110956983 separate despite linked subdomain. IDUS/Nexus and AIInsurance are software/document-data platforms; no own physical-device output established. Government reports Digital Startup Gold award15/01/2026; own report26/02/2026 Hanoi innovation ecosystem certificate is separate activity/owner, not verified paid strategic data contract or completed deployment. SLM/VLM/OCR mechanism described;99%up-to product claim,97%field-level event report and95%testimonial have different scopes, no independent benchmark/clinical benefit or compliance audit. Unrelated CogStack MedCAT toolkit/archive, foreign MedCat firms, trademarks and medical-school names excluded; no foreign research/IP attributed.')
+add('S026','identity','medcat_hanoi_launch_vn','Công ty Cổ phần MedCAT vinh dự nhận chứng nhận Đơn vị đồng hành',
+    caveat='Own report explicitly ties company legal name and MedCAT brand to Hanoi event; no parent tax ID on reviewed page, and no merger with separately named MedCAT TPA.')
+add('S026','startup','medcat_mst_asean_award_202601','MedCAT Nexus by MedCAT won the Gold Award in the Digital Startup category.',published_at='2026-01-16',
+    caveat='Government reports startup-category award, supporting startup context; not incorporation date, official tax status or an investment received.')
+add('S026','product','medcat_idus','Nền tảng đọc hiểu và tái cấu trúc dữ liệu thông minh IDUS của MedCAT',
+    caveat='Offered software platform for document digitisation/OCR and structured data; classified nonphysical. Healthcare/insurance focus does not establish own medical-device manufacture or validated clinical decision-making.')
+add('S026','technology','medcat_mst_asean_award_202601','combining a Small Language Model (SLM) and a Vision-Language Model (VLM)',published_at='2026-01-16',
+    caveat='Government award report describes architecture; no independent code/model-origin, privacy, accuracy, medical benefit or production-scale audit. OCR, VLM/SLM and award not regulatory device approval.')
+add('S026','activity','medcat_mst_asean_award_202601','MedCAT Nexus by MedCAT won the Gold Award in the Digital Startup category.',
+    event_date='2026-01-15',published_at='2026-01-16',origin_id='medcat_asean_digital_award_20260115',
+    event_date_basis='Report dated16January2026 explicitly places award ceremony on evening15January.',
+    caveat='Award report, not customer acceptance, prize cash received or tax lookup. Vietnamese ministry/company articles covering same award are not additional activity origins.')
+add('S026','activity','medcat_hanoi_launch_vn','Ngày 26/02/2026, trong khuôn khổ Lễ công bố thành lập Công ty Cổ phần Trung tâm Đổi mới Sáng tạo Hà Nội, Công ty Cổ phần MedCAT vinh dự nhận chứng nhận Đơn vị đồng hành',
+    event_date='2026-02-26',origin_id='medcat_hanoi_innovation_ecosystem_certificate_20260226',activity_role='self_reported_ecosystem_certificate',
+    caveat='Company report supports a separate participation/certificate milestone from January award. Strategic-partner language does not prove paid data contract, government procurement, funding or commissioned infrastructure. English/Vietnamese posts same owner and event.')
+add('S026','counter_review','medcat_idus','độ chính xác lên tới 99%',
+    search_queries=['site:medcat.vn "giải thể"','"MedCAT" "closed" Vietnam'],
+    review_note='No verified closure for exact Vietnam entity found in scoped searches. CogStack MedCAT Medical Concept Annotation Toolkit GitHub archive/issues and foreign company acquisitions are unrelated, not VN closure or IP.99%up-to own product claim,97%field-level award report and95%testimonial not interchangeable benchmarks; populations/test methods not independently checked. No diagnostic efficacy, medical-device approval, security/privacy compliance, in-house model provenance, customer volumes or production performance established. MedCAT TPA linked service not automatically same parent legal entity/MST; NIC contact address not registered-office proof. Tax0110578065 still secondary only.')
+
 with (DATA/'candidates.csv').open('w',encoding='utf-8-sig',newline='') as handle:
     writer=csv.DictWriter(handle,fieldnames=list(candidates[0])); writer.writeheader(); writer.writerows(candidates)
 (DATA/'evidence.jsonl').write_text('\n'.join(json.dumps(e,ensure_ascii=False) for e in evidence)+'\n',encoding='utf-8')
 mp.write_text(json.dumps(list(manifest.values()),ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'startup_sources.json').write_text(json.dumps([{k:r[k] for k in ('id','source_type','publisher_owner','url')} for r in manifest.values()],ensure_ascii=False,indent=2),encoding='utf-8')
-print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007','S034','S028','S027','S030','S032','S017','S057','S018','S020','S019','S022','S023']}))
+print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007','S034','S028','S027','S030','S032','S017','S057','S018','S020','S019','S022','S023','S026']}))

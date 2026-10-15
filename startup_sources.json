@@ -922,5 +922,41 @@
     "source_type": "directory",
     "publisher_owner": "Hệ sinh thái Đấu Thầu / DauThau.info",
     "url": "https://dauthau.asia/businesslistings/detail/CONG-TY-CO-PHAN-CONG-NGHE-KHONG-GIAN-TUONG-LAI-178091/"
+  },
+  {
+    "id": "medcat_company",
+    "source_type": "company",
+    "publisher_owner": "MedCAT",
+    "url": "https://medcat.vn/"
+  },
+  {
+    "id": "medcat_hanoi_launch_202602",
+    "source_type": "company",
+    "publisher_owner": "MedCAT",
+    "url": "https://medcat.vn/post/celebrating-the-launch-of-hanoi-innovation-center-shaping-the-capital-s-digital-future-medcat-s-pride-as-a-strategic-partner"
+  },
+  {
+    "id": "medcat_mst_asean_award_202601",
+    "source_type": "government",
+    "publisher_owner": "Bộ Khoa học và Công nghệ",
+    "url": "https://english.mst.gov.vn/viet-nam-wins-big-at-asean-digital-awards-2026-with-three-major-prizes-197260116155709147.htm"
+  },
+  {
+    "id": "medcat_idus",
+    "source_type": "company",
+    "publisher_owner": "MedCAT",
+    "url": "https://medcat.vn/solution/smart-ocr"
+  },
+  {
+    "id": "medcat_asean_vn_202602",
+    "source_type": "government",
+    "publisher_owner": "Bộ Khoa học và Công nghệ",
+    "url": "https://mst.gov.vn/medcat-nexus-nen-tang-ai-make-in-vietnam-gianh-giai-vang-asean-digital-awards-2026-197260210003306112.htm"
+  },
+  {
+    "id": "medcat_hanoi_launch_vn",
+    "source_type": "company",
+    "publisher_owner": "MedCAT",
+    "url": "https://medcat.vn/post/chuc-mung-le-ra-mat-trung-tam-doi-moi-sang-tao-ha-noi-kien-tao-tuong-lai-so-thu-do-medcat-tu-hao-la-doi-tac-chien-luoc"
   }
 ]
