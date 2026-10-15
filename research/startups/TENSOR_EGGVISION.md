@@ -35,4 +35,4 @@ Bài Bavina về QVIC cùng sự kiện với bài của Sở, không tính thà
 - `Startup_Danh_sach!A31:M31`:10 bằng chứng hợp lệ theo kiểm tra dữ liệu, trạng thái Chờ.
 - `Startup_Bang_chung!A191:M199`:9 bản ghi bổ sung; đọc lại130 ô cập nhật khớp payload.
 - Kiểm tra định dạng qua API: Arial10, xuống dòng, căn trên; không có bước xem lại giao diện Google-rendered trong lượt này.
-- Bộ dữ liệu chung: **56 ứng viên, 198 bằng chứng, 7 đạt, 48 chờ, 1 loại theo pháp nhân Thuế**. Mục tiêu50 chưa hoàn thành.
+- Bộ dữ liệu chung mới nhất được ghi ở [nhật ký tiến độ](PROGRESS.md). Mục tiêu50 chưa hoàn thành.

@@ -676,5 +676,41 @@
     "source_type": "company",
     "publisher_owner": "HBC Marisol Group / Bavina (affiliated with HBC Nexus)",
     "url": "https://bavinarealty.com/vi/hbc-nexus-tham-du-hoi-thao-esg-xu-the-chuyen-doi-san-xuat-xanh-tai-gia-lai.html"
+  },
+  {
+    "id": "veep_company",
+    "source_type": "company",
+    "publisher_owner": "VEEP",
+    "url": "https://www.veep.vn/"
+  },
+  {
+    "id": "veep_about",
+    "source_type": "company",
+    "publisher_owner": "VEEP",
+    "url": "https://www.veep.vn/about-veep"
+  },
+  {
+    "id": "veep_introduction",
+    "source_type": "company",
+    "publisher_owner": "VEEP",
+    "url": "https://www.veep.vn/gioi-thieu-veep"
+  },
+  {
+    "id": "veep_fieldtrip_202606",
+    "source_type": "company",
+    "publisher_owner": "VEEP",
+    "url": "https://www.veep.vn/post/veep-tai-qvic-2026-field-trip-networking-event"
+  },
+  {
+    "id": "veep_jetro_profile",
+    "source_type": "company",
+    "publisher_owner": "VEEP",
+    "url": "https://www.jetro.go.jp/j-bridge/companies/2025/viot_energy_efficiency_platform.html"
+  },
+  {
+    "id": "veep_nexvn_visit",
+    "source_type": "company",
+    "publisher_owner": "VEEP",
+    "url": "https://www.veep.vn/post/nexvn-ghe-tham-veep-va-xu-huong-the-gioi"
   }
 ]

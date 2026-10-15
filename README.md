@@ -108,6 +108,8 @@ Tiến độ startup: [nhật ký bằng chứng và giới hạn](research/star
 
 Hồ sơ cập nhật15/10/2026: [NAISCORP Robotics — nguồn, Thuế và giới hạn](research/startups/NAISCORP_ROBOTICS.md), [TENSOR/EggVision — đang chờ Thuế và mapping](research/startups/TENSOR_EGGVISION.md). Hiện7/50 đạt; toàn bộ56 ứng viên có trong bảng sàng lọc, không gọi tất cả là đã duyệt.
 
+Rà soát tiếp: [VEEP — mô hình AIoT/EEaaS, chờ MST mẹ và Thuế](research/startups/VEEP.md).
+
 ## Trạng thái thực tế
 
 Ngày 06/10/2026: 457 doanh nghiệp v1, 220 doanh nghiệp B2B, hợp nhất 457 doanh nghiệp; 20 sản phẩm; 2.031 liên kết tài liệu, gồm 371 PDF. Số lượng có thể thay đổi theo nguồn.

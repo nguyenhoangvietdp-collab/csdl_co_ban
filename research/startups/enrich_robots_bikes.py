@@ -366,9 +366,30 @@ add('S030','counter_review','tensor_company','initial accuracy of 75% on limited
     search_queries=['"Tensor" "EggVision" "giải thể"','"HBC Nexus" "closed"'],
     review_note='No verified closure found for this Vietnam project/entity in relevant searches. Unrelated Tensor robocar/French firms excluded. Vendor accuracy targets, industry statistics and team-level10-million-dollar contract claims not accepted as audited EggVision results. A secondary Chinese article claims80 installed units, but primary site still describes limited-data75% testing; deployment quantity withheld. Formal brand/legal mapping and official tax remain pending. Fund the Future schedule is not proof of completed pitching; HBC ESG demo data expressly synthetic.')
 
+veep=next(c for c in candidates if c['id']=='S032')
+veep.update(legal_name='CÔNG TY CỔ PHẦN VIOT ENERGY EFFICIENCY PLATFORM',country='VN',physical='hybrid',website='https://www.veep.vn/',
+    notes='Company footer names Vietnam legal entity; candidate parent MST0317812963 from secondary directories not official tax. Do not substitute representative-office0317812963-001 or NTNN0319514793. Hybrid AMIGO/AIoT platform integrates meters, HVAC and lighting with EEaaS investment/rental; own hardware manufacture and completed customer savings unverified. Company self-identifies Climate Tech startup; historical2017 Australian/group activity kept separate from Vietnam incorporation. QVIC award20/08/2026 and May2026 company report of VNG field trip are separate events/owners; exact trip day unknown. JETRO profile is company-authored asof01/04/2026, not independent operating proof.30–35% savings, customer logos,100% CAPEX funding and2030 carbon target not independently audited.')
+add('S032','identity','veep_about','Về Veep\n\u200bĐối Tác Chiến Lược\nCÔNG TY CỔ PHẦN VIOT ENERGY EFFICIENCY PLATFORM',
+    caveat='Own-page footer connects VEEP with Vietnam legal name. Candidate MST from directories is withheld pending official parent lookup; addresses differ between old introduction and current homepage.')
+add('S032','startup','veep_about','VEEP là một startup Climate Tech',
+    caveat='Company self-description, supplemented by QVIC shortlist; group/Australian2017 history not treated as Vietnam incorporation or sole proof of startup stage.')
+add('S032','product','veep_about','VEEP mang đến giải pháp AMIGO® – nền tảng quản lý năng lượng thông minh ứng dụng AIoT',
+    caveat='Platform plus integrated field equipment and energy-service model classified hybrid; not evidence of self-manufactured devices or measured energy savings.')
+add('S032','technology','veep_jetro_profile','integrates smart meters, HVAC systems, lighting, indoor environmental monitoring, and real-time analytics',
+    platform_operator='JETRO',caveat='JETRO disclaimer identifies company-authored profile; owner remains VEEP. As-of01/04/2026 does not verify revenues, actual customers, safety or savings.')
+add('S032','activity','naiscorp_dost_award_202608','đội VEEP giải Ba với 50.000 USD',event_date='2026-08-20',published_at='2026-08-20',
+    origin_id='veep_qvic_final_award_20260820',caveat='Government award report and platform demonstration; not receipt of prize funds, customer contract or audited30% savings.')
+add('S032','activity','veep_fieldtrip_202606','Tại buổi Company Visit diễn ra tại VNG, đại diện VEEP đã tham gia phiên thảo luận',
+    event_date='2026-05',published_at='2026-05',origin_id='veep_qvic_vng_fieldtrip_report_202605',activity_role='self_reported_participation_report',
+    event_date_basis='Visible20 thg5 publication label and QVIC2026 body establish May2026 reporting context; stored conservatively at month precision. Exact trip day not verified, and publication is not equated with the visit day.',
+    caveat='Company report, not VNG-side confirmation or completed customer deployment. Different event from August QVIC final; both within one programme, not independent customer traction.')
+add('S032','counter_review','veep_introduction','VEEP – là doanh nghiệp gốc Úc',
+    search_queries=['"VEEP" "giải thể" "năng lượng"','"VEEP" "ceased operations"'],
+    review_note='No verified closure found for the exact Vietnam energy company in relevant searched sources. Unrelated TV series, US training programme and fractional-executive marketplace excluded. NTNN and representative-office IDs not parent tax. JETRO company-authored; partner logos, contractual performance, own manufacture,30–35% savings and carbon targets unverified. Historical Australian/group2017 activity not assumed Vietnam entity age. Field-trip date retained at month precision; no exact commissioning/deployment claimed.')
+
 with (DATA/'candidates.csv').open('w',encoding='utf-8-sig',newline='') as handle:
     writer=csv.DictWriter(handle,fieldnames=list(candidates[0])); writer.writeheader(); writer.writerows(candidates)
 (DATA/'evidence.jsonl').write_text('\n'.join(json.dumps(e,ensure_ascii=False) for e in evidence)+'\n',encoding='utf-8')
 mp.write_text(json.dumps(list(manifest.values()),ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'startup_sources.json').write_text(json.dumps([{k:r[k] for k in ('id','source_type','publisher_owner','url')} for r in manifest.values()],ensure_ascii=False,indent=2),encoding='utf-8')
-print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007','S034','S028','S027','S030']}))
+print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007','S034','S028','S027','S030','S032']}))

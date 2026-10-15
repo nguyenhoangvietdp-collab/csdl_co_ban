@@ -2,6 +2,9 @@
 
 ## Cập nhật 15/10/2026
 
+- Bổ sung7 bằng chứng cho S032 VEEP: footer nối thương hiệu/pháp nhân Việt Nam, startup Climate Tech, AMIGO/AIoT, mô tả tích hợp đồng hồ/HVAC/chiếu sáng, giải QVIC20/08 và báo cáo Company Visit tại VNG ở độ chính xác tháng05/2026, cùng phản chứng. Xếp Kết hợp; chưa xác minh tự sản xuất thiết bị hoặc hiệu suất tiết kiệm. JETRO do doanh nghiệp tự soạn, không tính chủ nguồn độc lập. MST0317812963 chỉ là đầu mối thứ cấp; tách khỏi văn phòng đại diện và NTNN. Còn2 cửa MST mẹ/Thuế.
+- Đã ghi dòng33 và bằng chứng200–206, đọc lại104 ô khớp. Style/structure kiểm tra qua API, chưa xem lại Google-rendered UI. Tổng **56 ứng viên, 205 bằng chứng, 7 đạt, 48 chờ, 1 loại theo pháp nhân Thuế**; FILTER vẫn7. Ledger chọn lọc40/40 quote khớp offline, không phải audit đầy đủ205 bằng chứng. [Hồ sơ VEEP](VEEP.md).
+
 - Rà soát S030 TENSOR/EggVision, bổ sung9 bằng chứng: footer HBC Nexus, alias HBC Nexus/Tensor từ Bavina, giai đoạn pre-seed tự khai trong lịch pitch, thiết bị EggVision, cơ chế thị giác AI, giới hạn thử nghiệm75%, giải QVIC20/08 và hoạt động hội thảo ESG26/06 theo báo cáo cùng nhóm, cùng phản chứng. Hồ sơ còn chờ mapping chính xác/MST mẹ/Thuế. MST0319525040 chỉ là đầu mối thứ cấp; không đưa vào trường đã xác minh. Nguồn cùng nhóm được ghi rõ, không tính website sản phẩm/HBC/Bavina như các bên độc lập với nhau.
 - Đã ghi dòng31 và bằng chứng191–199, đọc lại130 ô khớp; FILTER vẫn7 hồ sơ đạt. Kiểm tra style/structure qua API, chưa xem lại Google-rendered UI. Tổng **56 ứng viên, 198 bằng chứng, 7 đạt, 48 chờ, 1 loại theo pháp nhân Thuế**. Ledger chọn lọc38/38 quote khớp offline, không phải audit toàn bộ198 bằng chứng. [Hồ sơ và giới hạn TENSOR](TENSOR_EGGVISION.md).
 
