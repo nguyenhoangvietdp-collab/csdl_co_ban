@@ -1078,5 +1078,47 @@
     "source_type": "company",
     "publisher_owner": "UDATA",
     "url": "https://udata.ai/credential.pdf"
+  },
+  {
+    "id": "vizion_company",
+    "source_type": "company",
+    "publisher_owner": "Vizion Technology",
+    "url": "https://vizion.global/"
+  },
+  {
+    "id": "vizion_about_vn",
+    "source_type": "company",
+    "publisher_owner": "Vizion Technology",
+    "url": "https://vizion.global/ve-chung-toi/"
+  },
+  {
+    "id": "vizion_company_linkedin",
+    "source_type": "company",
+    "publisher_owner": "Vizion Technology",
+    "url": "https://www.linkedin.com/company/vizion-global"
+  },
+  {
+    "id": "vizion_ai_inventory",
+    "source_type": "company",
+    "publisher_owner": "Vizion Technology",
+    "url": "https://vizion.global/ai-inventory/"
+  },
+  {
+    "id": "vizion_smart3d",
+    "source_type": "company",
+    "publisher_owner": "Vizion Technology",
+    "url": "https://vizion.global/smart-3d-tour/"
+  },
+  {
+    "id": "vizion_googleplay",
+    "source_type": "company",
+    "publisher_owner": "Vizion Technology",
+    "url": "https://play.google.com/store/apps/details?hl=vi&id=global.vizion.tour"
+  },
+  {
+    "id": "vizion_googleplay_web_read",
+    "source_type": "company",
+    "publisher_owner": "Vizion Technology",
+    "url": "https://play.google.com/store/apps/details?hl=vi&id=global.vizion.tour"
   }
 ]
