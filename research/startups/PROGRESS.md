@@ -1,5 +1,13 @@
 # Tiến độ bộ startup — chưa hoàn thành mục tiêu
 
+## Cập nhật 15/10/2026
+
+- Hoàn tất hồ sơ S027 NAISCORP Robotics: DISSC nối thương hiệu với Công ty Cổ phần Công nghệ Thông minh Naiscorp Robotics; cổng Thuế trả MST mẹ0402268582, NNT đang hoạt động ngày15/10/2026 sau CAPTCHA được người dùng cho phép. Phân biệt công ty CNTT Naiscorp cũ0102003754; không gán lịch sử2006 thành ngày thành lập pháp nhân robot.
+- Bổ sung8 bằng chứng: mapping, startup, sản phẩm Healthmate, cơ chế AI/digital twin, giải QVIC20/08/2026, báo cáo hợp tác SPT công bố15/06/2026, phản chứng và Thuế. Giải QVIC qua hai bài không tính thành hai sự kiện; hợp tác SPT không suy thành doanh thu hoặc bàn giao. Sản xuất toàn bộ phần cứng, hiệu năng y tế, sản lượng và bằng sáng chế được cấp chưa kiểm chứng độc lập.
+- Bộ lọc ngày15/10/2026: **56 ứng viên, 189 bằng chứng, 7 đạt, 48 chờ, 1 loại pháp nhân Thuế**. [Hồ sơ NAISCORP](NAISCORP_ROBOTICS.md) ghi nguồn và giới hạn. Mục tiêu50 vẫn chưa hoàn thành.
+- Sheet cập nhật dòng28, bằng chứng183–190 và ngày bộ lọc56 dòng; đọc lại172 ô thay đổi khớp payload, công thức trả đúng7 mã hồ sơ. Không thay đổi ngày tra Thuế cũ hoặc tải tệp Drive mới.
+- Ledger chọn lọc hiện35 claim, kiểm tra quote offline35/35 khớp; cờ ngày C35 được ghi nhận là ngày chụp/tra cứu, không phải ngày trong dòng Thuế. Đây không phải audit toàn bộ189 bằng chứng. Đã xem dòng NAISCORP trong Sheet; không chạy lại toàn bộ test trong lượt này.
+
 ## Cập nhật 14/10/2026
 
 - Bổ sung 5 bằng chứng Nha Trang Hitech: website tự công bố pháp nhân/MST ứng viên4201292624; sản phẩm ONTRAK ChainFlow; cơ chế RTLS UWB/BLE/RFID; ứng dụng OnSafe cập nhật16/03/2026 và rà soát phản chứng có ngữ cảnh từ báo cáo VTB trên HOSE. Đầu ra vật lý theo mô tả nhà sản xuất, không xác minh độc lập sản lượng/độ chính xác. Website ghi hơn15 năm kinh nghiệm; chưa xác minh giai đoạn startup hoặc scale-up. Không coi tham gia QVIC là đủ vượt cửa startup.

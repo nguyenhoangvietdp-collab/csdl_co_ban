@@ -106,6 +106,8 @@ Trích thông tin từ ảnh/PDF và CAPTCHA cần bước đọc hoặc tra c�
 
 Tiến độ startup: [nhật ký bằng chứng và giới hạn](research/startups/PROGRESS.md), [bảng trạng thái hiện tại](research/startups/current_screening.csv). Bảng này chứa cả hồ sơ chờ và hồ sơ loại; không phải danh sách 50 công ty đã đạt. Các script `enrich_*` là ghi nhận hồ sơ nghiên cứu cụ thể, cần snapshot cục bộ đã đọc; không phải bộ trích xuất tự động cho mọi website. `build_pilot.py` chỉ khởi tạo khi chưa có dữ liệu, để tránh ghi đè hồ sơ đã bổ sung.
 
+Hồ sơ mới nhất: [NAISCORP Robotics — nguồn, Thuế và giới hạn](research/startups/NAISCORP_ROBOTICS.md), chốt15/10/2026. Hiện7/50 đạt; toàn bộ56 ứng viên có trong bảng sàng lọc, không gọi tất cả là đã duyệt.
+
 ## Trạng thái thực tế
 
 Ngày 06/10/2026: 457 doanh nghiệp v1, 220 doanh nghiệp B2B, hợp nhất 457 doanh nghiệp; 20 sản phẩm; 2.031 liên kết tài liệu, gồm 371 PDF. Số lượng có thể thay đổi theo nguồn.

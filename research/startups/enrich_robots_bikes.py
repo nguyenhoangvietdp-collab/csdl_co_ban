@@ -34,7 +34,7 @@ def add(company,kind,source,quote,**extra):
     if r.get('pdf_file'):
         record.update(method='pdf_embedded_text',pdf_file=r['pdf_file'],pdf_sha256=r['pdf_sha256'])
     assert normal(quote) in normal((DATA/r['snapshot']).read_text(encoding='utf-8'))
-    assert not validate_evidence(record,date(2026,10,14),DATA)
+    assert not validate_evidence(record,date(2026,10,15),DATA)
     old=next((e for e in evidence if e['id']==record['id']),None)
     if old: evidence[evidence.index(old)]=record
     else: evidence.append(record)
@@ -313,9 +313,38 @@ add('S028','counter_review','nhtc_vtb_report_2026','Nha Trang Hitech',page=3,
     search_queries=['Công Nghệ Cao Nha Trang giải thể','Nha Trang Hitech closed company'],
     review_note='No verified closure found for exact company in relevant searched sources. Historical2020–2021 insurance-debt lists surfaced but were not verified as current status; no closure inferred. VTB increased-cooperation wording lacks dated contract/completed delivery; not counted as a recent independent activity.15+ year company history leaves startup qualification unresolved.')
 
+naiscorp=next(c for c in candidates if c['id']=='S027')
+naiscorp.update(legal_name='CÔNG TY CỔ PHẦN CÔNG NGHỆ THÔNG MINH NAISCORP ROBOTICS',country='VN',physical='yes',website='https://www.naiscorp.com/en',
+    notes='DISSC and partner SPT map Naiscorp Robotics to the Vietnam smart-technology joint stock company. Official parent tax0402268582 active15/10/2026; legacy IT-services Naiscorp0102003754 is a different entity. Physical Healthmate robot demonstrated at QVIC20/08/2026; integrator/customizer, not proof of entirely in-house manufacture or medical-device approval. QVIC award and SPT cooperation report are distinct owners/events. Company2006 history describes inherited group capabilities, not verified robot-company incorporation. Five patent applications are not granted patents. Official tax, product and distinct recent activity gates reviewed; current manufacture, sales totals and clinical claims not independently audited.')
+add('S027','identity','naiscorp_dissc_award_202608','Công ty Cổ phần Công nghệ Thông minh Naiscorp Robotics',
+    published_at='2026-08-21',caveat='DISSC names Vietnam legal company and Da Nang registration; candidate tax ID is not stated in this article.')
+add('S027','startup','naiscorp_dissc_award_202608','Từ 28 startup xuất sắc được chọn tham gia vòng ươm tạo QVIC 2026, Naiscorp Robotics',
+    published_at='2026-08-21',caveat='Government startup-support centre explicitly describes startup incubation participation. Inherited20-year group history is kept separate from the robot company; no verified incorporation date claimed.')
+add('S027','product','naiscorp_dost_award_202608','Healthmate – robot đồng hành chăm sóc tại nhà',
+    published_at='2026-08-20',caveat='Government report describes a demonstrated physical robot. Not confirmation of medical approval, mass production or commercial sales.')
+add('S027','technology','naiscorp_about','Deploying service/assistant robots powered by Generative AI and modeled with Digital Twin technology',
+    caveat='Vendor describes AI and digital-twin architecture; autonomy, safety, uptime, customer logos and performance not independently tested.')
+add('S027','activity','naiscorp_dost_award_202608','Ngày 20/8/2026, Tập đoàn Qualcomm phối hợp cùng Bộ Khoa học và Công nghệ tổ chức Lễ trao giải',
+    event_date='2026-08-20',published_at='2026-08-20',origin_id='naiscorp_qvic_final_award_20260820',
+    caveat='Award and Healthmate demonstration, not proof of grant cash receipt or sales. DISSC report of same award is not counted as a second origin.')
+add('S027','activity','naiscorp_spt_partnership_202606','Lễ ký kết đánh dấu bước khởi đầu cho quan hệ hợp tác giữa SPT',
+    event_date='2026-06-15',published_at='2026-06-15',origin_id='naiscorp_spt_strategic_agreement_report_20260615',
+    event_date_basis='Dated15-06-2026 entry for this exact article in SPT news list embedded in captured page. This is the report publication date, not an independently checked signing day.',
+    caveat='Counterparty reports signed cooperation; plans through2030 and proposed products are not completed deliveries, revenue or production capacity.')
+add('S027','counter_review','naiscorp_dissc_award_202608','Naiscorp Robotics kế thừa nền tảng hơn 20 năm nghiên cứu',
+    search_queries=['"NAISCORP ROBOTICS" "giải thể"','"Naiscorp Robotics" "ceased operations"'],
+    review_note='No verified closure found for exact robotics entity in relevant searched results. Legacy Naiscorp IT company and2006 group history kept separate. Official parent tax active15/10/2026; five applications not grants; partner logos,99.9% uptime, clinical benefit and own manufacturing unverified.')
+
+tax_text=(DATA/'sources/naiscorp_tax_0402268582.txt').read_text(encoding='utf-8')
+manifest['naiscorp_tax_0402268582']=dict(id='naiscorp_tax_0402268582',source_type='government',publisher_owner='Cục Thuế',url='https://tracuunnt.gdt.gov.vn/tcnnt/mstdn.jsp',status='captured_browser',fetched_at='2026-10-15',snapshot='sources/naiscorp_tax_0402268582.txt',sha256=hashlib.sha256(tax_text.encode()).hexdigest())
+add('S027','tax','naiscorp_tax_0402268582',tax_text[tax_text.index('1\t0402268582'):].strip(),
+    tax_id='0402268582',legal_name=naiscorp['legal_name'],status='NNT đang hoạt động',checked_at='2026-10-15',row_scope='parent_company',
+    caveat='Visible official parent row after user-authorized CAPTCHA lookup; status observed15/10/2026, not a guarantee of future operation.')
+naiscorp['tax_id']='0402268582'
+
 with (DATA/'candidates.csv').open('w',encoding='utf-8-sig',newline='') as handle:
     writer=csv.DictWriter(handle,fieldnames=list(candidates[0])); writer.writeheader(); writer.writerows(candidates)
 (DATA/'evidence.jsonl').write_text('\n'.join(json.dumps(e,ensure_ascii=False) for e in evidence)+'\n',encoding='utf-8')
 mp.write_text(json.dumps(list(manifest.values()),ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'startup_sources.json').write_text(json.dumps([{k:r[k] for k in ('id','source_type','publisher_owner','url')} for r in manifest.values()],ensure_ascii=False,indent=2),encoding='utf-8')
-print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007','S034','S028']}))
+print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007','S034','S028','S027']}))
