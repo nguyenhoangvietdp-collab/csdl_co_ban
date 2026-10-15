@@ -2,6 +2,9 @@
 
 ## Cập nhật 15/10/2026
 
+- Thêm ứng viên S057 OpenMind Robotics Việt Nam với9 bằng chứng: discovery QVIC từ Sở, tên pháp nhân HASI, ngữ cảnh startup tự khai2026, giải pháp cobot/vision/digital twins, tích hợp OnRobots trên ACE của Gradion28/07 và giải QVIC20/08, cùng phản chứng. Xếp Kết hợp, không xác nhận tự sản xuất robot hoặc triển khai hàng loạt. MST3703462444 chỉ từ danh bạ; HASI che3703**** nên không suy phần còn lại. Tách khỏi OpenMind/OM1 và các tin gọi vốn của tổ chức nước ngoài.
+- Sheet thêm dòng58 và bằng chứng215–223; đọc lại130 ô khớp, mở vùng lọc cho dòng mới; style/structure kiểm tra qua API, chưa xem lại Google-rendered UI. Tổng **57 ứng viên, 222 bằng chứng, 7 đạt, 49 chờ, 1 loại pháp nhân Thuế**. Ledger chọn lọc44/44 quote khớp offline, không phải audit đầy đủ222 bằng chứng. Bản tin EIN mới tải snapshot thất bại, không dùng vào bằng chứng; chủ nội dung xác định là InnoEx, không ghi thành nguồn Qualcomm độc lập. [Hồ sơ OpenMind](OPENMIND_ROBOTICS.md).
+
 - Bổ sung8 bằng chứng S017 AIZ: pháp nhân được VAA nêu tên, ngữ cảnh thành lập2024 từ profile, sản phẩm phần mềm/kiến trúc3C1A, VAA27/01, QVIC20/08 và tọa đàm Đại học Nghệ An10/10/2026 (bài12/10), cùng phản chứng. Xếp Phi vật lý; IoT/robot/kính thông minh chưa chứng minh đầu ra thiết bị riêng. MST0110830839 vẫn đầu mối BKHUB/danh bạ, không thay Thuế; tách mã văn phòng đại diện và Quốc tế AIZ. Kết quả BHXH cùng tên TP.HCM chưa khớp pháp nhân/MST nên không gán nợ hoặc closure.
 - Đã ghi dòng18 và bằng chứng207–214; đọc lại117 ô khớp, định dạng API giữ nguyên, chưa xem lại Google-rendered UI. Tổng **56 ứng viên, 213 bằng chứng, 7 đạt, 48 chờ, 1 loại pháp nhân Thuế**; AIZ còn2 cửa MST mẹ/Thuế. Ledger chọn lọc42/42 quote khớp offline, không phải audit đầy đủ213 bằng chứng. [Hồ sơ AIZ](AIZ.md).
 

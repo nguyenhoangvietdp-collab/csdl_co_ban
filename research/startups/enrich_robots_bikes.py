@@ -411,9 +411,41 @@ add('S017','counter_review','aiz_company','AIZ Data Platform',
     search_queries=['"AIZ" "giải thể"','"AIZ" "ceased operations" AI','"0110830839" "BHXH"'],
     review_note='No verified closure of this exact Hanoi AI company in relevant searched sources. Same-name HCMC insurance-debt listing surfaced but parent tax identity/address match not verified; do not attribute debt or infer closure. Unrelated international/agricultural firms, Brazilian Aizcorp and fictional Aiz excluded. BKHUB HUST Verified badge and LinkedIn Public Company category are not registry, tax or listing proof. Customer logos, Qualcomm endorsement quotes, software reliability and physical product manufacture not independently established.')
 
+openmind=next((c for c in candidates if c['id']=='S057'),None)
+if openmind is None:
+    assert not any(normal(c['brand'])==normal('OpenMind Robotics') for c in candidates)
+    openmind={key:'' for key in candidates[0]}
+    openmind.update(id='S057',brand='OpenMind Robotics')
+    candidates.append(openmind)
+assert openmind['brand']=='OpenMind Robotics'
+openmind.update(legal_name='CÔNG TY TNHH OPENMIND ROBOTICS',country='VN',physical='hybrid',website='https://www.openmindrobotics.com/',
+    discovery_url=manifest['naiscorp_dost_award_202608']['url'],
+    notes='Vietnam company identified by HASI exhibitor listing; candidate parent MST3703462444 only from secondary directories, not official tax. Distinct from US OpenMind/OM1/Pantera-funded entity and Chinese Openmind robotics firms; no20-million-dollar funding attributed to VN company. Hybrid vision/robotics integration including OM-Eye/OnRobots and third-party robot hardware; not proof of own complete robot manufacture. Gradion reports live ACE integration28/07/2026; government QVIC innovation award20/08/2026 is separate event/owner. Prototype/reference implementation not customer production acceptance or audited deployment count. Company LinkedIn founded2026; website copyright2024 is not incorporation evidence. HASI scheduled booth not attendance proof; full masked tax value not inferred from site.')
+add('S057','discovery','naiscorp_dost_award_202608','trao 2 giải Đổi mới sáng tạo cho 2 đội AIZ và OpenMind Robotics',
+    published_at='2026-08-20',source_type='government',caveat='Government QVIC winner report adds a distinct VN robotics lead; not same company as AIZ or foreign OpenMind firms.')
+add('S057','identity','openmind_hasi_exhibitor_202607','Công ty TNHH Openmind robotics',
+    caveat='Vietnam association exhibitor listing names company; tax masked as3703**** and not reconstructed. Candidate3703462444 remains secondary, no official tax lookup.')
+add('S057','startup','openmind_company_linkedin','Founded\n2026',platform_operator='LinkedIn',
+    caveat='Company self-reported founding/early-stage team plus QVIC company context; not verified incorporation certificate. Website copyright2024 kept separate.')
+add('S057','product','openmind_company','Autonomous Cobot Picking and Placing',
+    caveat='Physical robotic manipulation solution combined with software, classified hybrid. Third-party robot-brand support does not establish own robot manufacture, endorsement or completed customer deployments.')
+add('S057','technology','openmind_company','Develops cutting-edge computer vision algorithms that allow robots to perceive and understand their surroundings',
+    caveat='Vendor mechanism description, not independently validated accuracy, speed, collision safety or ROI. Digital twins described elsewhere on same page.')
+add('S057','technology','openmind_gradion_ace_recap',"connect Openmind's OnRobots to Gradion's Fleet Management and MES on live ACE hardware",
+    caveat='Counterparty integration-session account; supports platform/hardware integration, not broad production-readiness or proof every future issue is solved.')
+add('S057','activity','openmind_gradion_ace_recap','On 28 July 2026, Openmind Robotics joined Gradion at the ACE floor in Ho Chi Minh City',
+    event_date='2026-07-28',origin_id='openmind_gradion_ace_live_integration_20260728',activity_role='counterparty_reported_live_integration',
+    caveat='Gradion reports OnRobots running on live hardware and a reference implementation. No customer acceptance, invoice, commercial contract or independent performance replication checked.')
+add('S057','activity','naiscorp_dost_award_202608','trao 2 giải Đổi mới sáng tạo cho 2 đội AIZ và OpenMind Robotics',
+    event_date='2026-08-20',published_at='2026-08-20',origin_id='openmind_qvic_innovation_award_20260820',
+    caveat='Government QVIC award report, distinct from Gradion July integration. Prize publication is not proof of funds received or mass deployment.')
+add('S057','counter_review','openmind_company','OpenMind Robotics',
+    search_queries=['"OpenMind Robotics" "giải thể"','"OpenMind Robotics" Vietnam "closed"'],
+    review_note='No verified closure of this exact Vietnam company found in relevant sources. US OpenMind/OM1/Pantera/PiNetwork funding and Chinese companies excluded. No20-million-dollar or RMB funding attributed. HASI booth schedule and pre-event LinkedIn announcements not attendance proof. Copyright2024 not incorporated date. Third-party logos, ROI, safety, accuracy and production/customer counts unverified; official parent tax still pending.')
+
 with (DATA/'candidates.csv').open('w',encoding='utf-8-sig',newline='') as handle:
     writer=csv.DictWriter(handle,fieldnames=list(candidates[0])); writer.writeheader(); writer.writerows(candidates)
 (DATA/'evidence.jsonl').write_text('\n'.join(json.dumps(e,ensure_ascii=False) for e in evidence)+'\n',encoding='utf-8')
 mp.write_text(json.dumps(list(manifest.values()),ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'startup_sources.json').write_text(json.dumps([{k:r[k] for k in ('id','source_type','publisher_owner','url')} for r in manifest.values()],ensure_ascii=False,indent=2),encoding='utf-8')
-print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007','S034','S028','S027','S030','S032','S017']}))
+print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007','S034','S028','S027','S030','S032','S017','S057']}))

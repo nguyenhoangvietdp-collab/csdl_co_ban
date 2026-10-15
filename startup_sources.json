@@ -742,5 +742,35 @@
     "source_type": "government",
     "publisher_owner": "Trường Đại học Nghệ An",
     "url": "https://nau.edu.vn/hoat-dong-tai-nau-14/nau-gan-ket-nha-truong-%E2%80%93-doanh-nghiep-hoc-tu-thuc-tien-truong-thanh-tu-trai-nghiem-11317.aspx"
+  },
+  {
+    "id": "openmind_company",
+    "source_type": "company",
+    "publisher_owner": "OpenMind Robotics Vietnam",
+    "url": "https://www.openmindrobotics.com/"
+  },
+  {
+    "id": "openmind_company_linkedin",
+    "source_type": "company",
+    "publisher_owner": "OpenMind Robotics Vietnam",
+    "url": "https://www.linkedin.com/company/openmind-robotics-ltd"
+  },
+  {
+    "id": "openmind_gradion_ace_recap",
+    "source_type": "company",
+    "publisher_owner": "Gradion",
+    "url": "https://gradion.com/en/vietnam-automation-centre-of-excellence/ace-event-recap-openmind-robotics"
+  },
+  {
+    "id": "openmind_hasi_exhibitor_202607",
+    "source_type": "competition",
+    "publisher_owner": "Hiệp hội Công nghiệp Hỗ trợ TP.HCM / HASI",
+    "url": "https://hasi.org.vn/su-kien/trien-lam-dien-dan-cong-nghiep-ho-tro-2026/danh-sach-gian-hang/38"
+  },
+  {
+    "id": "qvic2026_winners_release",
+    "source_type": "competition",
+    "publisher_owner": "InnoEx / QVIC (release syndicated by EIN Presswire)",
+    "url": "https://www.einpresswire.com/article/939260399/qualcomm-announces-winners-for-qualcomm-vietnam-innovation-challenge-2026"
   }
 ]

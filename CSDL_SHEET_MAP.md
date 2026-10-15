@@ -86,7 +86,7 @@ Chu kỳ cập nhật thủ công
 
 ```text
 CSDL CƠ BẢN
-├── Startup_Danh_sach — 56 hồ sơ, 13 cột
+├── Startup_Danh_sach — 57 hồ sơ, 13 cột
 │   ├── Khóa: Mã hồ sơ S001…; thương hiệu và pháp nhân giữ riêng
 │   ├── MST mẹ: chữ, không bỏ số 0 đầu; không thay bằng MST chi nhánh
 │   ├── Sàng lọc: đầu ra vật lý, kết quả, điều kiện còn thiếu
