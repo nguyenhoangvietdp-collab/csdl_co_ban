@@ -126,6 +126,8 @@ Rà soát tiếp: [VEEP — mô hình AIoT/EEaaS, chờ MST mẹ và Thuế](res
 
 [OLOGN / NAWI — mẫu thử và hoạt động gần đây](research/startups/OLOGN.md), chờ MST mẹ/Thuế; chưa xác minh triển khai cứu hỏa hoặc chứng nhận an toàn.
 
+[UDATA — nền tảng AIoT, PDF gateway và các thỏa thuận](research/startups/UDATA.md), chờ MST mẹ/Thuế; chưa xác nhận giải ngân hoặc nghiệm thu.
+
 ## Trạng thái thực tế
 
 Ngày 06/10/2026: 457 doanh nghiệp v1, 220 doanh nghiệp B2B, hợp nhất 457 doanh nghiệp; 20 sản phẩm; 2.031 liên kết tài liệu, gồm 371 PDF. Số lượng có thể thay đổi theo nguồn.

@@ -628,9 +628,39 @@ add('S029','counter_review','ologn_company','Saul Goodman',
     search_queries=['"OLOGN" "giải thể"','"OLOGN" "closed"','"0316563337" "OLOGN" "ORCO"'],
     review_note='No verified closure for exact VN entity found; OLogNTechnologiesAG Liechtenstein patents/Xiaomi litigation and generic algorithm/OLOGN Solutions sites excluded. Own homepage has SaulGoodman/MattBrandon/JohnLarson testimonials/template labels and success messages; not verified customers, counts or evidence form submitted. No message/signup sent. NAWI prototype not finished fieldtrial; explosive-atmosphere certification future condition,2027market/1500USDplan not shipped units. Camera/sensor performance,foundry/manufacturing IP,safety and official tax unverified. ORCO/MST0316563337 olddocument mirrors not primary/current rename proof; copies of TuoiTre not independent activity sources.')
 
+pdf=DATA/'sources/udata_credential.pdf'
+txt=pdf.with_suffix('.txt')
+manifest['udata_credential_pdf']=dict(id='udata_credential_pdf',source_type='company',publisher_owner='UDATA',url='https://udata.ai/credential.pdf',status='fetched_pdf',fetched_at='2026-10-15',snapshot='sources/udata_credential.txt',sha256=hashlib.sha256(txt.read_text(encoding='utf-8').encode()).hexdigest(),pdf_file='sources/udata_credential.pdf',pdf_sha256=hashlib.sha256(pdf.read_bytes()).hexdigest())
+udata=next(c for c in candidates if c['id']=='S031')
+udata.update(legal_name='CÔNG TY CỔ PHẦN UDATA',country='VN',physical='hybrid',website='https://udata.ai/',
+    notes='BK Fund original post names Công ty cổ phần Udata and investment agreement09/07/2026, not amount/closed disbursement. OwnJuly30BKE MOU report separateevent, not paid customercontract/commissionedsolarproject. Original19pagePDF18.6MB text extracted, page12visuallyread shows USG/UBG/UOG physicalgatewaycatalogue; Uboardsoftwareplusgatewayintegration classified hybrid, not independently proven own manufacture/delivery. PDFpage10UgateAIgateway is not automatically same physicalproduct. ParentMST0110848057secondaryonly, recruitmentsite0110902473conflicts so no arbitraryIDselection. Company LinkedInFounded2024andPublicCompanyselfcategories not verified incorporation/listing. Fund startupDeepTech context. Currentwebsite animatedcounterszero/0.0notactualno-deploymentoruptime values; efficiency/security/OEE/ESGclaimsnot independently benchmarked or certification. GooglePlayaccountclosurepostUDATATechnologiesidentitynotmapped; opendatateamudata/foreignnamesakesnotattributed.')
+add('S031','identity','udata_bkfund_investment_post','Công ty cổ phần Udata',
+    caveat='Fund original post identifies legal name and linked UDATA brand/solutions. No parent tax ID in reviewed text; candidate0110848057 and recruitment0110902473 not reconciled by name/address alone.')
+add('S031','startup','udata_bkfund_investment_post','startup Deep Tech',
+    caveat='Investor explicitly describes startup context. No funding amount, actual disbursement, audited customer acceptance, incorporation date or exchange listing verified; LinkedInPublicCompany is not listing evidence.')
+add('S031','product','udata_uboard','Consolidate multi-source data into an intuitive platform',
+    caveat='Offered Uboard software for factory/energy/equipment data. Hybrid classification relies additionally on stated EMS/hardware integration, not proof Uboard itself is a physical box or UDATA manufactures all sensors/gateways.')
+add('S031','product','udata_company_linkedin','high-quality hardware components',platform_operator='LinkedIn',
+    caveat='Company describes integrating EMS with hardware in BKE partnership context, supporting hybrid solution model. Not independent own-hardware production, installed volume, accepted deployment or proof Ugate AI platform equals older MiniUgate gateway.')
+add('S031','product','udata_credential_pdf','Udata Gateway',page=12,
+    caveat='Original company PDF19pages, page12 rendered/read: physical USG/UBG/UOG units and interface/spec table. Supports hybrid hardware/software catalogue, not independently tested specs, manufacture origin, delivery volumes or safety certification. Page10 Ugate AI Gateway software kept distinct; no publication date inferred from capture or embedded PDF metadata.')
+add('S031','technology','udata_uboard','AI Reporting',
+    caveat='Vendor describes reporting/AI answers, multisource operational data, alerts and IoT monitoring. No source-code, model-provenance, safety/security/30-dayoffline capability or ROI benchmark audit. Energy/OEE efficiency claims not certification.')
+add('S031','activity','udata_bkfund_investment_post','officially signed an investment agreement',event_date='2026-07-09',
+    origin_id='udata_bkfund_investment_agreement_20260709',platform_operator='LinkedIn',activity_role='investor_reported_agreement_signing',
+    event_date_basis='Fund English/Vietnamese post explicitly gives9July2026; relative post age not used.',
+    caveat='Investor reports signed agreement only; no amount, bank transfer, equity registration, governance completion or customer contract verified. Reposts by UDATA/ThinkZone/individuals same originalowner/event.')
+add('S031','activity','udata_company_linkedin','Memorandum of Understanding (MOU)',event_date='2026-07-30',
+    origin_id='udata_bke_solar_partnership_mou_20260730',platform_operator='LinkedIn',activity_role='company_reported_mou_signing',
+    event_date_basis='Company post explicitly states30July2026; no publication date inferred from relative age.',
+    caveat='Separate date/partner/event from BK Fund agreement. Self-report MOU with BKE Vietnam, not signed paid supply contract, realised savings, operating solar site or regulatory acceptance.')
+add('S031','counter_review','udata_uboard','Platform Uptime SLA',
+    search_queries=['"UDATA" "giải thể"','"UDATA" "closed" Vietnam'],
+    review_note='No verified exact-company closure found in scoped searches. GooglePlayUDATATechnologiesaccountclosurepost not mapped by entity/developer ID; not attributed. opendatateamudata closed issues and foreign firms not company closure/IP. Website0/0.0 animatedcountertext not interpreted as actual zero customers/deployments/uptime. Safety/privacy/energy/OEE/ESG results, costbenefit, customerlogos and grouprelationshipsnot independently audited. Candidate0110848057 vs recruitment0110902473unresolved; no matchingparentofficialtax. LinkedInPublicCompany not stockexchange listing. BKFundsigning not verified cash received; BKE MOU not commissionedproject. Oldgateway names vsnewUgateAIbrandingnot silently merged.')
+
 with (DATA/'candidates.csv').open('w',encoding='utf-8-sig',newline='') as handle:
     writer=csv.DictWriter(handle,fieldnames=list(candidates[0])); writer.writeheader(); writer.writerows(candidates)
 (DATA/'evidence.jsonl').write_text('\n'.join(json.dumps(e,ensure_ascii=False) for e in evidence)+'\n',encoding='utf-8')
 mp.write_text(json.dumps(list(manifest.values()),ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'startup_sources.json').write_text(json.dumps([{k:r[k] for k in ('id','source_type','publisher_owner','url')} for r in manifest.values()],ensure_ascii=False,indent=2),encoding='utf-8')
-print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007','S034','S028','S027','S030','S032','S017','S057','S018','S020','S019','S022','S023','S026','S024','S025','S029']}))
+print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007','S034','S028','S027','S030','S032','S017','S057','S018','S020','S019','S022','S023','S026','S024','S025','S029','S031']}))

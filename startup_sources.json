@@ -1036,5 +1036,47 @@
     "source_type": "media",
     "publisher_owner": "Báo Tuổi Trẻ",
     "url": "https://tuoitre.vn/tuoi-tre-startup-award-thiet-bi-nhin-trong-khoi-giup-linh-cuu-hoa-tim-nguoi-bi-nan-100261002222628699.htm"
+  },
+  {
+    "id": "udata_company",
+    "source_type": "company",
+    "publisher_owner": "UDATA",
+    "url": "https://udata.ai/"
+  },
+  {
+    "id": "udata_company_linkedin",
+    "source_type": "company",
+    "publisher_owner": "UDATA",
+    "url": "https://www.linkedin.com/company/udatajsc"
+  },
+  {
+    "id": "udata_bkfund_investment_202607",
+    "source_type": "fund",
+    "publisher_owner": "BK Fund",
+    "url": "https://vn.linkedin.com/company/bk-fund"
+  },
+  {
+    "id": "udata_bkfund_investment_post",
+    "source_type": "fund",
+    "publisher_owner": "BK Fund",
+    "url": "https://vn.linkedin.com/posts/bk-fund_english-below-bk-fund-ch%C3%ADnh-th%E1%BB%A9c-%C4%91%E1%BA%A7u-t%C6%B0-activity-7481266799573921792-MfaD"
+  },
+  {
+    "id": "udata_about",
+    "source_type": "company",
+    "publisher_owner": "UDATA",
+    "url": "https://udata.ai/about-us"
+  },
+  {
+    "id": "udata_uboard",
+    "source_type": "company",
+    "publisher_owner": "UDATA",
+    "url": "https://udata.ai/product/uboard"
+  },
+  {
+    "id": "udata_credential_pdf",
+    "source_type": "company",
+    "publisher_owner": "UDATA",
+    "url": "https://udata.ai/credential.pdf"
   }
 ]
