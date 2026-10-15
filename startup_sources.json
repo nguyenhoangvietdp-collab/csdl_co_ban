@@ -772,5 +772,53 @@
     "source_type": "competition",
     "publisher_owner": "InnoEx / QVIC (release syndicated by EIN Presswire)",
     "url": "https://www.einpresswire.com/article/939260399/qualcomm-announces-winners-for-qualcomm-vietnam-innovation-challenge-2026"
+  },
+  {
+    "id": "antaja_company",
+    "source_type": "company",
+    "publisher_owner": "Antaja",
+    "url": "https://www.antaja.com/"
+  },
+  {
+    "id": "antaja_github",
+    "source_type": "company",
+    "publisher_owner": "Antaja",
+    "url": "https://github.com/ant-aja"
+  },
+  {
+    "id": "antaja_qlinx_linkedin",
+    "source_type": "company",
+    "publisher_owner": "Antaja",
+    "url": "https://vn.linkedin.com/posts/antaja_antaja-qlinx-qvic2026-activity-7468145736820371456-vESP"
+  },
+  {
+    "id": "fillsonic_company_attempt",
+    "source_type": "company",
+    "publisher_owner": "Unverified Fillsonic domain",
+    "url": "https://fillsonic.com/"
+  },
+  {
+    "id": "antaja_about",
+    "source_type": "company",
+    "publisher_owner": "Antaja",
+    "url": "https://www.antaja.com/about-us"
+  },
+  {
+    "id": "antaja_terms",
+    "source_type": "company",
+    "publisher_owner": "Antaja",
+    "url": "https://www.antaja.com/terms"
+  },
+  {
+    "id": "antaja_rtk",
+    "source_type": "company",
+    "publisher_owner": "Antaja",
+    "url": "https://www.antaja.com/platforms/rtk-ground-control"
+  },
+  {
+    "id": "antaja_qlinx_module",
+    "source_type": "company",
+    "publisher_owner": "Antaja",
+    "url": "https://www.antaja.com/platforms/compliant-modules"
   }
 ]

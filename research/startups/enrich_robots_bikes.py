@@ -443,9 +443,40 @@ add('S057','counter_review','openmind_company','OpenMind Robotics',
     search_queries=['"OpenMind Robotics" "giải thể"','"OpenMind Robotics" Vietnam "closed"'],
     review_note='No verified closure of this exact Vietnam company found in relevant sources. US OpenMind/OM1/Pantera/PiNetwork funding and Chinese companies excluded. No20-million-dollar or RMB funding attributed. HASI booth schedule and pre-event LinkedIn announcements not attendance proof. Copyright2024 not incorporated date. Third-party logos, ROI, safety, accuracy and production/customer counts unverified; official parent tax still pending.')
 
+antaja=next(c for c in candidates if c['id']=='S018')
+antaja.update(legal_name='',country='VN',website='https://www.antaja.com/',
+    notes='Website legal terms self-declare incorporation in Vietnam and footer uses Antaja Co., Ltd.; exact registered name/MST mapping remains unverified. Vietnamese name CÔNG TY TNHH ANTAJA / candidate MST0110515925 from secondary directories, not official tax. Cached GitHub web result names Antaja Company Limited, while current raw capture says ant & aja Lab without same website mapping; not used as current legal identity. QLINX post explicitly describes R&D and future finalist meeting. RTK/control and compliance-module pages Coming Soon/currently under development. Product completion, physical prototype/output, startup stage, independent recent activity and regulatory permission unverified. Homepage lists intended thermal/UAV/RTK/cloud features; fleet counts are simulation. GitHub forks not own IP or customer delivery.')
+add('S018','identity','antaja_company','Copyright © 2026 Antaja Co., Ltd.',
+    caveat='Own footer names company in abbreviated English; exact registered Vietnamese name/MST not corroborated. Do not treat cached GitHub company name as current identity: raw capture has a different display name.')
+add('S018','identity','antaja_terms','a technology research and development company incorporated in Vietnam.',
+    caveat='Company own legal terms self-declare Vietnam incorporation; reviewed as page content without registration, order or acceptance. Does not verify tax or specific approvals.')
+add('S018','technology','antaja_qlinx_linkedin','Tại Antaja, chúng tôi đang nghiên cứu và phát triển QLINX™',platform_operator='LinkedIn',
+    caveat='Company describes R&D for identity/verification/trust of autonomous systems; not completed production, registered IP, cm-level positioning test or permission for autonomous flight.')
+add('S018','product','antaja_qlinx_module','This solution is currently under development.',
+    caveat='Withheld from product gate: detail page is Coming Soon, not a verified functional product, manufactured module or customer deployment.')
+next(e for e in evidence if e['id']=='E_antaja_qlinx_module_product_S018')['reviewed']=False
+add('S018','counter_review','antaja_rtk','This solution is currently under development.',
+    search_queries=['"ANTAJA" "giải thể"','"Antaja" "ceased operations"'],
+    review_note='No verified closure found for exact Vietnam company in relevant results; Finnish/Indonesian homonyms excluded. Homepage features and simulation fleet counts not installed assets. RTK/control and compliance-module detail pages Coming Soon, so product gate remains pending. LinkedIn invitation to August finale not attendance proof. Forked GitHub projects not own inventions or independent activity. Secondary tax active status not official tax; planned2030 scale not current results.')
+
+fillsonic=next(c for c in candidates if c['id']=='S020')
+fillsonic['notes']='QVIC shortlist describes adaptive multi-speaker edge audio, but no verified functional product, primary legal identity, startup stage or current operations found in scoped searches. Candidate CÔNG TY CỔ PHẦN FILLSONIC / MST0111030296 only from secondary directories; not entered as verified legal/tax. One obvious domain attempt fillsonic.com returns Fill Sonic Coming Soon, without legal ID or link proving relation to QVIC company; official website field remains empty. Sparse indexed results do not mean company closed. Do not infer hardware manufacture from registered industry or confuse clothing Fillsonic650 branding.'
+base=next(e for e in evidence if e['id']=='E_QVIC26_S020')
+for kind,reviewed in [('counter_review',True),('product',False)]:
+    record=dict(base,id=f'E_FILLSONIC_SHORTLIST_{kind.upper()}',kind=kind,reviewed=reviewed)
+    if kind=='counter_review':
+        record.update(search_queries=['"Fillsonic" "giải thể"','"Fillsonic" "closed"','"Fillsonic" "speaker"','"Fillsonic" "loa"'],
+            review_note='No verified closure found, but primary legal/company/product/activity sources remain insufficient after scoped searches. Secondary candidate MST0111030296 and guessed Coming Soon domain not verified as QVIC company. No company contact sent, signup, order or identity inferred from missing web presence.')
+    else:
+        record['caveat']='Withheld from product gate: original organiser image states a concept/solution, without functional product, prototype or producer evidence; physical classification left unreviewed.'
+    old=next((e for e in evidence if e['id']==record['id']),None)
+    if old: evidence[evidence.index(old)]=record
+    else: evidence.append(record)
+    assert not validate_evidence(dict(record,reviewed=True),date(2026,10,15),DATA)
+
 with (DATA/'candidates.csv').open('w',encoding='utf-8-sig',newline='') as handle:
     writer=csv.DictWriter(handle,fieldnames=list(candidates[0])); writer.writeheader(); writer.writerows(candidates)
 (DATA/'evidence.jsonl').write_text('\n'.join(json.dumps(e,ensure_ascii=False) for e in evidence)+'\n',encoding='utf-8')
 mp.write_text(json.dumps(list(manifest.values()),ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'startup_sources.json').write_text(json.dumps([{k:r[k] for k in ('id','source_type','publisher_owner','url')} for r in manifest.values()],ensure_ascii=False,indent=2),encoding='utf-8')
-print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007','S034','S028','S027','S030','S032','S017','S057']}))
+print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007','S034','S028','S027','S030','S032','S017','S057','S018','S020']}))

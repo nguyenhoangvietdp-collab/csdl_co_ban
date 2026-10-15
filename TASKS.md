@@ -32,7 +32,8 @@ Chưa có lịch tự động hoặc CI chạy crawler.
 ## Bộ startup — 15/10/2026
 
 - [x] Thu thập snapshot và thiết lập cửa sàng lọc Thuế/bằng chứng hoạt động.
-- [x] Ghi 57 hồ sơ, 222 bằng chứng và 7 hồ sơ đạt vào ba tab startup của Sheet.
+- [x] Ghi 57 hồ sơ, 229 bản ghi bằng chứng (gồm bản giữ ngoài duyệt) và 7 hồ sơ đạt vào ba tab startup của Sheet.
+- [x] Rà soát ANTAJA/Fillsonic; giữ sản phẩm chưa xác minh ngoài duyệt, không suy triển khai từ concept/Coming Soon.
 - [x] Bổ sung OpenMind Robotics Việt Nam, phân biệt công ty nước ngoài, xác nhận báo cáo tích hợp Gradion; giữ Chờ MST mẹ/Thuế.
 - [x] Bổ sung AIZ: sản phẩm phần mềm và3 hoạt động khác nguồn; giữ Chờ MST mẹ/Thuế, không gán kết quả BHXH cùng tên chưa khớp pháp nhân.
 - [x] Bổ sung VEEP, xác định mô hình hybrid, tách MST mẹ ứng viên khỏi văn phòng đại diện/NTNN; giữ Chờ Thuế.

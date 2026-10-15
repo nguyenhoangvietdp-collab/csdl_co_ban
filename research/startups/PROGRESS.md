@@ -2,6 +2,9 @@
 
 ## Cập nhật 15/10/2026
 
+- Rà soát S018 ANTAJA và S020 Fillsonic, thêm7 bản ghi, gồm2 product giữ ngoài duyệt. ANTAJA tự mô tả R&D/QLINX nhưng trang RTK/module Coming Soon; lời mời QVIC chưa chứng minh tham dự. Cached GitHub có tên công ty cũ trong khi raw hiện tại nói ant & aja Lab, không dùng như pháp nhân hiện hành. Fillsonic chỉ đủ shortlist/concept và phản chứng; domain thử trực tiếp chưa nối được với pháp nhân. Không suy closure từ website sơ sài hoặc ít kết quả. MST0110515925/0111030296 chỉ là đầu mối thứ cấp; chưa chốt sản phẩm/đầu ra hoặc trạng thái Thuế.
+- Sheet cập nhật dòng19/21 và bằng chứng224–230; đọc lại117 ô khớp, giữ2 sản phẩm ngoài duyệt và FILTER vẫn7. Kiểm tra định dạng API, chưa xem lại Google-rendered UI. Tổng **57 ứng viên, 229 bằng chứng (gồm bản giữ ngoài duyệt), 7 đạt, 49 chờ, 1 loại pháp nhân Thuế**. Ledger chọn lọc46/46 quote khớp offline, không phải audit đầy đủ229 bản ghi. [Phạm vi rà soát và phần còn thiếu](ANTAJA_FILLSONIC.md).
+
 - Thêm ứng viên S057 OpenMind Robotics Việt Nam với9 bằng chứng: discovery QVIC từ Sở, tên pháp nhân HASI, ngữ cảnh startup tự khai2026, giải pháp cobot/vision/digital twins, tích hợp OnRobots trên ACE của Gradion28/07 và giải QVIC20/08, cùng phản chứng. Xếp Kết hợp, không xác nhận tự sản xuất robot hoặc triển khai hàng loạt. MST3703462444 chỉ từ danh bạ; HASI che3703**** nên không suy phần còn lại. Tách khỏi OpenMind/OM1 và các tin gọi vốn của tổ chức nước ngoài.
 - Sheet thêm dòng58 và bằng chứng215–223; đọc lại130 ô khớp, mở vùng lọc cho dòng mới; style/structure kiểm tra qua API, chưa xem lại Google-rendered UI. Tổng **57 ứng viên, 222 bằng chứng, 7 đạt, 49 chờ, 1 loại pháp nhân Thuế**. Ledger chọn lọc44/44 quote khớp offline, không phải audit đầy đủ222 bằng chứng. Bản tin EIN mới tải snapshot thất bại, không dùng vào bằng chứng; chủ nội dung xác định là InnoEx, không ghi thành nguồn Qualcomm độc lập. [Hồ sơ OpenMind](OPENMIND_ROBOTICS.md).
 
