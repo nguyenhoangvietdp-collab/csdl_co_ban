@@ -90,7 +90,12 @@ def fetch(args):
                     raise ValueError('Source exceeds 8 MB limit; download and inspect separately')
                 if 'html' not in response.headers.get('Content-Type', ''):
                     raise ValueError('HTML collector only; inspect PDF/image separately')
-                html = body.decode(response.headers.get_content_charset() or 'utf-8', errors='replace')
+                try:
+                    html = body.decode(response.headers.get_content_charset() or 'utf-8', errors='replace')
+                except LookupError:
+                    # Some publishers send malformed charset labels such as utf-8,gbk.
+                    html = body.decode('utf-8', errors='replace')
+                    row['decode_fallback'] = 'utf-8: unsupported publisher charset'
                 row['final_url'] = response.geturl()
             parser = Page()
             parser.feed(html)

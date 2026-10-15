@@ -116,6 +116,8 @@ Rà soát tiếp: [VEEP — mô hình AIoT/EEaaS, chờ MST mẹ và Thuế](res
 
 [ANTAJA và Fillsonic — các điểm chưa xác minh](research/startups/ANTAJA_FILLSONIC.md): concept/R&D và trang Coming Soon chưa đủ vượt cửa sản phẩm.
 
+[BRAIN-LIFE và FIZIBOX — thiết bị, công báo SHTT và hoạt động meetup](research/startups/BRAINLIFE_FIZIBOX.md), còn thiếu đối chiếu pháp nhân/Thuế.
+
 ## Trạng thái thực tế
 
 Ngày 06/10/2026: 457 doanh nghiệp v1, 220 doanh nghiệp B2B, hợp nhất 457 doanh nghiệp; 20 sản phẩm; 2.031 liên kết tài liệu, gồm 371 PDF. Số lượng có thể thay đổi theo nguồn.

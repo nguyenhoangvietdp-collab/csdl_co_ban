@@ -820,5 +820,65 @@
     "source_type": "company",
     "publisher_owner": "Antaja",
     "url": "https://www.antaja.com/platforms/compliant-modules"
+  },
+  {
+    "id": "brainlife_company",
+    "source_type": "company",
+    "publisher_owner": "Brain-Life",
+    "url": "https://brainlife.ai/"
+  },
+  {
+    "id": "brainlife_focus_product",
+    "source_type": "company",
+    "publisher_owner": "Brain-Life",
+    "url": "https://focus.brainlife.ai/"
+  },
+  {
+    "id": "brainlife_sihub_profile",
+    "source_type": "government",
+    "publisher_owner": "SIHUB / H.OIP (company profile)",
+    "url": "https://hoip.sihub.gov.vn/startup/657"
+  },
+  {
+    "id": "brainlife_team",
+    "source_type": "company",
+    "publisher_owner": "Brain-Life",
+    "url": "https://brainlife.ai/ve-doi-ngu/"
+  },
+  {
+    "id": "fizibox_company",
+    "source_type": "company",
+    "publisher_owner": "Fizibox",
+    "url": "https://fizibox.com/"
+  },
+  {
+    "id": "fizibox_about_post_202608",
+    "source_type": "company",
+    "publisher_owner": "Fizibox",
+    "url": "https://fizibox.com/vi/blog/about-fizibox-ai-cho-van-hanh-thong-minh"
+  },
+  {
+    "id": "brainlife_iu_product_202507",
+    "source_type": "government",
+    "publisher_owner": "Trường Đại học Quốc tế / ĐHQG TP.HCM",
+    "url": "https://hcmiu.edu.vn/brain-life-gioi-thieu-thiet-bi-deo-dau-chuan-chau-au-ho-tro-suc-khoe-tinh-than/"
+  },
+  {
+    "id": "fizibox_terms",
+    "source_type": "company",
+    "publisher_owner": "Fizibox",
+    "url": "https://fizibox.com/terms"
+  },
+  {
+    "id": "brainlife_ipo_459A1",
+    "source_type": "government",
+    "publisher_owner": "Cục Sở hữu trí tuệ",
+    "url": "https://www.ipvietnam.gov.vn/documents/20182/2416858/CB459A1.pdf/60490e29-eca2-425b-8a71-b1d7dc48dc5d"
+  },
+  {
+    "id": "fizibox_genai_meetup_202604",
+    "source_type": "industry",
+    "publisher_owner": "GenAI Fund",
+    "url": "https://genaifund.ai/2026/04/24/recap-genai-builders-meetup-x-qwen-x-sunwah-group-vietnam-april-23/"
   }
 ]

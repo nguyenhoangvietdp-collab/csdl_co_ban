@@ -474,9 +474,58 @@ for kind,reviewed in [('counter_review',True),('product',False)]:
     else: evidence.append(record)
     assert not validate_evidence(dict(record,reviewed=True),date(2026,10,15),DATA)
 
+pdf=DATA/'sources/brainlife_ipo_459A1.pdf'
+txt=pdf.with_suffix('.txt')
+manifest['brainlife_ipo_459A1']=dict(id='brainlife_ipo_459A1',source_type='government',publisher_owner='Cục Sở hữu trí tuệ',url='https://www.ipvietnam.gov.vn/documents/20182/2416858/CB459A1.pdf/60490e29-eca2-425b-8a71-b1d7dc48dc5d',status='fetched_pdf',fetched_at='2026-10-15',snapshot='sources/brainlife_ipo_459A1.txt',sha256=hashlib.sha256(txt.read_text(encoding='utf-8').encode()).hexdigest(),pdf_file='sources/brainlife_ipo_459A1.pdf',pdf_sha256=hashlib.sha256(pdf.read_bytes()).hexdigest())
+brainlife=next(c for c in candidates if c['id']=='S019')
+brainlife.update(legal_name='CÔNG TY CỔ PHẦN CÔNG NGHỆ BRAIN-LIFE LINK',country='VN',physical='yes',website='https://brainlife.ai/',
+    notes='IPO original gazette459A1 page32 names VN applicant; application1-2024-08724 published15/05/2026, not a granted patent or clinical approval. Candidate parent MST0318400345 only secondary, branches001/002/003 not parent. Focus+ physical BCI/EEG wearable offered for preorder; no verified mass shipment, clinical efficacy or device approvals. Product FAQ calls it consumer technology, not diagnosis/treatment. Company preorder offer observed15/10/2026 and IPO publication are distinct sources/origins; offer is not completed sale. SIHUB profile MVP but founding2014 conflicts with company/secondary2024: date unresolved, not silently corrected. UK contacts/brand not substituted for Vietnam legal entity.10+ patents, partners, founding-age and investment/cloud-credit claims not independently audited.')
+add('S019','identity','brainlife_ipo_459A1','CÔNG TY CỔ PHẦN CÔNG NGHỆ BRAIN-LIFE LINK (VN)',page=32,
+    caveat='Official applicant identity and VN designation, not current tax status or proof that all related foreign brand entities are the same company.')
+add('S019','startup','brainlife_sihub_profile','Giai đoạn Sản phẩm / Dịch vụ Sơ khai (MVP)',
+    caveat='Startup platform profile says MVP. Provider submission not independently audited;2014 founding field conflicts with2024 in other sources and is left unresolved. MVP stage not inferred from patents or research team age.')
+add('S019','product','brainlife_focus_product','Deliver advanced BCI wearables and software for focus, stress management, and health monitoring.',
+    caveat='Physical wearable offered for preorder, not verified mass delivery. Own FAQ says consumer technology not intended for diagnosis/treatment. Testimonials, first-in-Vietnam and European-standard claims not independent efficacy/certification proof.')
+add('S019','technology','brainlife_company','Thiết bị của Brain-Life thu thập tín hiệu EEG',
+    caveat='Company describes EEG capture and AI/cloud analysis. Cognitive-state accuracy, benefit, biomedical-data protection and clinical claims not independently tested.')
+add('S019','technology','brainlife_ipo_459A1','GIAO DIỆN TƯƠNG TÁC MÁY TÍNH NÃO KHÔNG CẦN HIỆU CHUẨN',page=32,
+    caveat='Published application subject matter, not granted protection, successful implementation, regulatory authorisation or proof calibration is unnecessary in all uses.')
+add('S019','activity','brainlife_ipo_459A1','(43) 15/05/2026',event_date='2026-05-15',published_at='2026-05-15',page=32,
+    origin_id='brainlife_application_1_2024_08724_publication_20260515',activity_role='supporting_rd_publication',
+    caveat='Application publication milestone, not grant date, manufacturing or clinical deployment.')
+add('S019','activity','brainlife_focus_product','Reserve today to receive an exclusive discount for Early Explorers.',event_date='2026-10-15',
+    origin_id='brainlife_focus_preorder_offer_observed_20261015',activity_role='observed_live_product_offer',
+    event_date_basis='Live preorder offer observed at capture; not product release, order fulfilment or commissioning date.',
+    caveat='Self-published commercial offer only. March beta/June delivery roadmap has no verified year/completion; no200 beta units,1000 preorders or delivered volume inferred.')
+add('S019','counter_review','brainlife_focus_product','It is not intended for medical diagnosis or treatment.',
+    search_queries=['"Brain-Life" "giải thể"','"Brain-Life" "closed" Vietnam'],
+    review_note='No verified closure for exact VN entity in relevant sources; US Brain Life LLC litigation, brainlife.io research platform and Japanese Brain Life Imaging excluded. SIHUB2014 versus2024 founding unresolved. UK contacts not VN legal substitute. Patent applications not grants; Google cloud programme credits not equity cash; claimed10-billion-VND investment not independently reconciled. Consumer FAQ excludes diagnosis/treatment. Preorders/roadmap not delivery or clinical validation.')
+
+fizibox=next(c for c in candidates if c['id']=='S022')
+fizibox.update(brand='FIZIBOX',tax_id='0319317523',country='VN',physical='hybrid',website='https://fizibox.com/',
+    notes='Standardised brand to FIZIBOX from current own site; original shortlist transcript FIZIBBOX retained as historical alias, not separate company. Own footer Fizibox Corp and parent candidate tax0319317523; exact VN legal name CÔNG TY CỔ PHẦN FIZIBOX still secondary, no official tax. Hybrid industrial edge AI nodes/software for existing cameras.99% false-alarm reduction,15s response, patents, airport/TBS cases, fire-safety compliance and customer deployment counts not independently verified. Some product/about links404; zero/blank animated metrics not interpreted as zero deployments. GenAI Fund reports participation/pitch at meetup23/04/2026, distinct from August own product offer. Angel tranche ask indicates early-stage fundraising context, not completed investment or client contract.')
+add('S022','identity','fizibox_company','Fizibox Corp',
+    caveat='Own footer identifies abbreviated English brand/company and tax0319317523. Exact registered VN legal name unverified; official tax result required. Historical shortlist typo FIZIBBOX not another company.')
+add('S022','product','fizibox_company','Industrial-Grade Hardware Nodes',
+    caveat='Vendor describes physical edge nodes integrated with software and existing cameras, hence hybrid. Not proof of manufacturing volumes, certified fire alarm function or paid customer deployment.')
+add('S022','technology','fizibox_about_post_202608','Fizibox Node có thể được đặt gần nguồn dữ liệu để xử lý hình ảnh ngay tại chỗ.',published_at='2026-08-09',
+    caveat='Vendor mechanism of edge processing/selective alerts. Accuracy, false-positive reduction, failover, cyber/data security and safety compliance not independently tested.')
+add('S022','activity','fizibox_about_post_202608','Fizibox hỗ trợ từ bước làm rõ nhu cầu, chọn cấu hình Fizibox Node phù hợp',
+    event_date='2026-08-09',published_at='2026-08-09',origin_id='fizibox_product_service_offer_report_20260809',activity_role='self_published_product_offer',
+    caveat='Dated own product/service offer report, not verified field acceptance or customer contract. Owner distinct from GenAI Fund April meetup report.')
+add('S022','counter_review','fizibox_company','Tax code: 0319317523',
+    search_queries=['"Fizibox" "giải thể"','"Fizibox" "closed"'],
+    review_note='No verified closure for exact VN brand in relevant sources; Hungarian classroom kits and homonyms excluded. Own tax footer not official active-tax evidence.99%/15s, patents, case studies, logo support, compliance and deployment numbers not independently verified; blank rendered counters not zeros. Some product/about links404, not evidence company closed. GenAI Fund meetup report supplies separate source/event; angel fundraising ask is not cash received, signed partnership or independent safety validation.')
+add('S022','startup','fizibox_genai_meetup_202604','Ask: $50K angel tranche, industrial, F&B, and retail partnerships, and an Associate Founder in BD and Global Relations',
+    caveat='Organiser recap describes fundraising/cofounder needs, supporting early-stage startup context by inference. Not an incorporation date, investment received or investor endorsement of performance.')
+add('S022','activity','fizibox_genai_meetup_202604','FIZIBOX: An edge AI operating system built around dual-stage cognitive verification',
+    event_date='2026-04-23',origin_id='fizibox_genai_builders_meetup_20260423',activity_role='organiser_reported_meetup_pitch',
+    event_date_basis='Event date from recap page title April23,2026; URL date April24 not separately treated as verified publication metadata.',
+    caveat='GenAI Fund recap lists representative Tran Le Phuong Duyen and FIZIBOX among builders who pitched in Ho Chi Minh City. Distinct from August own product offer; not proof of investment, customer delivery, hardware certification or legal/tax identity.')
+
 with (DATA/'candidates.csv').open('w',encoding='utf-8-sig',newline='') as handle:
     writer=csv.DictWriter(handle,fieldnames=list(candidates[0])); writer.writeheader(); writer.writerows(candidates)
 (DATA/'evidence.jsonl').write_text('\n'.join(json.dumps(e,ensure_ascii=False) for e in evidence)+'\n',encoding='utf-8')
 mp.write_text(json.dumps(list(manifest.values()),ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'startup_sources.json').write_text(json.dumps([{k:r[k] for k in ('id','source_type','publisher_owner','url')} for r in manifest.values()],ensure_ascii=False,indent=2),encoding='utf-8')
-print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007','S034','S028','S027','S030','S032','S017','S057','S018','S020']}))
+print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007','S034','S028','S027','S030','S032','S017','S057','S018','S020','S019','S022']}))
