@@ -32,7 +32,8 @@ Chưa có lịch tự động hoặc CI chạy crawler.
 ## Bộ startup — 15/10/2026
 
 - [x] Thu thập snapshot và thiết lập cửa sàng lọc Thuế/bằng chứng hoạt động.
-- [x] Ghi 57 hồ sơ, 270 bản ghi bằng chứng (gồm bản giữ ngoài duyệt) và 7 hồ sơ đạt vào ba tab startup của Sheet.
+- [x] Ghi 57 hồ sơ, 277 bản ghi bằng chứng (gồm bản giữ ngoài duyệt) và 7 hồ sơ đạt vào ba tab startup của Sheet.
+- [x] Rà soát OLOGN/NAWI: mẫu thử còn chuẩn bị thử nghiệm, báo cáo R&D và sự kiện HUTECH khác nguồn/ngày; chờ MST mẹ/Thuế.
 - [x] Rà soát HEALTHBRIDGE AI/HITEK: phân loại đầu ra, ghi tên pháp nhân còn mâu thuẫn; không gán MST cùng tên hoặc ngày sự kiện chưa chắc chắn.
 - [x] Rà soát MEDCAT: phần mềm IDUS/Nexus, giải Digital Startup và chứng nhận hệ sinh thái Hà Nội; chờ MST mẹ/Thuế, tách MedCAT TPA.
 - [x] Rà soát FST: catalogue drone, tên tự công bố và ngữ cảnh nợ phí đấu thầu; giữ Chờ các cửa còn thiếu.

@@ -1018,5 +1018,23 @@
     "source_type": "company",
     "publisher_owner": "Hitek",
     "url": "https://hitekdrone.com/du-an/drone-light-show-dong-nai-le-khai-mac-giai-bong-da-cup-quoc-gia-2025-26/"
+  },
+  {
+    "id": "ologn_company",
+    "source_type": "company",
+    "publisher_owner": "OLOGN Technology",
+    "url": "https://ologn.tech/"
+  },
+  {
+    "id": "ologn_company_linkedin",
+    "source_type": "company",
+    "publisher_owner": "OLOGN Technology",
+    "url": "https://www.linkedin.com/company/ologn-tech"
+  },
+  {
+    "id": "ologn_nawi_tuoitre_202610",
+    "source_type": "media",
+    "publisher_owner": "Báo Tuổi Trẻ",
+    "url": "https://tuoitre.vn/tuoi-tre-startup-award-thiet-bi-nhin-trong-khoi-giup-linh-cuu-hoa-tim-nguoi-bi-nan-100261002222628699.htm"
   }
 ]

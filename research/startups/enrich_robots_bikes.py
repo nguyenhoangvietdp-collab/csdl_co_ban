@@ -606,9 +606,31 @@ add('S025','counter_review','hitek_national_cup_project','Tối ngày 14/09 vừ
     search_queries=['"Hitek Drone" "2026" site:allumee.com'],
     review_note='Company project is titled NationalCup2025/26 and gives14/09 without separately verified year. Do not use season2026 as event year or assume within365day window; project omitted from recent activity gate. No customer-side acceptance, invoice, exact event date or counted fleet independently checked.')
 
+ologn=next(c for c in candidates if c['id']=='S029')
+ologn.update(legal_name='CÔNG TY TNHH OLOGN TECHNOLOGY',country='VN',physical='yes',website='https://ologn.tech/',
+    notes='Original TuoiTre04/10/2026 names Công ty TNHH OLOGN Technology and founders with photographed NAWI prototype. Own site team HuyDuong/LuanLe and LinkedIn same website match brand context. Candidate parentMST0316563337 onlysecondary; old ORCO internship-document mirrors not primary/current tax rename proof, ID left unset. Physical NAWI AR clip-on prototype, preparing real-world trials; no completed firefighter field validation, certified explosive-atmosphere use, sales or deployments established. Earliest2027market plan and1500USD are forecasts, not delivery/transaction. Edge AI/camera/iToF/gas/thermal architecture reported; gas threshold/drift MCU path explicitly not ML, do not call all sensors AI. Oct4prototype-development report and ownOct9HUTECHevent distinct owners/origins; copiesVietnam.vn/inkl sameTuoiTreowner. Homepage SaulGoodman/MattBrandon/JohnLarson testimonials and template success messages/counters not verified clients or sent forms. Separate o-logn.com Solutions and OLogNTechnologiesAG patents/litigation.')
+add('S029','identity','ologn_nawi_tuoitre_202610','Công ty TNHH OLOGN Technology',published_at='2026-10-04',
+    caveat='Original organiser/interview report names company, founders and NAWI. Matches own website team HuyDuong/LuanLe; no verified parent tax ID, incorporation or old ORCO rename inferred.')
+add('S029','startup','ologn_nawi_tuoitre_202610','hoàn thiện mẫu thử',published_at='2026-10-04',
+    caveat='Prototype-stage venture described in original TuoiTre Startup Award coverage, supporting startup/product-stage context. Project development from late2025 is not company incorporation date; coverage not award winner or commercial validation.')
+add('S029','product','ologn_nawi_tuoitre_202610','thiết bị AR dạng clip-on',published_at='2026-10-04',
+    caveat='Article documents physical NAWI prototype/board/HUD and founder description, not merely software service. Field trials still being prepared; no fireground safety certification, explosive-atmosphere approval, mass manufacture, customer delivery or lifesaving performance independently validated.')
+add('S029','technology','ologn_company','Customized firmware and embedded software development',
+    caveat='Own engineering-services mechanism description. NAWI architecture in original report includes thermal/RGB/iToF/AR and edge processing onQCS8250, but gas threshold/drift MCU path explicitly not ML. No source-code, sensor accuracy/latency, all-condition offline function or safety audit performed.')
+add('S029','activity','ologn_nawi_tuoitre_202610','đang chuẩn bị thử nghiệm thực tế',event_date='2026-10-04',published_at='2026-10-04',
+    origin_id='ologn_nawi_prototype_development_report_20261004',activity_role='reported_prototype_development_status',
+    event_date_basis='Current prototype status reported on publication04Oct2026; exact build/demo date unknown, not field-trial completion.',
+    caveat='Original report/interview with board/HUD photos, supporting current R&D activity. Vietnam.vn/inkl syndications same owner and origin; no extra independent publishers/events counted. Forecast market2027/price1500USD not shipment or revenue.')
+add('S029','activity','ologn_company_linkedin','Sáng 09/10/2026, O(log n) tham dự chương trình HUTECH Business Connect',event_date='2026-10-09',
+    origin_id='ologn_hutech_business_connect_participation_20261009',platform_operator='LinkedIn',activity_role='company_reported_event_participation',
+    caveat='Own company post explicitly states event date, distinct from October4 prototype report. Not independently confirmed attendance, signed partnership, hiring volume, grant or commercial contract; relative post age not used as date.')
+add('S029','counter_review','ologn_company','Saul Goodman',
+    search_queries=['"OLOGN" "giải thể"','"OLOGN" "closed"','"0316563337" "OLOGN" "ORCO"'],
+    review_note='No verified closure for exact VN entity found; OLogNTechnologiesAG Liechtenstein patents/Xiaomi litigation and generic algorithm/OLOGN Solutions sites excluded. Own homepage has SaulGoodman/MattBrandon/JohnLarson testimonials/template labels and success messages; not verified customers, counts or evidence form submitted. No message/signup sent. NAWI prototype not finished fieldtrial; explosive-atmosphere certification future condition,2027market/1500USDplan not shipped units. Camera/sensor performance,foundry/manufacturing IP,safety and official tax unverified. ORCO/MST0316563337 olddocument mirrors not primary/current rename proof; copies of TuoiTre not independent activity sources.')
+
 with (DATA/'candidates.csv').open('w',encoding='utf-8-sig',newline='') as handle:
     writer=csv.DictWriter(handle,fieldnames=list(candidates[0])); writer.writeheader(); writer.writerows(candidates)
 (DATA/'evidence.jsonl').write_text('\n'.join(json.dumps(e,ensure_ascii=False) for e in evidence)+'\n',encoding='utf-8')
 mp.write_text(json.dumps(list(manifest.values()),ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'startup_sources.json').write_text(json.dumps([{k:r[k] for k in ('id','source_type','publisher_owner','url')} for r in manifest.values()],ensure_ascii=False,indent=2),encoding='utf-8')
-print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007','S034','S028','S027','S030','S032','S017','S057','S018','S020','S019','S022','S023','S026','S024','S025']}))
+print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007','S034','S028','S027','S030','S032','S017','S057','S018','S020','S019','S022','S023','S026','S024','S025','S029']}))
