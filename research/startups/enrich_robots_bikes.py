@@ -387,9 +387,33 @@ add('S032','counter_review','veep_introduction','VEEP – là doanh nghiệp g�
     search_queries=['"VEEP" "giải thể" "năng lượng"','"VEEP" "ceased operations"'],
     review_note='No verified closure found for the exact Vietnam energy company in relevant searched sources. Unrelated TV series, US training programme and fractional-executive marketplace excluded. NTNN and representative-office IDs not parent tax. JETRO company-authored; partner logos, contractual performance, own manufacture,30–35% savings and carbon targets unverified. Historical Australian/group2017 activity not assumed Vietnam entity age. Field-trip date retained at month precision; no exact commissioning/deployment claimed.')
 
+aiz=next(c for c in candidates if c['id']=='S017')
+aiz.update(legal_name='CÔNG TY CỔ PHẦN AIZ',country='VN',physical='no',website='https://aizcorp.vn/',
+    notes='VAA and Nghe An University name Vietnam AIZ joint stock company and executives; own website maps software AI Data Platform/3C1A/agents. Candidate parent MST0110830839 from BKHUB/directory, not official tax; representative-office0110830839-001 and unrelated AIZ International0314126733 kept separate. Software classification; IoT ingestion, robot integration and smart-glasses ideas do not establish proprietary physical output. Company reports founded2024; early-stage/QVIC company-track context, not registry age certification. Recent VAA membership27/01/2026, QVIC innovation award20/08/2026 and university roundtable10/10/2026 are different source owners/events, not customer revenue. LinkedIn Public Company label not evidence of stock-market listing. Same-name HCMC insurance-debt search result lacks verified parent-ID match; do not attribute debt or closure to Hanoi entity.')
+add('S017','identity','aiz_vaa_membership_202601','Công ty Cổ phần AIZ',published_at='2026-01-27',
+    caveat='VAA membership report names legal company and data/AI activity in Vietnam; no parent tax ID in this record.')
+add('S017','startup','aiz_bkhub_identity','Năm thành lập\n2024',
+    caveat='Platform profile reports recent founding, corroborated by company LinkedIn and QVIC company shortlist context. Profile provider not independently verified; not official incorporation certificate, investment proof or listed-company status.')
+add('S017','product','aiz_company','AIZ Data Platform\nOrchestrating intelligence across all sources',
+    caveat='Software product offer. Linked IoT devices or Qualcomm smart-glasses integration not proof AIZ manufactures hardware or has paid deployments.')
+add('S017','technology','aiz_company','3C1A Architecture\nCognition • Collaboration • Conversation • Agent',
+    caveat='Company describes data ingestion/validation/transformation/enrichment and agent orchestration. Performance, enterprise logos, data-cleaning reliability and real deployment scale unverified.')
+add('S017','activity','aiz_vaa_membership_202601','Ngày 27/1/2026, Hội Tự động hóa Việt Nam (VAA) đã chính thức trao Chứng nhận Kết nạp hội viên',
+    event_date='2026-01-27',published_at='2026-01-27',origin_id='aiz_vaa_membership_admission_20260127',
+    caveat='Association reports admission with exact AIZ name in same paragraph. Membership, not technology certification, completed sales or legal tax status;2006 founding in article refers to ETEK, not AIZ.')
+add('S017','activity','aiz_nau_event_202610','Hội thảo “Trường Đại học Nghệ An với doanh nghiệp” ngày 10/10/2026',
+    event_date='2026-10-10',published_at='2026-10-12',origin_id='aiz_nghe_an_university_roundtable_20261010',
+    caveat='University reports AIZ director participation/discussion. Separate from VAA/QVIC; not a signed training order, customer contract or research acceptance.')
+add('S017','activity','naiscorp_dost_award_202608','trao 2 giải Đổi mới sáng tạo cho 2 đội AIZ và OpenMind Robotics',
+    event_date='2026-08-20',published_at='2026-08-20',origin_id='aiz_qvic_innovation_award_20260820',
+    caveat='Government event report, distinct source/event from association and university. Shared award with another team not merged as same company or verified payment.')
+add('S017','counter_review','aiz_company','AIZ Data Platform',
+    search_queries=['"AIZ" "giải thể"','"AIZ" "ceased operations" AI','"0110830839" "BHXH"'],
+    review_note='No verified closure of this exact Hanoi AI company in relevant searched sources. Same-name HCMC insurance-debt listing surfaced but parent tax identity/address match not verified; do not attribute debt or infer closure. Unrelated international/agricultural firms, Brazilian Aizcorp and fictional Aiz excluded. BKHUB HUST Verified badge and LinkedIn Public Company category are not registry, tax or listing proof. Customer logos, Qualcomm endorsement quotes, software reliability and physical product manufacture not independently established.')
+
 with (DATA/'candidates.csv').open('w',encoding='utf-8-sig',newline='') as handle:
     writer=csv.DictWriter(handle,fieldnames=list(candidates[0])); writer.writeheader(); writer.writerows(candidates)
 (DATA/'evidence.jsonl').write_text('\n'.join(json.dumps(e,ensure_ascii=False) for e in evidence)+'\n',encoding='utf-8')
 mp.write_text(json.dumps(list(manifest.values()),ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'startup_sources.json').write_text(json.dumps([{k:r[k] for k in ('id','source_type','publisher_owner','url')} for r in manifest.values()],ensure_ascii=False,indent=2),encoding='utf-8')
-print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007','S034','S028','S027','S030','S032']}))
+print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007','S034','S028','S027','S030','S032','S017']}))

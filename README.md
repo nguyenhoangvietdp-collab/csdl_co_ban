@@ -110,6 +110,8 @@ Hồ sơ cập nhật15/10/2026: [NAISCORP Robotics — nguồn, Thuế và gi�
 
 Rà soát tiếp: [VEEP — mô hình AIoT/EEaaS, chờ MST mẹ và Thuế](research/startups/VEEP.md).
 
+[AIZ — phần mềm dữ liệu/AI Agent và các nguồn hoạt động](research/startups/AIZ.md), vẫn chờ MST mẹ và Thuế chính thức.
+
 ## Trạng thái thực tế
 
 Ngày 06/10/2026: 457 doanh nghiệp v1, 220 doanh nghiệp B2B, hợp nhất 457 doanh nghiệp; 20 sản phẩm; 2.031 liên kết tài liệu, gồm 371 PDF. Số lượng có thể thay đổi theo nguồn.

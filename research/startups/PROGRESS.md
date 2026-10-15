@@ -2,6 +2,9 @@
 
 ## Cập nhật 15/10/2026
 
+- Bổ sung8 bằng chứng S017 AIZ: pháp nhân được VAA nêu tên, ngữ cảnh thành lập2024 từ profile, sản phẩm phần mềm/kiến trúc3C1A, VAA27/01, QVIC20/08 và tọa đàm Đại học Nghệ An10/10/2026 (bài12/10), cùng phản chứng. Xếp Phi vật lý; IoT/robot/kính thông minh chưa chứng minh đầu ra thiết bị riêng. MST0110830839 vẫn đầu mối BKHUB/danh bạ, không thay Thuế; tách mã văn phòng đại diện và Quốc tế AIZ. Kết quả BHXH cùng tên TP.HCM chưa khớp pháp nhân/MST nên không gán nợ hoặc closure.
+- Đã ghi dòng18 và bằng chứng207–214; đọc lại117 ô khớp, định dạng API giữ nguyên, chưa xem lại Google-rendered UI. Tổng **56 ứng viên, 213 bằng chứng, 7 đạt, 48 chờ, 1 loại pháp nhân Thuế**; AIZ còn2 cửa MST mẹ/Thuế. Ledger chọn lọc42/42 quote khớp offline, không phải audit đầy đủ213 bằng chứng. [Hồ sơ AIZ](AIZ.md).
+
 - Bổ sung7 bằng chứng cho S032 VEEP: footer nối thương hiệu/pháp nhân Việt Nam, startup Climate Tech, AMIGO/AIoT, mô tả tích hợp đồng hồ/HVAC/chiếu sáng, giải QVIC20/08 và báo cáo Company Visit tại VNG ở độ chính xác tháng05/2026, cùng phản chứng. Xếp Kết hợp; chưa xác minh tự sản xuất thiết bị hoặc hiệu suất tiết kiệm. JETRO do doanh nghiệp tự soạn, không tính chủ nguồn độc lập. MST0317812963 chỉ là đầu mối thứ cấp; tách khỏi văn phòng đại diện và NTNN. Còn2 cửa MST mẹ/Thuế.
 - Đã ghi dòng33 và bằng chứng200–206, đọc lại104 ô khớp. Style/structure kiểm tra qua API, chưa xem lại Google-rendered UI. Tổng **56 ứng viên, 205 bằng chứng, 7 đạt, 48 chờ, 1 loại theo pháp nhân Thuế**; FILTER vẫn7. Ledger chọn lọc40/40 quote khớp offline, không phải audit đầy đủ205 bằng chứng. [Hồ sơ VEEP](VEEP.md).
 

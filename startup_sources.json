@@ -712,5 +712,35 @@
     "source_type": "company",
     "publisher_owner": "VEEP",
     "url": "https://www.veep.vn/post/nexvn-ghe-tham-veep-va-xu-huong-the-gioi"
+  },
+  {
+    "id": "aiz_company",
+    "source_type": "company",
+    "publisher_owner": "AIZ",
+    "url": "https://aizcorp.vn/"
+  },
+  {
+    "id": "aiz_bkhub_identity",
+    "source_type": "company",
+    "publisher_owner": "BKHUB (profile provider not independently verified)",
+    "url": "https://bkhub.vn/company/cong-ty-cp-aiz"
+  },
+  {
+    "id": "aiz_company_linkedin",
+    "source_type": "company",
+    "publisher_owner": "AIZ",
+    "url": "https://www.linkedin.com/company/aizcorp"
+  },
+  {
+    "id": "aiz_vaa_membership_202601",
+    "source_type": "company",
+    "publisher_owner": "Hội Tự động hóa Việt Nam / VAA",
+    "url": "https://www.automation.org.vn/etek-aiz-va-next-robotics-chinh-thuc-tro-thanh-hoi-vien-hoi-tu-dong-hoa-viet-nam"
+  },
+  {
+    "id": "aiz_nau_event_202610",
+    "source_type": "government",
+    "publisher_owner": "Trường Đại học Nghệ An",
+    "url": "https://nau.edu.vn/hoat-dong-tai-nau-14/nau-gan-ket-nha-truong-%E2%80%93-doanh-nghiep-hoc-tu-thuc-tien-truong-thanh-tu-trai-nghiem-11317.aspx"
   }
 ]

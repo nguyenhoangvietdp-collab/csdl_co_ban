@@ -32,7 +32,8 @@ Chưa có lịch tự động hoặc CI chạy crawler.
 ## Bộ startup — 15/10/2026
 
 - [x] Thu thập snapshot và thiết lập cửa sàng lọc Thuế/bằng chứng hoạt động.
-- [x] Ghi 56 hồ sơ, 205 bằng chứng và 7 hồ sơ đạt vào ba tab startup của Sheet.
+- [x] Ghi 56 hồ sơ, 213 bằng chứng và 7 hồ sơ đạt vào ba tab startup của Sheet.
+- [x] Bổ sung AIZ: sản phẩm phần mềm và3 hoạt động khác nguồn; giữ Chờ MST mẹ/Thuế, không gán kết quả BHXH cùng tên chưa khớp pháp nhân.
 - [x] Bổ sung VEEP, xác định mô hình hybrid, tách MST mẹ ứng viên khỏi văn phòng đại diện/NTNN; giữ Chờ Thuế.
 - [x] Bổ sung hồ sơ TENSOR/EggVision, phân biệt75% thử nghiệm ban đầu với mục tiêu thương mại; giữ Chờ khi chưa xác minh Thuế/mapping.
 - [x] Hoàn tất hồ sơ NAISCORP Robotics, đối chiếu Thuế chính thức0402268582 và công bố nguồn/giới hạn.
