@@ -634,5 +634,47 @@
     "source_type": "government",
     "publisher_owner": "Cục Thuế",
     "url": "https://tracuunnt.gdt.gov.vn/tcnnt/mstdn.jsp"
+  },
+  {
+    "id": "tensor_company",
+    "source_type": "company",
+    "publisher_owner": "TENSOR / EggVision",
+    "url": "https://tensor.vn/"
+  },
+  {
+    "id": "tensor_eggvision_company",
+    "source_type": "company",
+    "publisher_owner": "TENSOR / EggVision",
+    "url": "https://eggvision.ai/"
+  },
+  {
+    "id": "tensor_hbc_group_qvic",
+    "source_type": "company",
+    "publisher_owner": "HBC Marisol Group / Bavina (affiliated with HBC Nexus)",
+    "url": "https://bavinarealty.com/en/congratulations-to-hbc-nexus-on-advancing-to-the-finals-of-the-qualcomm-vietnam-innovation-challenge-2026.html"
+  },
+  {
+    "id": "tensor_hbc_website",
+    "source_type": "company",
+    "publisher_owner": "HBC Nexus",
+    "url": "https://hbcnexus.ai/"
+  },
+  {
+    "id": "tensor_fund_future_schedule_202608",
+    "source_type": "competition",
+    "publisher_owner": "The Edge Alliance / Fund the Future organising committee",
+    "url": "https://theedgealliance.com/pitch-schedule"
+  },
+  {
+    "id": "tensor_hbc_qvic_mapping",
+    "source_type": "company",
+    "publisher_owner": "HBC Marisol Group / Bavina (affiliated with HBC Nexus)",
+    "url": "https://bavinarealty.com/vi/hbc-marisol-groupbavina-tu-hao-chuc-mung-hbc-nexus-tensor-doat-giai-nhi-tai-qvic-2026.html"
+  },
+  {
+    "id": "tensor_hbc_esg_event_202606",
+    "source_type": "company",
+    "publisher_owner": "HBC Marisol Group / Bavina (affiliated with HBC Nexus)",
+    "url": "https://bavinarealty.com/vi/hbc-nexus-tham-du-hoi-thao-esg-xu-the-chuyen-doi-san-xuat-xanh-tai-gia-lai.html"
   }
 ]

@@ -32,8 +32,9 @@ Chưa có lịch tự động hoặc CI chạy crawler.
 ## Bộ startup — 15/10/2026
 
 - [x] Thu thập snapshot và thiết lập cửa sàng lọc Thuế/bằng chứng hoạt động.
-- [x] Ghi 56 hồ sơ, 189 bằng chứng và 7 hồ sơ đạt vào ba tab startup của Sheet.
+- [x] Ghi 56 hồ sơ, 198 bằng chứng và 7 hồ sơ đạt vào ba tab startup của Sheet.
+- [x] Bổ sung hồ sơ TENSOR/EggVision, phân biệt75% thử nghiệm ban đầu với mục tiêu thương mại; giữ Chờ khi chưa xác minh Thuế/mapping.
 - [x] Hoàn tất hồ sơ NAISCORP Robotics, đối chiếu Thuế chính thức0402268582 và công bố nguồn/giới hạn.
-- [x] Đối chiếu toàn bộ vùng đã ghi và xem cách hiển thị trên Google Sheets.
+- [x] Đối chiếu giá trị các vùng đã ghi; các lượt xem giao diện và giới hạn được ghi trong PROGRESS.
 - [ ] Hoàn tất duyệt 50 startup theo đủ điều kiện; hiện đạt 7.
 - [ ] Audit đầy đủ danh sách 50 trước khi bàn giao hoàn chỉnh.

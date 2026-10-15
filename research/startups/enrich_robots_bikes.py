@@ -342,9 +342,33 @@ add('S027','tax','naiscorp_tax_0402268582',tax_text[tax_text.index('1\t040226858
     caveat='Visible official parent row after user-authorized CAPTCHA lookup; status observed15/10/2026, not a guarantee of future operation.')
 naiscorp['tax_id']='0402268582'
 
+tensor=next(c for c in candidates if c['id']=='S030')
+tensor.update(legal_name='CÔNG TY CỔ PHẦN HBC NEXUS',country='VN',physical='yes',website='https://tensor.vn/',
+    notes='Primary HBC Nexus footer names VN company; affiliated Bavina names HBC Nexus/Tensor and EggVision, but exact brand-to-registered-entity mapping still requires corroboration. Candidate parent MST0319525040 from secondary directories only, not official tax. Physical in-ovo scanning prototype demonstrated at QVIC20/08/2026. Vendor75% initial accuracy is on limited data;85% and90–95% are targets, not validated results. QVIC award and affiliated-group report of ESG event26/06/2026 are distinct owners/origins; ESG activity is company-level, not EggVision delivery. Group relationship is disclosed. Fund the Future listing is a schedule with self-reported profiles, not proof of attendance or investment. HBC website ESG examples labelled synthetic are not customer metrics; no separate startup added for ESGY.')
+add('S030','identity','tensor_hbc_website','Công ty Cổ phần HBC Nexus',
+    caveat='Company self-identification and VN address. Exact TENSOR brand mapping is not contained in this quote; secondary candidate MST0319525040 remains unverified.')
+add('S030','identity','tensor_hbc_qvic_mapping','công ty thành viên HBC Nexus / Tensor',published_at='2026-08-20',
+    caveat='Affiliated group maps brand aliases; lacks exact registered legal name/MST in the quoted alias. Do not merge with unrelated Tensor firms or count parent group as independent of Nexus.')
+add('S030','startup','tensor_fund_future_schedule_202608','EggVision By request Pre-seed',published_at='2026-08-14',
+    platform_operator='The Edge Alliance',caveat='Team self-reports pre-seed stage in organiser schedule; no funding closure, actual attendance or independent verification inferred.')
+add('S030','product','naiscorp_dost_award_202608','đội Tensor mang đến giải pháp EggVision',published_at='2026-08-20',
+    caveat='Government QVIC report identifies demonstrated physical in-ovo AI system. Commercial sales, mass manufacturing and customer acceptance not established.')
+add('S030','technology','tensor_company','solution using Computer Vision AI to non-invasively and non-harmfully determine the sex',
+    caveat='Vendor mechanism claim; day4 capability, welfare, throughput and operational accuracy not independently tested.')
+add('S030','technology','tensor_eggvision_company','độ chính xác ban đầu là 75% trên dữ liệu hạn chế.',
+    caveat='Vendor reports limited-data initial testing, without independently reviewed test protocol/sample size.85% commercialization and90–95% are future targets; not current measured performance.')
+add('S030','activity','naiscorp_dost_award_202608','đội Tensor giải Nhì được thưởng 75.000 USD',event_date='2026-08-20',published_at='2026-08-20',
+    origin_id='tensor_qvic_final_award_20260820',caveat='Government report of award and demonstration; no bank receipt or commercial delivery verified. Affiliated Bavina report of same final not another activity origin.')
+add('S030','activity','tensor_hbc_esg_event_202606','Gia Lai, ngày 26/06/2026',event_date='2026-06-26',published_at='2026-06-29',
+    origin_id='hbc_nexus_gia_lai_esg_conference_20260626',activity_role='affiliated_group_reported_company_event',
+    caveat='Affiliated Bavina reports HBC Nexus representatives attending ESG event, distinct from QVIC. Supports company-level activity, not EggVision delivery or unrelated-party validation. Formal Tensor-to-entity mapping still pending.')
+add('S030','counter_review','tensor_company','initial accuracy of 75% on limited data',
+    search_queries=['"Tensor" "EggVision" "giải thể"','"HBC Nexus" "closed"'],
+    review_note='No verified closure found for this Vietnam project/entity in relevant searches. Unrelated Tensor robocar/French firms excluded. Vendor accuracy targets, industry statistics and team-level10-million-dollar contract claims not accepted as audited EggVision results. A secondary Chinese article claims80 installed units, but primary site still describes limited-data75% testing; deployment quantity withheld. Formal brand/legal mapping and official tax remain pending. Fund the Future schedule is not proof of completed pitching; HBC ESG demo data expressly synthetic.')
+
 with (DATA/'candidates.csv').open('w',encoding='utf-8-sig',newline='') as handle:
     writer=csv.DictWriter(handle,fieldnames=list(candidates[0])); writer.writeheader(); writer.writerows(candidates)
 (DATA/'evidence.jsonl').write_text('\n'.join(json.dumps(e,ensure_ascii=False) for e in evidence)+'\n',encoding='utf-8')
 mp.write_text(json.dumps(list(manifest.values()),ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'startup_sources.json').write_text(json.dumps([{k:r[k] for k in ('id','source_type','publisher_owner','url')} for r in manifest.values()],ensure_ascii=False,indent=2),encoding='utf-8')
-print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007','S034','S028','S027']}))
+print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007','S034','S028','S027','S030']}))

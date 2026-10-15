@@ -53,4 +53,4 @@ Bên đối tác SPT công bố báo cáo ký hợp tác AI/robotics; mục tin 
 - [Bảng sàng lọc công khai](current_screening.csv), [danh mục URL](../../startup_sources.json), [script ghi nhận nghiên cứu](enrich_robots_bikes.py).
 - Văn bản nguồn, bản tải gốc và ledger chi tiết ở các thư mục được gitignore; tránh công bố lại toàn văn nguồn, dữ liệu tài khoản hoặc tệp ngoài dự án.
 
-Mục tiêu chung **50 startup đạt chưa hoàn thành**: hiện 56 ứng viên, 189 bản ghi bằng chứng, 7 đạt, 48 chờ và 1 loại theo pháp nhân Thuế.
+Mục tiêu chung **50 startup đạt chưa hoàn thành**. Xem [nhật ký tiến độ](PROGRESS.md) và [bảng sàng lọc](current_screening.csv) để lấy số liệu mới nhất sau các hồ sơ bổ sung.
