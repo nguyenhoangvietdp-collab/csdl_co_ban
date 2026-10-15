@@ -565,9 +565,50 @@ add('S026','counter_review','medcat_idus','độ chính xác lên tới 99%',
     search_queries=['site:medcat.vn "giải thể"','"MedCAT" "closed" Vietnam'],
     review_note='No verified closure for exact Vietnam entity found in scoped searches. CogStack MedCAT Medical Concept Annotation Toolkit GitHub archive/issues and foreign company acquisitions are unrelated, not VN closure or IP.99%up-to own product claim,97%field-level award report and95%testimonial not interchangeable benchmarks; populations/test methods not independently checked. No diagnostic efficacy, medical-device approval, security/privacy compliance, in-house model provenance, customer volumes or production performance established. MedCAT TPA linked service not automatically same parent legal entity/MST; NIC contact address not registered-office proof. Tax0110578065 still secondary only.')
 
+healthbridge=next(c for c in candidates if c['id']=='S024')
+healthbridge.update(legal_name='',tax_id='',country='',physical='no',website='https://www.healthbridgeai.com/',
+    notes='JarvisMD software clinical scribe, not own physical device or autonomous clinical decision system. Homepage footer Cyber GBA Limited trading as HealthBridge AI; terms effective04/03/2026 name HealthBridge AI Pte.Ltd. Neither reconciled as Vietnamese registered company. VN staff/presence and company LinkedIn founded2023 do not establish VN legal entity. Secondary HEALTHBRIDGE VIETNAM/MST0319276080 and HealthBridge Consult not mapped; do not adopt namesake tax IDs. Own live service offer observed15/10/2026 only; no second independently dated recent activity established. HSAClassA/SaMD,privacy/compliance claims self-published, registry not checked. Homepage no secondary data use vs terms permitting deidentified/aggregated improvement need reconciliation; no breach inferred. Terms require clinician review, not diagnosis/treatment or authoritative patient record. Separate Canada NGO, SouthAfrican Healthbridge/Nora, MTNfitnessapp and hackathon/GitHub namesakes.')
+add('S024','identity','healthbridge_terms_202603','JarvisMD / HealthBridge AI Pte. Ltd.',
+    caveat='Foreign-style provider name in own terms, not a verified Vietnamese entity. Homepage separately says Cyber GBA Limited trading as HealthBridge AI; corporate relation/jurisdiction not reconciled. No Vietnam legal-name/MST mapping claimed.')
+add('S024','startup','healthbridge_company_linkedin','Founded\n2023',platform_operator='LinkedIn',
+    caveat='Company self-reported founding/team profile, supports startup context only. Not incorporation certificate, Vietnam company registration or current official tax result.')
+add('S024','product','healthbridge_company','captures your consultation audio and generates draft clinical notes in real time',
+    caveat='Vendor offers JarvisMD software transcription/draft notes, classified nonphysical. Not own medical hardware, independent diagnosis, EMR system of record or verified clinical efficacy.')
+add('S024','technology','healthbridge_company','Audio is captured securely and processed in real time using medical-grade speech recognition.',
+    caveat='Vendor mechanism statement, not security/performance validation or certification. Draft notes require clinician editing/approval before transfer to authoritative EMR/EHR.')
+add('S024','activity','healthbridge_company','Real-time audio-to-text transcription',event_date='2026-10-15',
+    origin_id='healthbridge_live_jarvismd_offer_observed_20261015',activity_role='observed_live_product_offer',
+    event_date_basis='Live offer observed at capture, not product release, paid deployment or treatment date.',
+    caveat='One company-owned offer; recruitment posts with relative dates and old BLOCK71 URL now redirecting to generic B71 landing not used as independently dated recent activity.')
+add('S024','counter_review','healthbridge_terms_202603','JarvisMD does not provide medical advice, diagnosis, or treatment decisions.',
+    search_queries=['"HealthBridge AI" "giải thể"','"HealthBridge AI" "Cyber GBA" "Vietnam"'],
+    review_note='No verified exact-entity closure found in scoped searches; company legal mapping remains unresolved. Terms name HealthBridge AI Pte.Ltd while homepage Cyber GBA Limited; not silently merged as VN entity. Vendor HSAClassA/SaMD,GDPR/HIPAA/PDPA,security/clinical benefit claims not independently checked. Homepage says no secondary data use but terms permit deidentified/aggregated improvement: scope unresolved, no illegal use inferred. Medical notes require independent clinician review and EMR remains record. Canada HealthBridge NGO, SouthAfrican company/Nora acquisition, workoutapp and AmazonNova/hackathon/GitHub projects unrelated. Closing job applications not company closure. Secondary0319276080 not mapped to this brand; no namesake MST substituted.')
+
+hitek=next(c for c in candidates if c['id']=='S025')
+hitek.update(legal_name='',tax_id='',country='VN',physical='hybrid',website='https://hitekdrone.com/',
+    notes='Drone Light Show service with programmed swarm/software and physical drone hardware, classified hybrid, not verified own drone manufacture. Own about page identifies parent CTCP Tập đoàn Công nghệ Hitek; exact contracting/QVIC legal entity remains unresolved. Secondary same-name Hitek Drone candidate MST0109744857/0110423255 not interchangeable or entered. Own TeamHitek StartupWheel2023 account supports startup context, not individual CV/foundingdate proof. Current live offer observed15/10/2026 only. Cup2025/26 project says14/09, not recent just because season spans2026; not counted within365days. Allumee public post linksHitekDrone/HiDrone but date relative/uncorroborated, HTTPcapturefailed: not activity gate. Self safety/flightpermits/fleetcounts/softwareIP not audited; parent/groupsubsites same publisher, not independent events.')
+add('S025','identity','hitek_group_company','Công ty Cổ phần Tập đoàn Công nghệ Hitek (Hitek Group JSC)',
+    caveat='Own group footer gives parent name, linked by drone site. Not proof parent is contracting/QVIC tax entity; leave exact legal-name/MST fields unset until reconciled with Hitek Drone entities.')
+add('S025','startup','hitek_about','Giải Nhì Bảng Việt Nam tại cuộc thi Startup Wheel 2023',
+    caveat='Own Team Hitek competition account, not independent award verification or corporate founding date. Founder CV/startup years and parent age kept separate from drone legal entity.')
+add('S025','product','hitek_about','Trình diễn ánh sáng nghệ thuật bằng thiết bị bay không người lái – Drone Light Show',
+    caveat='Offered service combines physical drone fleet and software, classified hybrid. Not proof of own drone manufacture, delivery volumes, fleet ownership or flight/safety certification.')
+add('S025','technology','hitek_drone_service','tự nghiên cứu và viết phần mềm độc quyền',
+    caveat='Vendor describes own show-programming software and trials; no code/IP ownership, swarm accuracy, production count or failure/safety performance independently checked.')
+add('S025','activity','hitek_drone_service','khả năng cung cấp dịch vụ trọn gói hoàn toàn tự chủ',event_date='2026-10-15',
+    origin_id='hitek_live_drone_show_offer_observed_20261015',activity_role='observed_live_product_offer',
+    event_date_basis='Live service offer observed at capture, not completed show, release or contract date.',
+    caveat='One own service offer. Group/Flycam/Drone websites same publisher; no multiple independent activity owners inferred.')
+add('S025','counter_review','hitek_about','Công ty mẹ là CTCP Tập đoàn Công nghệ Hitek',
+    search_queries=['"Hitek Drone" "giải thể"','"HITEK" "giải thể" "Drone"'],
+    review_note='No verified closure of exact brand found; same-name companies and parent/subsidiary tax relationships unresolved. Candidate0109744857/0110423255 not arbitrarily chosen. Physical show operation not evidence manufacturing hardware. Local permit advice/safety/insurance/fullautonomy claims not verified authorisations or safety test. Allumee post supports HitekDrone/HiDrone alias but relative date insufficient for recent activity; no date inferred from cached age. StartupWheel personalCV not substituted for TeamHitek account; old awards not recent activity. Software-only Hitek firms/overseas Hitek homonyms not merged.')
+add('S025','counter_review','hitek_national_cup_project','Tối ngày 14/09 vừa qua',
+    search_queries=['"Hitek Drone" "2026" site:allumee.com'],
+    review_note='Company project is titled NationalCup2025/26 and gives14/09 without separately verified year. Do not use season2026 as event year or assume within365day window; project omitted from recent activity gate. No customer-side acceptance, invoice, exact event date or counted fleet independently checked.')
+
 with (DATA/'candidates.csv').open('w',encoding='utf-8-sig',newline='') as handle:
     writer=csv.DictWriter(handle,fieldnames=list(candidates[0])); writer.writeheader(); writer.writerows(candidates)
 (DATA/'evidence.jsonl').write_text('\n'.join(json.dumps(e,ensure_ascii=False) for e in evidence)+'\n',encoding='utf-8')
 mp.write_text(json.dumps(list(manifest.values()),ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'startup_sources.json').write_text(json.dumps([{k:r[k] for k in ('id','source_type','publisher_owner','url')} for r in manifest.values()],ensure_ascii=False,indent=2),encoding='utf-8')
-print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007','S034','S028','S027','S030','S032','S017','S057','S018','S020','S019','S022','S023','S026']}))
+print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007','S034','S028','S027','S030','S032','S017','S057','S018','S020','S019','S022','S023','S026','S024','S025']}))

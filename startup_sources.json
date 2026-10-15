@@ -958,5 +958,65 @@
     "source_type": "company",
     "publisher_owner": "MedCAT",
     "url": "https://medcat.vn/post/chuc-mung-le-ra-mat-trung-tam-doi-moi-sang-tao-ha-noi-kien-tao-tuong-lai-so-thu-do-medcat-tu-hao-la-doi-tac-chien-luoc"
+  },
+  {
+    "id": "hitek_company",
+    "source_type": "company",
+    "publisher_owner": "Hitek",
+    "url": "https://hitekdrone.com/"
+  },
+  {
+    "id": "hitek_about",
+    "source_type": "company",
+    "publisher_owner": "Hitek",
+    "url": "https://hitekdrone.com/ve-chung-toi/"
+  },
+  {
+    "id": "hitek_flycam",
+    "source_type": "company",
+    "publisher_owner": "Hitek",
+    "url": "https://flycam.hitek.com.vn/"
+  },
+  {
+    "id": "healthbridge_company",
+    "source_type": "company",
+    "publisher_owner": "HealthBridge AI",
+    "url": "https://www.healthbridgeai.com/"
+  },
+  {
+    "id": "healthbridge_company_linkedin",
+    "source_type": "company",
+    "publisher_owner": "HealthBridge AI",
+    "url": "https://www.linkedin.com/company/healthbridgeai"
+  },
+  {
+    "id": "hitek_allumee_collaboration",
+    "source_type": "partner",
+    "publisher_owner": "Allumee",
+    "url": "https://www.linkedin.com/posts/allumee_droneshow-experientialmarketing-brandstunt-activity-7437814055354019841-5mo1"
+  },
+  {
+    "id": "healthbridge_terms_202603",
+    "source_type": "company",
+    "publisher_owner": "HealthBridge AI",
+    "url": "https://healthbridgeai.com/terms.html"
+  },
+  {
+    "id": "hitek_group_company",
+    "source_type": "company",
+    "publisher_owner": "Hitek",
+    "url": "https://hitekgroup.vn/"
+  },
+  {
+    "id": "hitek_drone_service",
+    "source_type": "company",
+    "publisher_owner": "Hitek",
+    "url": "https://hitekdrone.com/dich-vu/drone-light-show/"
+  },
+  {
+    "id": "hitek_national_cup_project",
+    "source_type": "company",
+    "publisher_owner": "Hitek",
+    "url": "https://hitekdrone.com/du-an/drone-light-show-dong-nai-le-khai-mac-giai-bong-da-cup-quoc-gia-2025-26/"
   }
 ]

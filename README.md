@@ -122,6 +122,8 @@ Rà soát tiếp: [VEEP — mô hình AIoT/EEaaS, chờ MST mẹ và Thuế](res
 
 [MEDCAT — phần mềm AI tài liệu, giải thưởng và hoạt động hệ sinh thái](research/startups/MEDCAT.md), chờ MST mẹ/Thuế; chưa gộp pháp nhân TPA.
 
+[HEALTHBRIDGE AI và HITEK — sản phẩm và các quan hệ pháp nhân chưa đối chiếu](research/startups/HEALTHBRIDGE_HITEK.md), tiếp tục chờ Thuế và hoạt động độc lập đủ ngày.
+
 ## Trạng thái thực tế
 
 Ngày 06/10/2026: 457 doanh nghiệp v1, 220 doanh nghiệp B2B, hợp nhất 457 doanh nghiệp; 20 sản phẩm; 2.031 liên kết tài liệu, gồm 371 PDF. Số lượng có thể thay đổi theo nguồn.
