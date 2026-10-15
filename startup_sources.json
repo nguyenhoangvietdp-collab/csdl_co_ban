@@ -880,5 +880,47 @@
     "source_type": "industry",
     "publisher_owner": "GenAI Fund",
     "url": "https://genaifund.ai/2026/04/24/recap-genai-builders-meetup-x-qwen-x-sunwah-group-vietnam-april-23/"
+  },
+  {
+    "id": "fst_company",
+    "source_type": "company",
+    "publisher_owner": "Future Space Technology",
+    "url": "https://www.fstech.vn/vi"
+  },
+  {
+    "id": "fst_core_business",
+    "source_type": "company",
+    "publisher_owner": "Future Space Technology",
+    "url": "https://www.fstech.vn/vi/core-business"
+  },
+  {
+    "id": "fst_about",
+    "source_type": "company",
+    "publisher_owner": "Future Space Technology",
+    "url": "https://www.fstech.vn/vi/about"
+  },
+  {
+    "id": "fst_solutions",
+    "source_type": "company",
+    "publisher_owner": "Future Space Technology",
+    "url": "https://www.fstech.vn/vi/solutions"
+  },
+  {
+    "id": "fst_contact",
+    "source_type": "company",
+    "publisher_owner": "Future Space Technology",
+    "url": "https://www.fstech.vn/vi/contact"
+  },
+  {
+    "id": "fst_about_en",
+    "source_type": "company",
+    "publisher_owner": "Future Space Technology",
+    "url": "https://fstech.vn/en/about"
+  },
+  {
+    "id": "fst_procurement_context",
+    "source_type": "directory",
+    "publisher_owner": "Hệ sinh thái Đấu Thầu / DauThau.info",
+    "url": "https://dauthau.asia/businesslistings/detail/CONG-TY-CO-PHAN-CONG-NGHE-KHONG-GIAN-TUONG-LAI-178091/"
   }
 ]

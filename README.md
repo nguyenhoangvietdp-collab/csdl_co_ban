@@ -118,6 +118,8 @@ Rà soát tiếp: [VEEP — mô hình AIoT/EEaaS, chờ MST mẹ và Thuế](res
 
 [BRAIN-LIFE và FIZIBOX — thiết bị, công báo SHTT và hoạt động meetup](research/startups/BRAINLIFE_FIZIBOX.md), còn thiếu đối chiếu pháp nhân/Thuế.
 
+[FUTURE SPACE TECHNOLOGY — catalogue drone và các điểm còn thiếu](research/startups/FUTURE_SPACE_TECHNOLOGY.md), chưa xác minh MST/Thuế, startup và hoạt động độc lập.
+
 ## Trạng thái thực tế
 
 Ngày 06/10/2026: 457 doanh nghiệp v1, 220 doanh nghiệp B2B, hợp nhất 457 doanh nghiệp; 20 sản phẩm; 2.031 liên kết tài liệu, gồm 371 PDF. Số lượng có thể thay đổi theo nguồn.

@@ -32,7 +32,8 @@ Chưa có lịch tự động hoặc CI chạy crawler.
 ## Bộ startup — 15/10/2026
 
 - [x] Thu thập snapshot và thiết lập cửa sàng lọc Thuế/bằng chứng hoạt động.
-- [x] Ghi 57 hồ sơ, 244 bản ghi bằng chứng (gồm bản giữ ngoài duyệt) và 7 hồ sơ đạt vào ba tab startup của Sheet.
+- [x] Ghi 57 hồ sơ, 250 bản ghi bằng chứng (gồm bản giữ ngoài duyệt) và 7 hồ sơ đạt vào ba tab startup của Sheet.
+- [x] Rà soát FST: catalogue drone, tên tự công bố và ngữ cảnh nợ phí đấu thầu; giữ Chờ các cửa còn thiếu.
 - [x] Rà soát BRAIN-LIFE/FIZIBOX, đọc công báo SHTT và báo cáo meetup; giữ Chờ phần pháp nhân/Thuế còn thiếu.
 - [x] Rà soát ANTAJA/Fillsonic; giữ sản phẩm chưa xác minh ngoài duyệt, không suy triển khai từ concept/Coming Soon.
 - [x] Bổ sung OpenMind Robotics Việt Nam, phân biệt công ty nước ngoài, xác nhận báo cáo tích hợp Gradion; giữ Chờ MST mẹ/Thuế.

@@ -523,9 +523,29 @@ add('S022','activity','fizibox_genai_meetup_202604','FIZIBOX: An edge AI operati
     event_date_basis='Event date from recap page title April23,2026; URL date April24 not separately treated as verified publication metadata.',
     caveat='GenAI Fund recap lists representative Tran Le Phuong Duyen and FIZIBOX among builders who pitched in Ho Chi Minh City. Distinct from August own product offer; not proof of investment, customer delivery, hardware certification or legal/tax identity.')
 
+fst=next(c for c in candidates if c['id']=='S023')
+fst.update(legal_name='CÔNG TY CỔ PHẦN CÔNG NGHỆ KHÔNG GIAN TƯƠNG LAI',country='VN',physical='yes',website='https://www.fstech.vn/vi',
+    notes='Same company website uses full Vietnamese legal name in VI title and Future Space Technology JSC in EN title, with same FS Corp brand/address. Candidate parent MST0316051120 only from secondary directories; not verified official tax. Website offers VS/IVS drones and FS software; own manufacture, performance, licenses and delivery not independently checked. OmniEye in original QVIC shortlist not found on reviewed website pages, so do not identify VS/IVS as OmniEye. No verified startup stage/founding date: copyright2025 not incorporation, secondary2019 not primary. Current product offer observed15/10/2026 supplies one own activity only; independent recent activity still missing. Procurement directory suspension due overdue participation fees is not official tax closure; directory representative/old MITECH names differ and not reconciled. Homepage ACTIVE labels are demo/system text, not live assets or tax status; placeholder social URLs not verified company profiles.')
+add('S023','identity','fst_company','Công ty Cổ phần Công Nghệ Không Gian Tương Lai',
+    caveat='VI document title gives full company name; EN about page on same domain titles Future Space Technology JSC with same FS Corp/address. Self-identification, not registry/tax proof. No reviewed page maps OmniEye to a VS/IVS model.')
+add('S023','product','fst_solutions','IVS-60: Drone cánh quay',
+    caveat='Own product catalogue offers physical VS/IVS drones alongside FS software; classified physical by offered output. Manufacture, working prototype, delivered units and performance not independently verified. Do not equate these named drones to QVIC OmniEye vision module.')
+add('S023','technology','fst_about','Tích hợp chip AI Qualcomm (Snapdragon), công nghệ 5G và Wifi6.',
+    caveat='Vendor describes embedded AI/connectivity plus flight-control/composite manufacture. Qualcomm component reference does not establish endorsement, exact chip, independently measured capability or local content ratio.')
+add('S023','activity','fst_solutions','Showcases các công cụ cụ thể mà FSCorp cung cấp',
+    event_date='2026-10-15',origin_id='fst_live_drone_software_offer_observed_20261015',activity_role='observed_live_product_offer',
+    event_date_basis='Undated catalogue offer observed at capture, not release, commissioning or delivery date; footer2025 not activity date.',
+    caveat='One company-owned public offer only; no customer-side completion, paid order, external recent event or second independent publisher established by scoped searches.')
+add('S023','counter_review','fst_about','Được Bộ Quốc phòng cấp phép thiết kế, sản xuất và bảo dưỡng tàu bay không người lái.',
+    search_queries=['"Future Space Technology" "closed"','"CÔNG TY CỔ PHẦN CÔNG NGHỆ KHÔNG GIAN TƯƠNG LAI" "giải thể"','"OmniEye" "QVIC"','"fstech.vn" -site:fstech.vn'],
+    review_note='No verified closure of this exact entity found; evidence remains sparse after scoped searches. Site claims defense/pilot-training permissions without reviewed licence numbers/documents: not verified authority or general flight permission. Percent accuracy/savings, flight durations/ranges, IP67, AES256 and RTK precision not independently tested. Copyright2025 not founding date; ACTIVE/status labels not live telemetry or tax result. Generic GitHub/LinkedIn/Twitter links containing FS Corp placeholder not used as corroboration. Unrelated FSpace/FPT satellites, overseas OmniEye cameras/research/edge satellites, PVcomBank Future Space initiative and Fusan FSCORP excluded.')
+add('S023','counter_review','fst_procurement_context','Tạm ngừng do nợ phí quá hạn',
+    search_queries=['"0316051120" "tạm ngừng"'],
+    review_note='Secondary procurement directory records01/04/2025 fee suspension and explicitly frames nonpayment as stopped transactions on e-procurement system. Not official tax result, proof of legal dissolution or current company closure; do not mark excluded. Representative/name history MITECH differ across directories and are unresolved, not evidence of fraud or another parent entity. No paid report/login consulted.')
+
 with (DATA/'candidates.csv').open('w',encoding='utf-8-sig',newline='') as handle:
     writer=csv.DictWriter(handle,fieldnames=list(candidates[0])); writer.writeheader(); writer.writerows(candidates)
 (DATA/'evidence.jsonl').write_text('\n'.join(json.dumps(e,ensure_ascii=False) for e in evidence)+'\n',encoding='utf-8')
 mp.write_text(json.dumps(list(manifest.values()),ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'startup_sources.json').write_text(json.dumps([{k:r[k] for k in ('id','source_type','publisher_owner','url')} for r in manifest.values()],ensure_ascii=False,indent=2),encoding='utf-8')
-print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007','S034','S028','S027','S030','S032','S017','S057','S018','S020','S019','S022']}))
+print(json.dumps({'candidates':len(candidates),'evidence_records':len(evidence),'companies_reviewed':['S008','S036','S006',airx['id'],buyo['id'],'S014','S005','S016','S002','S007','S034','S028','S027','S030','S032','S017','S057','S018','S020','S019','S022','S023']}))
