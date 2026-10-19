@@ -29,8 +29,9 @@ Google Sheet là đầu ra chính. Dừng upload Drive theo yêu cầu người 
 
 Chưa có lịch tự động hoặc CI chạy crawler.
 
-## Bộ startup — 15/10/2026
+## Bộ startup — 19/10/2026
 
+- [x] Sau lượt lỗi CAPTCHA VORIA, đọc bảng Thuế do người dùng hoàn thành: MST3604052503, pháp nhân VORIA SOLUTION, NNT đang hoạt động. Thêm2 bản ghi, chạy sàng lọc19/10 và đồng bộ Sheet: 57 hồ sơ, 304 bằng chứng, 8 đạt, 48 chờ, 1 loại pháp nhân Thuế. Đọc lại767 ô khớp và xem ba vùng hiển thị liên quan.
 - [x] Ghi nhận lượt tra cứu VORIA ngày19/10: cổng Thuế từ chối hai mã xác nhận; giữ pending, chờ ảnh kết quả chính thức, không tính lỗi CAPTCHA như bằng chứng trạng thái.
 - [x] Thu thập snapshot và thiết lập cửa sàng lọc Thuế/bằng chứng hoạt động.
 - [x] Ghi 57 hồ sơ, 302 bản ghi bằng chứng (gồm bản giữ ngoài duyệt) và 7 hồ sơ đạt vào ba tab startup của Sheet.

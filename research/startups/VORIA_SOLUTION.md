@@ -1,14 +1,16 @@
 # S035 — VORIA SOLUTION / VoriaCare
 
-Cập nhật15/10/2026. **Chờ MST mẹ và Thuế chính thức**; phân loại **Kết hợp** theo ứng dụng, Hub và thiết bị đo được kết nối.
+Cập nhật19/10/2026. **Đạt các cửa sàng lọc hiện hành**; phân loại **Kết hợp** theo ứng dụng, Hub và thiết bị đo được kết nối. Trạng thái này không xác nhận hiệu quả lâm sàng, an toàn thiết bị hoặc bảo mật hệ thống.
 
 ### Bổ sung tra cứu 19/10/2026
 
 Đã mở cổng Thuế và tra cứu MST ứng viên `3604052503` sau khi người dùng xác nhận riêng lượt CAPTCHA. Hai lần gửi đều bị trả về “Vui lòng nhập đúng mã xác nhận!”, chưa hiển thị tên pháp nhân/trạng thái. Đây là lỗi xác nhận của lượt tra cứu, không phải kết quả doanh nghiệp ngừng hoạt động hoặc không tồn tại. Vẫn giữ **chờ MST mẹ/Thuế**; không thêm bằng chứng Thuế và không đổi ngày thu thập các nguồn bên dưới. Ảnh/chữ phản hồi lưu cục bộ trong `work/`, ngoài Git; đã đề nghị người dùng cung cấp ảnh kết quả nếu tự tra cứu được.
 
+Sau đó người dùng hoàn thành lượt tra cứu; đã đọc trực tiếp bảng kết quả trên cổng Thuế: **3604052503 — CÔNG TY TNHH CÔNG NGHỆ VORIA SOLUTION — NNT đang hoạt động**, địa chỉ Số nhà18, Ấp Nam Hà, Xã Xuân Định, TP Đồng Nai. Lưu chữ và ảnh bảng gốc trong `data/startups/sources/voria_tax_3604052503.*`, ngoài Git. Hai bản ghi Thuế/danh tính cùng một bảng, không phải hai nguồn độc lập. Tên pháp nhân chứa đúng thương hiệu; tên nhà cung cấp tiếng Anh và địa chỉ nhà phát triển Việt Nam bổ trợ đối chiếu. Chưa xác minh người đại diện. [Cổng Thuế](https://tracuunnt.gdt.gov.vn/tcnnt/mstdn.jsp). [C73]
+
 ## Danh tính và giai đoạn
 
-App Store nêu bên cung cấp **VORIA SOLUTION TECHNOLOGY COMPANY LIMITED**. Google Play cùng tên nhà phát triển và địa chỉ Đồng Nai, Việt Nam. Giữ tên tiếng Anh đúng nguồn; chưa tự chuyển thành tên đăng ký tiếng Việt đã xác minh. MST ứng viên **3604052503**, tên Việt và thông tin đại diện còn từ danh bạ thứ cấp, chưa dùng làm kết quả Thuế. Các danh bạ ghi đại diện khác nhau chưa được đối chiếu. [App Store](https://apps.apple.com/vn/app/voriacare/id6760955841), [Google Play](https://play.google.com/store/apps/details?hl=en_US&id=com.voriasolution.voria_care). [C70]
+App Store nêu bên cung cấp **VORIA SOLUTION TECHNOLOGY COMPANY LIMITED**. Google Play cùng tên nhà phát triển và địa chỉ Đồng Nai, Việt Nam. Đây là các nguồn bổ trợ thương hiệu; tên đăng ký tiếng Việt/MST nay lấy từ bảng Thuế ngày19/10 ở trên. Các danh bạ ghi đại diện khác nhau chưa được đối chiếu. [App Store](https://apps.apple.com/vn/app/voriacare/id6760955841), [Google Play](https://play.google.com/store/apps/details?hl=en_US&id=com.voriasolution.voria_care). [C70, C73]
 
 Doanh nghiệp tự giới thiệu là healthcare technology startup, Founded2025. Đây là ngữ cảnh khởi nghiệp tự công bố, không thay ngày thành lập trên giấy đăng ký; loại Public Company trên LinkedIn không chứng minh niêm yết. [Profile doanh nghiệp](https://www.linkedin.com/company/voria-solution).
 
@@ -39,4 +41,6 @@ Tìm theo Voria với “giải thể”/“closed” chưa xác nhận closure 
 
 Thêm8 bản ghi; Sheet dòng36 và bằng chứng296–303 đã đọc lại117 ô khớp. FILTER vẫn7 hồ sơ đạt. Wrap/link nguồn kiểm tra API, chưa xem Google-rendered UI. Ledger chọn lọc72/72 quote khớp snapshot không thay audit toàn bộ302 bằng chứng; C71 đã đối chiếu phủ định thủ công. Tổng hiện hành xem [PROGRESS](PROGRESS.md).
 
-Còn đối chiếu MST mẹ/Thuế; chưa kiểm nghiệm thiết bị, bảo mật, giấy phép hoặc hiệu quả lâm sàng. Không chạy bộ test hoặc upload Drive trong lượt này.
+Ngày19/10 thêm2 bản ghi chính thức, cập nhật dòng36 và bằng chứng304–305. Sàng lọc lại toàn bộ theo19/10: **57 ứng viên, 304 bằng chứng, 8 đạt, 48 chờ, 1 loại pháp nhân Thuế**. Đọc lại767 ô của danh sách/bằng chứng khớp, FILTER trả đủ8 mã hồ sơ. Đã xem hiển thị ba tab startup tại vùng VORIA ở100%, sửa wrap/chiều cao hai hàng8–9 của tab đạt. Ledger chọn lọc73/73 quote khớp offline, không thay audit toàn bộ304 bằng chứng.
+
+Chưa kiểm nghiệm thiết bị, bảo mật, giấy phép hoặc hiệu quả lâm sàng. Không chạy bộ test hoặc upload tệp Drive trong lượt này; cập nhật Sheet hiện có.

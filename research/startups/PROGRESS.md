@@ -2,6 +2,11 @@
 
 ## Tra cứu bổ sung 19/10/2026
 
+- **Đã có kết quả VORIA sau khi người dùng hoàn thành tra cứu**: đọc trực tiếp bảng Thuế MST3604052503, CÔNG TY TNHH CÔNG NGHỆ VORIA SOLUTION, “NNT đang hoạt động”; lưu chữ/ảnh gốc cục bộ. Thêm2 bản ghi Thuế/danh tính từ cùng bảng, không tính là hai chủ nguồn hoạt động. Sàng lọc lại theo19/10 cho kết quả **57 ứng viên, 304 bằng chứng, 8 đạt, 48 chờ, 1 loại pháp nhân Thuế**. Điều này cập nhật trạng thái chờ trong nhật ký lượt lỗi bên dưới.
+- Sheet cập nhật dòng36, thêm bằng chứng304–305, ngày bộ lọc I2:I58 thành19/10; ngày thu thập/Thuế cũ giữ nguyên. Đọc lại767 ô khớp; công thức FILTER trả8 mã gồm S035. Xem hiển thị vùng VORIA ở cả ba tab startup, sửa wrap/chiều cao hai hàng8–9 trong tab đạt. Ledger chọn lọc73/73 quote khớp offline; chưa audit ngữ nghĩa toàn bộ304 bằng chứng hoặc kiểm nghiệm sản phẩm. Không chạy bộ test, không upload tệp Drive. [Hồ sơ VORIA](VORIA_SOLUTION.md).
+
+### Nhật ký lượt lỗi trước khi có kết quả
+
 - Trình duyệt đã truy cập được cổng Thuế. Sau xác nhận riêng của người dùng cho VORIA, gửi tra cứu MST ứng viên `3604052503`; hai lần gửi đều nhận “Vui lòng nhập đúng mã xác nhận!”. Không có bảng kết quả tên pháp nhân hoặc trạng thái, nên không thêm bản ghi Thuế hay chuyển hồ sơ sang đạt.
 - Đã lưu ảnh và chữ phản hồi trong `work/` cục bộ, ngoài Git. Đề nghị người dùng gửi ảnh kết quả chính thức nếu tự tra cứu được. Quyền tra cứu NAISCORP đã được ghi nhận; hồ sơ NAISCORP có kết quả Thuế trước đó, không coi quyền này là kết quả mới.
 - Dữ liệu sàng lọc và Sheet vẫn tại mốc 15/10: **57 ứng viên, 302 bằng chứng, 7 đạt, 49 chờ, 1 loại pháp nhân Thuế**. Lượt lỗi ngày 19/10 không làm mới ngày bằng chứng cũ; chưa chạy lại sàng lọc toàn bộ theo ngày mới.

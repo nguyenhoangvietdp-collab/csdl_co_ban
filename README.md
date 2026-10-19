@@ -106,7 +106,7 @@ Trích thông tin từ ảnh/PDF và CAPTCHA cần bước đọc hoặc tra c�
 
 Tiến độ startup: [nhật ký bằng chứng và giới hạn](research/startups/PROGRESS.md), [bảng trạng thái hiện tại](research/startups/current_screening.csv). Bảng này chứa cả hồ sơ chờ và hồ sơ loại; không phải danh sách 50 công ty đã đạt. Các script `enrich_*` là ghi nhận hồ sơ nghiên cứu cụ thể, cần snapshot cục bộ đã đọc; không phải bộ trích xuất tự động cho mọi website. `build_pilot.py` chỉ khởi tạo khi chưa có dữ liệu, để tránh ghi đè hồ sơ đã bổ sung.
 
-Hồ sơ cập nhật15/10/2026: [NAISCORP Robotics — nguồn, Thuế và giới hạn](research/startups/NAISCORP_ROBOTICS.md), [TENSOR/EggVision — đang chờ Thuế và mapping](research/startups/TENSOR_EGGVISION.md). Hiện7/50 đạt; toàn bộ57 ứng viên có trong bảng sàng lọc, không gọi tất cả là đã duyệt.
+Hồ sơ cập nhật19/10/2026: [VORIA SOLUTION — Thuế đang hoạt động và giới hạn sản phẩm](research/startups/VORIA_SOLUTION.md), [NAISCORP Robotics — nguồn, Thuế và giới hạn](research/startups/NAISCORP_ROBOTICS.md), [TENSOR/EggVision — đang chờ Thuế và mapping](research/startups/TENSOR_EGGVISION.md). Hiện8/50 đạt, 304 bản ghi bằng chứng; toàn bộ57 ứng viên có trong bảng sàng lọc, không gọi tất cả là đã duyệt.
 
 Rà soát tiếp: [VEEP — mô hình AIoT/EEaaS, chờ MST mẹ và Thuế](research/startups/VEEP.md).
 
