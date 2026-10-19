@@ -2,6 +2,9 @@
 
 ## Tra cứu bổ sung 19/10/2026
 
+- **S048 AquaX / ST Software**: thêm13 bản ghi; bảng Đà Nẵng16/03 gắn dự án với ST Software, lưu bản dựng JavaScript vì HTML thuần thiếu dòng. Tra cứu Thuế sau quyền CAPTCHA: MST0402112987, CÔNG TY CỔ PHẦN ST SOFTWARE, NNT đang hoạt động. Xếp Kết hợp phao/cảm biến/điều khiển và app; không xác nhận chỉ tiêu kỹ thuật hoặc số tiết kiệm. App Store ghi DIGIEYE, bản quyền STUnited; bài Công đoàn04/06 ghi Công ty Cổ phần AQUAX, chưa nối sang STSoftware nên giữ bối cảnh, không dùng như hoạt động đúng pháp nhân. DAVAS2026 listing không thay tham dự/đầu tư. Còn hai cửa hoạt động và cần đối chiếu vai trò pháp nhân trước duyệt. [Hồ sơ AquaX](AQUAX.md).
+- Sheet dòng49, nhãn dòng59 và bằng chứng306–318 đã ghi/đọc lại195 ô khớp, URI nguồn đúng, FILTER giữ8 mã. Tổng hiện hành **57 ứng viên, 317 bằng chứng, 8 đạt, 48 chờ, 1 loại pháp nhân Thuế**. Ledger chọn lọc78/78 quote khớp offline; chưa audit ngữ nghĩa toàn bộ317 bằng chứng, không chạy bộ test hoặc upload tệp Drive.
+
 - **Đã có kết quả VORIA sau khi người dùng hoàn thành tra cứu**: đọc trực tiếp bảng Thuế MST3604052503, CÔNG TY TNHH CÔNG NGHỆ VORIA SOLUTION, “NNT đang hoạt động”; lưu chữ/ảnh gốc cục bộ. Thêm2 bản ghi Thuế/danh tính từ cùng bảng, không tính là hai chủ nguồn hoạt động. Sàng lọc lại theo19/10 cho kết quả **57 ứng viên, 304 bằng chứng, 8 đạt, 48 chờ, 1 loại pháp nhân Thuế**. Điều này cập nhật trạng thái chờ trong nhật ký lượt lỗi bên dưới.
 - Sheet cập nhật dòng36, thêm bằng chứng304–305, ngày bộ lọc I2:I58 thành19/10; ngày thu thập/Thuế cũ giữ nguyên. Đọc lại767 ô khớp; công thức FILTER trả8 mã gồm S035. Xem hiển thị vùng VORIA ở cả ba tab startup, sửa wrap/chiều cao hai hàng8–9 trong tab đạt. Ledger chọn lọc73/73 quote khớp offline; chưa audit ngữ nghĩa toàn bộ304 bằng chứng hoặc kiểm nghiệm sản phẩm. Không chạy bộ test, không upload tệp Drive. [Hồ sơ VORIA](VORIA_SOLUTION.md).
 

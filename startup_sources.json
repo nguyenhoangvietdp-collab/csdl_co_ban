@@ -1156,5 +1156,53 @@
     "source_type": "government",
     "publisher_owner": "SIHUB / Smart Healthcare organisers",
     "url": "https://www.sihub.gov.vn/en/news/trien-lam-smart-healthcare-2026-startup-connection-day"
+  },
+  {
+    "id": "aquax_company",
+    "source_type": "company",
+    "publisher_owner": "AquaX / ST United",
+    "url": "https://aquax.vn/"
+  },
+  {
+    "id": "aquax_danang_registry_202603",
+    "source_type": "government",
+    "publisher_owner": "Trung tâm Hỗ trợ khởi nghiệp đổi mới sáng tạo Đà Nẵng",
+    "url": "https://startupdanang.vn/tong-hop-doanh-nghiep-duoc-xac-nhan-co-hoat-dong-kndmst/hoat-dong-ho-tro-kndmst-theo-nq-53/2024/nq-hdnd"
+  },
+  {
+    "id": "aquax_davas_2026",
+    "source_type": "competition",
+    "publisher_owner": "Trung tâm Hỗ trợ khởi nghiệp đổi mới sáng tạo Đà Nẵng",
+    "url": "https://www.davas.vc/vi/"
+  },
+  {
+    "id": "aquax_appstore",
+    "source_type": "company",
+    "publisher_owner": "DIGIEYE ARTIFICIAL INTELLIGENCE TECHNOLOGY JOINT STOCK COMPANY / ST United",
+    "url": "https://apps.apple.com/kr/app/aquax-portal/id6788967085"
+  },
+  {
+    "id": "aquax_stunited_viot",
+    "source_type": "company",
+    "publisher_owner": "VIoT Group",
+    "url": "https://www.viotgroup.com/stunited"
+  },
+  {
+    "id": "aquax_danang_registry_rendered",
+    "source_type": "government",
+    "publisher_owner": "Trung tâm Hỗ trợ khởi nghiệp đổi mới sáng tạo Đà Nẵng",
+    "url": "https://startupdanang.vn/tong-hop-doanh-nghiep-duoc-xac-nhan-co-hoat-dong-kndmst/hoat-dong-ho-tro-kndmst-theo-nq-53/2024/nq-hdnd"
+  },
+  {
+    "id": "aquax_stsoftware_tax",
+    "source_type": "government",
+    "publisher_owner": "Cục Thuế",
+    "url": "https://tracuunnt.gdt.gov.vn/tcnnt/mstdn.jsp"
+  },
+  {
+    "id": "aquax_union_exhibition_202606",
+    "source_type": "government",
+    "publisher_owner": "Tổng Liên đoàn Lao động Việt Nam / Báo Lao Động",
+    "url": "https://congdoanvietnam.vn/tuyen-truyen/da-nang-tham-gia-trung-bay-san-pham-cong-trinh-tai-dai-hoi-xiv-cong-doan-viet-nam-36246.tld"
   }
 ]
