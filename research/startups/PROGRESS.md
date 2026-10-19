@@ -2,6 +2,9 @@
 
 ## Tra cứu bổ sung 19/10/2026
 
+- **S026 MEDCAT đã có Thuế**: sau xác nhận CAPTCHA riêng, đọc bảng MST0110578065 — CÔNG TY CỔ PHẦN MEDCAT — NNT đang hoạt động. Giữ MedCAT TPA riêng; không coi trạng thái Thuế như chứng nhận hiệu quả y tế, bảo mật hoặc giấy phép sản phẩm. Thêm1 bản ghi, chạy sàng lọc theo19/10: **57 ứng viên, 318 bằng chứng, 9 đạt, 47 chờ, 1 loại pháp nhân Thuế**. [Hồ sơ MEDCAT](MEDCAT.md).
+- Sheet dòng27 và bằng chứng319, đọc lại143 ô gồm toàn bộ9 hàng kết quả lọc khớp; công thức giữ nguyên, URI Thuế đúng. Xem vùng MEDCAT ở cả ba tab startup tại100%, wrap/chiều cao các hàng kết quả dịch chuyển đã cập nhật. Ledger chọn lọc79/79 quote khớp offline, chưa audit ngữ nghĩa toàn bộ318 bằng chứng. Không chạy bộ test hoặc upload tệp Drive.
+
 - **S048 AquaX / ST Software**: thêm13 bản ghi; bảng Đà Nẵng16/03 gắn dự án với ST Software, lưu bản dựng JavaScript vì HTML thuần thiếu dòng. Tra cứu Thuế sau quyền CAPTCHA: MST0402112987, CÔNG TY CỔ PHẦN ST SOFTWARE, NNT đang hoạt động. Xếp Kết hợp phao/cảm biến/điều khiển và app; không xác nhận chỉ tiêu kỹ thuật hoặc số tiết kiệm. App Store ghi DIGIEYE, bản quyền STUnited; bài Công đoàn04/06 ghi Công ty Cổ phần AQUAX, chưa nối sang STSoftware nên giữ bối cảnh, không dùng như hoạt động đúng pháp nhân. DAVAS2026 listing không thay tham dự/đầu tư. Còn hai cửa hoạt động và cần đối chiếu vai trò pháp nhân trước duyệt. [Hồ sơ AquaX](AQUAX.md).
 - Sheet dòng49, nhãn dòng59 và bằng chứng306–318 đã ghi/đọc lại195 ô khớp, URI nguồn đúng, FILTER giữ8 mã. Tổng hiện hành **57 ứng viên, 317 bằng chứng, 8 đạt, 48 chờ, 1 loại pháp nhân Thuế**. Ledger chọn lọc78/78 quote khớp offline; chưa audit ngữ nghĩa toàn bộ317 bằng chứng, không chạy bộ test hoặc upload tệp Drive.
 

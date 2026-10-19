@@ -1,10 +1,14 @@
 # S026 — MEDCAT
 
-Cập nhật15/10/2026. **Chờ MST mẹ và Thuế chính thức**. Xếp **Phi vật lý** theo sản phẩm phần mềm đã đọc; không xác nhận đầu ra thiết bị riêng.
+Cập nhật19/10/2026. **Đạt các cửa sàng lọc hiện hành**. Xếp **Phi vật lý** theo sản phẩm phần mềm đã đọc; không xác nhận đầu ra thiết bị riêng hoặc hiệu quả lâm sàng.
+
+## Kết quả Thuế bổ sung19/10
+
+Sau quyền CAPTCHA riêng của người dùng, hai lần gửi bị từ chối mã; lần gửi lại tiếp theo trả bảng chính thức: **0110578065 — CÔNG TY CỔ PHẦN MEDCAT — NNT đang hoạt động**. Địa chỉ bảng ghi Số nhà11, Ngõ40, Phố Thanh Nhàn, Phường Bạch Mai, TP Hà Nội. Lưu chữ/ảnh gốc trong `data/startups/sources/medcat_tax_0110578065.*`, ngoài Git. Chỉ dùng đúng dòng MST mẹ; không thay kết quả Thuế của MedCAT TPA, không suy tình trạng giấy phép sản phẩm hoặc độ an toàn phần mềm. [Cổng Thuế](https://tracuunnt.gdt.gov.vn/tcnnt/mstdn.jsp). [C79]
 
 ## Danh tính
 
-Bài doanh nghiệp về sự kiện Hà Nội nêu trực tiếp **Công ty Cổ phần MedCAT**, nối thương hiệu với tên pháp nhân tự công bố. MST mẹ ứng viên **0110578065** chỉ từ danh bạ thứ cấp, chưa nhập vào trường MST đã đối chiếu. Không dùng địa chỉ liên hệ tại NIC như bằng chứng trụ sở đăng ký. [Bài MedCAT](https://medcat.vn/post/chuc-mung-le-ra-mat-trung-tam-doi-moi-sang-tao-ha-noi-kien-tao-tuong-lai-so-thu-do-medcat-tu-hao-la-doi-tac-chien-luoc). [C53]
+Bài doanh nghiệp về sự kiện Hà Nội nêu trực tiếp **Công ty Cổ phần MedCAT**, nối thương hiệu với tên pháp nhân tự công bố. MST mẹ **0110578065** nay được đối chiếu bằng bảng Thuế19/10 ở trên. Không dùng địa chỉ liên hệ tại NIC như bằng chứng trụ sở đăng ký. [Bài MedCAT](https://medcat.vn/post/chuc-mung-le-ra-mat-trung-tam-doi-moi-sang-tao-ha-noi-kien-tao-tuong-lai-so-thu-do-medcat-tu-hao-la-doi-tac-chien-luoc). [C53, C79]
 
 Website có liên kết MedCAT TPA; tên/MST ứng viên0110956983 được giữ riêng. Chưa có bằng chứng cho phép thay kết quả Thuế giữa hai pháp nhân. Không dựa vào tên tương tự hoặc liên kết subdomain để hợp nhất công ty.
 
@@ -31,4 +35,6 @@ Tìm theo `site:medcat.vn "giải thể"` và `"MedCAT" "closed" Vietnam` chưa 
 
 Thêm7 bản ghi; Sheet dòng27 và bằng chứng252–258 đã đọc lại104 ô khớp, FILTER vẫn7 hồ sơ đạt. Wrap và link nguồn kiểm tra API; chưa xem Google-rendered UI. Ledger chọn lọc55/55 quote khớp snapshot, không phải audit đầy đủ257 bằng chứng. Tổng hiện hành xem [PROGRESS](PROGRESS.md).
 
-Còn thiếu đối chiếu MST mẹ/Thuế chính thức; chưa kiểm nghiệm phần mềm, số khách hàng/triển khai, giấy phép y tế hoặc tuân thủ dữ liệu. Không chạy bộ test hoặc upload Drive trong lượt này.
+Ngày19/10 thêm1 bản ghi Thuế, sàng lọc lại toàn bộ: **57 ứng viên, 318 bằng chứng, 9 đạt, 47 chờ, 1 loại pháp nhân Thuế**. Sheet cập nhật dòng27 và thêm bằng chứng319; đọc lại143 ô gồm toàn bộ9 hàng lọc đạt, không sai lệch; công thức giữ nguyên. Đã xem vùng MEDCAT trong cả ba tab startup ở100%, áp dụng wrap/chiều cao cho các hàng kết quả bị dịch chuyển. Ledger chọn lọc79/79 quote khớp offline, không thay audit ngữ nghĩa toàn bộ318 bằng chứng. Các mốc thu thập nguồn cũ được giữ nguyên.
+
+Chưa kiểm nghiệm phần mềm, số khách hàng/triển khai, giấy phép y tế hoặc tuân thủ dữ liệu. Không chạy bộ test hoặc upload tệp Drive trong lượt này; cập nhật Sheet hiện có.
