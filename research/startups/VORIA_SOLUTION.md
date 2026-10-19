@@ -2,6 +2,10 @@
 
 Cập nhật15/10/2026. **Chờ MST mẹ và Thuế chính thức**; phân loại **Kết hợp** theo ứng dụng, Hub và thiết bị đo được kết nối.
 
+### Bổ sung tra cứu 19/10/2026
+
+Đã mở cổng Thuế và tra cứu MST ứng viên `3604052503` sau khi người dùng xác nhận riêng lượt CAPTCHA. Hai lần gửi đều bị trả về “Vui lòng nhập đúng mã xác nhận!”, chưa hiển thị tên pháp nhân/trạng thái. Đây là lỗi xác nhận của lượt tra cứu, không phải kết quả doanh nghiệp ngừng hoạt động hoặc không tồn tại. Vẫn giữ **chờ MST mẹ/Thuế**; không thêm bằng chứng Thuế và không đổi ngày thu thập các nguồn bên dưới. Ảnh/chữ phản hồi lưu cục bộ trong `work/`, ngoài Git; đã đề nghị người dùng cung cấp ảnh kết quả nếu tự tra cứu được.
+
 ## Danh tính và giai đoạn
 
 App Store nêu bên cung cấp **VORIA SOLUTION TECHNOLOGY COMPANY LIMITED**. Google Play cùng tên nhà phát triển và địa chỉ Đồng Nai, Việt Nam. Giữ tên tiếng Anh đúng nguồn; chưa tự chuyển thành tên đăng ký tiếng Việt đã xác minh. MST ứng viên **3604052503**, tên Việt và thông tin đại diện còn từ danh bạ thứ cấp, chưa dùng làm kết quả Thuế. Các danh bạ ghi đại diện khác nhau chưa được đối chiếu. [App Store](https://apps.apple.com/vn/app/voriacare/id6760955841), [Google Play](https://play.google.com/store/apps/details?hl=en_US&id=com.voriasolution.voria_care). [C70]

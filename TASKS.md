@@ -31,6 +31,7 @@ Chưa có lịch tự động hoặc CI chạy crawler.
 
 ## Bộ startup — 15/10/2026
 
+- [x] Ghi nhận lượt tra cứu VORIA ngày19/10: cổng Thuế từ chối hai mã xác nhận; giữ pending, chờ ảnh kết quả chính thức, không tính lỗi CAPTCHA như bằng chứng trạng thái.
 - [x] Thu thập snapshot và thiết lập cửa sàng lọc Thuế/bằng chứng hoạt động.
 - [x] Ghi 57 hồ sơ, 302 bản ghi bằng chứng (gồm bản giữ ngoài duyệt) và 7 hồ sơ đạt vào ba tab startup của Sheet.
 - [x] Rà soát VORIA: tên nhà cung cấp, app/Hub, triển lãm SIHUB và cập nhật ứng dụng; ghi giới hạn ICU/bảo mật, chờ MST mẹ/Thuế.

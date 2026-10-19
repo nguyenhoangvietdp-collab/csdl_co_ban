@@ -1,5 +1,11 @@
 # Tiến độ bộ startup — chưa hoàn thành mục tiêu
 
+## Tra cứu bổ sung 19/10/2026
+
+- Trình duyệt đã truy cập được cổng Thuế. Sau xác nhận riêng của người dùng cho VORIA, gửi tra cứu MST ứng viên `3604052503`; hai lần gửi đều nhận “Vui lòng nhập đúng mã xác nhận!”. Không có bảng kết quả tên pháp nhân hoặc trạng thái, nên không thêm bản ghi Thuế hay chuyển hồ sơ sang đạt.
+- Đã lưu ảnh và chữ phản hồi trong `work/` cục bộ, ngoài Git. Đề nghị người dùng gửi ảnh kết quả chính thức nếu tự tra cứu được. Quyền tra cứu NAISCORP đã được ghi nhận; hồ sơ NAISCORP có kết quả Thuế trước đó, không coi quyền này là kết quả mới.
+- Dữ liệu sàng lọc và Sheet vẫn tại mốc 15/10: **57 ứng viên, 302 bằng chứng, 7 đạt, 49 chờ, 1 loại pháp nhân Thuế**. Lượt lỗi ngày 19/10 không làm mới ngày bằng chứng cũ; chưa chạy lại sàng lọc toàn bộ theo ngày mới.
+
 ## Cập nhật 15/10/2026
 
 - Rà soát S035 VORIA SOLUTION: thêm8 bằng chứng; giữ tên tiếng Anh nhà cung cấp AppStore, địa chỉ Việt Nam từ GooglePlay. MST3604052503/tên Việt/đại diện từ danh bạ chưa đối chiếu, không coi như Thuế. Phân loại Kết hợp app/Hub/thiết bị kết nối; selfstartup2025 không thay đăng ký. SIHUB nêu triển lãm08/04/2026(bài09/04), GooglePlay cập nhật24/07 là hai chủ nguồn/sự kiện. ICU Gia Định vẫn thử nghiệm tự báo cáo, chưa có nghiệm thu/kết quả lâm sàng. App loại trừ chẩn đoán/điều trị; không suy phạm vi cho toànHub/ICU. Khai báoGooglePlayDataisntencrypted được ghi cần làm rõ, không coi là kiểm tra runtime hoặc rò rỉ. Lỗi tải website không suy closure.
