@@ -1,5 +1,10 @@
 # Tiến độ bộ startup — chưa hoàn thành mục tiêu
 
+## OpenMind Robotics20/10/2026
+
+- Quyền CAPTCHA riêng đã có; ba lượt MST ứng viên3703462444 bị từ chối mã xác nhận, chưa có bảng Thuế. Người dùng được đề nghị hoàn thành tab đang mở; không suy công ty ngừng hoạt động. Bổ sung3 bản ghi về kiến trúc OM-Eye/OM-Twin/OM-Brain, ứng dụng xếp pallet và giới hạn tin KUKA tự công bố. [Hồ sơ OpenMind](OPENMIND_ROBOTICS.md).
+- Sheet dòng58/bằng chứng347–349, đọc lại52 ô khớp, xem hàng tại100%. Tổng **57 ứng viên,348 bằng chứng,11 đạt,45 chờ,1 loại pháp nhân Thuế**. Ledger chọn lọc102/102 quote khớp offline; chưa audit ngữ nghĩa toàn bộ348 bản ghi. Không chạy bộ test hoặc upload tệp Drive.
+
 ## Growlab20/10/2026
 
 - Cổng Thuế trả0318576613 — CÔNG TY TNHH GROWLAB — NNT đang hoạt động, sau quyền CAPTCHA riêng/lần thử lại. Website nêu cùng tên pháp nhân; cây giống dừa nuôi cấy mô Multipuno xếp Vật lý. Giải TECHFEST12/12/2025 và lời chào sản phẩm hiện hành khác chủ nguồn/sự kiện; không xác nhận năng suất, bằng sáng chế, giải ngân hoặc dự WorldCup thực tế. [Hồ sơ Growlab](GROWLAB.md).

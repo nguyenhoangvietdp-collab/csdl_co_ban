@@ -1,5 +1,15 @@
 # S057 — OpenMind Robotics Việt Nam
 
+## Bổ sung20/10/2026 — vẫn chờ Thuế
+
+Sau quyền CAPTCHA riêng, ba lượt gửi MST ứng viên3703462444 đều bị cổng Thuế từ chối mã xác nhận. Chưa có bảng kết quả tên pháp nhân/trạng thái; không thêm bằng chứng Thuế hoặc chuyển sang đạt. Đã lưu phản hồi tại `work/openmind_tax_pending_20261020.png` và để tab cho người dùng hoàn thành. Lỗi xác nhận không chứng minh công ty ngừng hoạt động hay MST không tồn tại.
+
+Website mới mô tả ba lớp nhận thức, mô phỏng và điều khiển qua OM-Eye, OM-Twin, OM-Brain; liệt kê ứng dụng dỡ hàng/xếp pallet. Tiếp tục xếp Kết hợp; chưa xác nhận tự sản xuất toàn bộ cánh tay robot, hiệu suất hoặc an toàn. Tuyên bố xây dựng theo ISO23247/kết nối OPCUA không được coi như chứng nhận hoặc kiểm tra tuân thủ đã hoàn tất. [Website](https://www.openmindrobotics.com/en). [C100–C101]
+
+Tin doanh nghiệp tự báo cáo trao đổi kỹ thuật tại KUKA Vietnam, chỉ ghi tháng10/2026. Nhãn “Partnership” trong bài không tự chứng minh hợp đồng, xác nhận của KUKA, đơn hàng hoặc quan hệ pháp lý. Không suy ngày cụ thể, không tính KUKA là chủ xuất bản thứ hai từ nội dung do OpenMind viết. [Bài doanh nghiệp](https://www.openmindrobotics.com/en/news/kuka-vietnam-technical-exchange). [C102]
+
+Thêm3 bản ghi; Sheet dòng58/bằng chứng347–349, đọc lại52 ô khớp; xem hồ sơ tại100%. Tổng57 ứng viên,348 bằng chứng,11 đạt,45 chờ,1 loại pháp nhân Thuế. Ledger chọn lọc102/102 quote khớp offline; chưa audit ngữ nghĩa toàn bộ348 bản ghi. Không chạy bộ test, gửi liên hệ hoặc upload tệp Drive.
+
 Rà soát **15/10/2026**. Kết quả: **Chờ MST mẹ và Thuế chính thức**.
 
 ## Nhận diện

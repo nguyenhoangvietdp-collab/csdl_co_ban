@@ -61,3 +61,5 @@ Chưa có lịch tự động hoặc CI chạy crawler.
 - [x] Rà Plantner: thêm7 bản ghi, xếp Vật lý; giữ riêng tên Cổ phần/TNHH và nhóm Hàn Quốc. Sheet104 ô khớp, tổng337 bằng chứng/10 đạt; còn pháp nhân/MST/Thuế.
 
 - [x] Hoàn thiện Growlab: MST0318576613 Thuế đang hoạt động20/10, cây giống vật lý, thêm8 bằng chứng. Sheet117 ô khớp, FILTER11 mã; tổng345 bằng chứng/11 đạt. Chưa xác minh năng suất hoặc bằng sáng chế.
+
+- [x] Rà bổ sung OpenMind20/10:3 bản ghi công nghệ/ứng dụng/giới hạn tin KUKA. Ba CAPTCHA bị từ chối, chưa có Thuế; Sheet52 ô khớp. Tổng348 bằng chứng/11 đạt, tiếp tục chờ MST mẹ.

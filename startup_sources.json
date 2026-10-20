@@ -1288,5 +1288,17 @@
     "source_type": "government",
     "publisher_owner": "Cục Thuế",
     "url": "https://tracuunnt.gdt.gov.vn/tcnnt/mstdn.jsp"
+  },
+  {
+    "id": "openmind_company_20261020",
+    "source_type": "company",
+    "publisher_owner": "OpenMind Robotics Vietnam",
+    "url": "https://www.openmindrobotics.com/en"
+  },
+  {
+    "id": "openmind_kuka_202610",
+    "source_type": "company",
+    "publisher_owner": "OpenMind Robotics Vietnam",
+    "url": "https://www.openmindrobotics.com/en/news/kuka-vietnam-technical-exchange"
   }
 ]
