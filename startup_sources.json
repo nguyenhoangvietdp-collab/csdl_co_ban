@@ -1336,5 +1336,53 @@
     "source_type": "government",
     "publisher_owner": "Cổng khởi nghiệp Đà Nẵng",
     "url": "https://startupdanang.vn/fastdo-pha-vo-rao-can-chuyen-doi-so-cho-smes-bang-giai-phap-quan-ly-cong-viec-tich-hop-ai-gia-tot-de-dung"
+  },
+  {
+    "id": "nhtc_linkedin_20261020",
+    "source_type": "company",
+    "publisher_owner": "Nha Trang Hitech",
+    "url": "https://www.linkedin.com/company/nhatrang-hitech-company-ltd"
+  },
+  {
+    "id": "emai_chatbot",
+    "source_type": "company",
+    "publisher_owner": "EM&AI",
+    "url": "https://emandai.net/vi/ai-chatbot-vn/"
+  },
+  {
+    "id": "emai_surf_funding_202608",
+    "source_type": "government",
+    "publisher_owner": "Cổng khởi nghiệp Đà Nẵng",
+    "url": "https://startupdanang.vn/da-nang-trao-ho-tro-kinh-phi-doi-moi-cong-nghe-cho-2-doanh-nghiep"
+  },
+  {
+    "id": "emai_udn_group_202609",
+    "source_type": "university",
+    "publisher_owner": "Đại học Đà Nẵng",
+    "url": "https://www.udn.vn/tin-tuc-khac/pgrid/2298/pageid/3/artmid/2355/articleid/27963"
+  },
+  {
+    "id": "emai_topdev_identity",
+    "source_type": "company",
+    "publisher_owner": "EM&AI",
+    "url": "https://topdev.vn/nha-tuyen-dung/em-ai-88591"
+  },
+  {
+    "id": "emai_shinhan_recap",
+    "source_type": "fund",
+    "publisher_owner": "The Invention Lab",
+    "url": "https://slashpage.com/theilab-blog/4z7pvx2k3p7752ek8653"
+  },
+  {
+    "id": "emai_terms",
+    "source_type": "company",
+    "publisher_owner": "EM&AI",
+    "url": "https://emandai.net/vi/dieu-khoan-dich-vu/"
+  },
+  {
+    "id": "emai_privacy_identity",
+    "source_type": "company",
+    "publisher_owner": "EM&AI",
+    "url": "https://emandai.net/vi/chinh-sach-bao-mat/"
   }
 ]

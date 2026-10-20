@@ -77,3 +77,5 @@ Chưa có lịch tự động hoặc CI chạy crawler.
 - [x] Đọc PDF Plantner gốc đính kèm CTU:3trang/513588byte, xem trang2. Bên tuyển Hàn Quốc, lập công ty Việt Nam còn dự kiến tại thời điểm tài liệu; không gán tiêu đề Cổ phần thành pháp nhân Việt Nam. Sheet26 ô khớp,364 bằng chứng/12 đạt.
 
 - [x] Rà giới hạn NHTC20/10:3 bản ghi về demo AI/đơn sáng chế/giai đoạn doanh nghiệp. Sheet52 ô API khớp, UI chụp lỗi nên chưa xác nhận trực quan;367 bằng chứng/12 đạt. Còn Thuế/startup/chủ nguồn hoạt động thứ hai.
+
+- [x] Rà EM&AI20/10:10 bản ghi; Thuế mẹ0401856849 hoạt động, chi nhánh-001 tạm ngừng tách riêng. Sheet195 ô gốc/FILTER khớp;377 bằng chứng/13 đạt. Mục tiêu50 còn tiếp tục.

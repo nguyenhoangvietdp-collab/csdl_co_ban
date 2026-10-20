@@ -1,5 +1,10 @@
 # Tiến độ bộ startup — chưa hoàn thành mục tiêu
 
+## EM&AI20/10/2026
+
+- Bổ sung10 bản ghi: nối tên/MST0401856849, phần mềm AI phi vật lý, ngữ cảnh InnoBoost2026, hỗ trợ Đà Nẵng19/08 và báo cáo nhóm nghiên cứu Đại học Đà Nẵng14/09. Thuế mẹ đang hoạt động; chi nhánh-001 tạm ngừng có thời hạn giữ riêng. [Hồ sơ EM&AI](EMAI.md).
+- Sheet dòng38/bằng chứng369–378:143 ô gốc và52 ô FILTER khớp, liên kết được sửa theo hàng dịch chuyển; xem tại100%. Tổng **57 ứng viên,377 bằng chứng,13 đạt,43 chờ,1 loại pháp nhân Thuế**. Ledger chọn lọc135/135 quote khớp offline; chưa audit ngữ nghĩa toàn bộ377 bản ghi. Không chạy bộ test hoặc upload tệp Drive.
+
 ## Nha Trang Hitech20/10/2026
 
 - Bổ sung3 bản ghi giới hạn từ nguồn doanh nghiệp: một số demo dùng ảnh AI, mã1-2026-06996 là đơn đăng ký theo tự công bố, profileFounded2011 chưa chốt giai đoạn startup. Không tính video thành triển khai hoặc bài LinkedIn thành chủ nguồn độc lập với app. [Hồ sơ NHTC](NHA_TRANG_HITECH.md).
