@@ -1,5 +1,10 @@
 # Tiến độ bộ startup — chưa hoàn thành mục tiêu
 
+## OLOGN/ORCO — đối chiếu TVPL20/10/2026
+
+- Tra đúng0316563337 trên TVPL trả tên CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ ORCO, khác ảnh FiinGate OLOGN. Chi tiết bị yêu cầu CAPTCHA; đã có quyền người dùng nhưng công cụ không nhấp được thành phần xác minh. Chưa có trạng thái/lịch sử đổi tên; giữ Chờ, không suy ngừng hoạt động. [Hồ sơ OLOGN](OLOGN.md).
+- Thêm1 bản ghi phản chứng, Sheet dòng30/bằng chứng351;26 ô đọc lại khớp, xem hàng tại100%. Tổng **57 ứng viên,350 bằng chứng,12 đạt,44 chờ,1 loại pháp nhân Thuế**. Ledger chọn lọc104/104 quote khớp offline; chưa audit ngữ nghĩa toàn bộ350 bản ghi. Không chạy bộ test hoặc upload tệp Drive.
+
 ## OpenMind — đã chấp nhận nguồn TVPL thay thế20/10/2026
 
 - Người dùng gửi ảnh TVPL và cho phép tra nguồn này khi cổng Thuế gặp khó. Ghi3703462444 — CÔNG TY TNHH OPENMIND ROBOTICS — Đang hoạt động; áp dụng loại riêng tax_secondary, giới hạn miền TVPL và bắt buộc lý do thất bại nguồn chính thức. Không coi TVPL là cổng Thuế, không suy ngày cập nhật từ đồng hồ đầu trang. [Hồ sơ OpenMind](OPENMIND_ROBOTICS.md).

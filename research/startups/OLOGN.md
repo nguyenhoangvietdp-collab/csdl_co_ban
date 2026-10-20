@@ -1,5 +1,13 @@
 # S029 — OLOGN TECHNOLOGY / NAWI
 
+## Đối chiếu TVPL20/10/2026 — tên ORCO chưa giải quyết
+
+Sau khi người dùng cho phép TVPL thay thế khi cổng Thuế thất bại, đã tìm đúng MST0316563337 trên giao diện TVPL. Danh sách trả một kết quả **CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ ORCO**, tháng cấp10/2020. Tên này khác OLOGN trong ảnh FiinGate; chưa xác định là tên cũ hoặc dữ liệu chậm cập nhật. Không coi trùng MST là đủ chứng minh tên pháp nhân hiện hành. [Kết quả tìm kiếm TVPL](https://thuvienphapluat.vn/ma-so-thue/tra-cuu-ma-so-thue-doanh-nghiep?timtheo=ma-so-thue&tukhoa=0316563337). [C104]
+
+Trang chi tiết yêu cầu CAPTCHA Cloudflare. Người dùng đã cho phép thao tác nhưng công cụ báo không thể nhấp nội dung bên trong thành phần đóng; chưa đọc được trạng thái hoặc lịch sử đổi tên. Không có kết quả Thuế/TVPL hợp lệ để duyệt, không suy giải thể. Lưu chữ tìm kiếm và ảnh trang xác minh cục bộ; không yêu cầu gửi lại ảnh FiinGate. [Trang chi tiết ORCO](https://thuvienphapluat.vn/ma-so-thue/cong-ty-tnhh-thuong-mai-dich-vu-orco-mst-0316563337.html).
+
+Thêm1 bản ghi rà soát phản chứng, không phải tax_secondary. Sheet dòng30/bằng chứng351, đọc lại26 ô khớp, xem hàng bằng chứng tại100%. Tổng57 ứng viên,350 bằng chứng,12 đạt,44 chờ,1 loại pháp nhân Thuế. Ledger chọn lọc104/104 quote khớp offline, chưa audit ngữ nghĩa toàn bộ350 bản ghi. Các mô tả tiêu chí chỉ-cổng-Thuế bên dưới là lịch sử trước quyền TVPL thay thế; kết quả hiện tại vẫn Chờ do thiếu trạng thái và tên hiện hành.
+
 ## Ảnh người dùng cung cấp20/10/2026
 
 Người dùng đã gửi ảnh FiinGate (sản phẩm của FiinGroup), ghi **CÔNG TY TNHH OLOGN TECHNOLOGY**, MST **0316563337**, trạng thái **Đang hoạt động**; địa chỉ49 Bùi Đình Túy, Phường Bình Thạnh, Thành phố Hồ Chí Minh. Đây là nguồn đối chiếu bổ sung cho MST ứng viên, **không phải ảnh bảng kết quả cổng Thuế**. Không tiếp tục ghi rằng người dùng chưa gửi ảnh.

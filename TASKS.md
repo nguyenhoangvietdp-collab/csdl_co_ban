@@ -65,3 +65,5 @@ Chưa có lịch tự động hoặc CI chạy crawler.
 - [x] Rà bổ sung OpenMind20/10:3 bản ghi công nghệ/ứng dụng/giới hạn tin KUKA. Ba CAPTCHA bị từ chối, chưa có Thuế; Sheet52 ô khớp. Tổng348 bằng chứng/11 đạt, tiếp tục chờ MST mẹ.
 
 - [x] Nhận ảnh OpenMind TVPL và quyền dùng nguồn thay thế20/10; cập nhật tiêu chí/validator/export, ghi riêng tax_secondary. OpenMind đạt với nhãn TVPL;12/50 đạt,349 bằng chứng. Sheet26 ô khớp/12 mã, không gọi đây là kết quả Thuế trực tiếp.
+
+- [x] Đối chiếu OLOGN qua TVPL: đúng MST0316563337 nhưng danh sách ghi ORCO; chi tiết chưa đọc được sau quyền CAPTCHA vì công cụ không nhấp được. Ghi1 phản chứng/Sheet26 ô khớp,350 bằng chứng/12 đạt; không tự gộp tên hoặc suy trạng thái.
