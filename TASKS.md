@@ -31,6 +31,7 @@ Chưa có lịch tự động hoặc CI chạy crawler.
 
 ## Bộ startup — 19/10/2026
 
+- [x] Rà Olinno: Thuế0401950376 đang hoạt động; phân biệt nhà phát triển tiện ích với enfue JSC, dùng ngày10Sep từ snapshot trực tiếp. Thêm11 bản ghi, Sheet169 ô khớp; chờ nguồn hoạt động thứ hai. Tổng329 bằng chứng, vẫn9 đạt.
 - [x] Đối chiếu Thuế MEDCAT MST0110578065 đang hoạt động, giữ TPA riêng; thêm1 bản ghi, đồng bộ Sheet dòng27/bằng chứng319. Đọc lại143 ô khớp, FILTER9 mã. Tổng318 bằng chứng, 9 đạt, 47 chờ, 1 loại pháp nhân Thuế.
 - [x] Rà AquaX/STSoftware: thêm13 bản ghi; Thuế MST0402112987 đang hoạt động, giữ các pháp nhân khác riêng. Bài triển lãm ghi Công ty Cổ phần AQUAX chưa nối STSoftware, chưa dùng làm hoạt động; hồ sơ chờ. Sheet đọc lại195 ô khớp. Tổng317 bằng chứng, vẫn8 đạt.
 - [x] Sau lượt lỗi CAPTCHA VORIA, đọc bảng Thuế do người dùng hoàn thành: MST3604052503, pháp nhân VORIA SOLUTION, NNT đang hoạt động. Thêm2 bản ghi, chạy sàng lọc19/10 và đồng bộ Sheet: 57 hồ sơ, 304 bằng chứng, 8 đạt, 48 chờ, 1 loại pháp nhân Thuế. Đọc lại767 ô khớp và xem ba vùng hiển thị liên quan.

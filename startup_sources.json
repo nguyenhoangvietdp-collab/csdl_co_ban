@@ -1204,5 +1204,47 @@
     "source_type": "government",
     "publisher_owner": "Tổng Liên đoàn Lao động Việt Nam / Báo Lao Động",
     "url": "https://congdoanvietnam.vn/tuyen-truyen/da-nang-tham-gia-trung-bay-san-pham-cong-trinh-tai-dai-hoi-xiv-cong-doan-viet-nam-36246.tld"
+  },
+  {
+    "id": "olinno_company",
+    "source_type": "company",
+    "publisher_owner": "Olinno Technology",
+    "url": "https://olinno.com/"
+  },
+  {
+    "id": "olinno_careers",
+    "source_type": "company",
+    "publisher_owner": "Olinno Technology",
+    "url": "https://olinno.com/careers/"
+  },
+  {
+    "id": "olinno_enfue",
+    "source_type": "company",
+    "publisher_owner": "Enfue / Olinno",
+    "url": "https://enfue.com/"
+  },
+  {
+    "id": "olinno_enfue_tasco_202601",
+    "source_type": "company",
+    "publisher_owner": "Enfue / Olinno",
+    "url": "https://enfue.com/enfue-to-participate-in-tasco-innovation-day-2026/"
+  },
+  {
+    "id": "olinno_chrome_enfue",
+    "source_type": "company",
+    "publisher_owner": "Olinno Technology",
+    "url": "https://chromewebstore.google.com/detail/enfue-recruiter/bcekhmicopoanpjmnjhljkfchoklepch"
+  },
+  {
+    "id": "olinno_surf_gov_202508",
+    "source_type": "government",
+    "publisher_owner": "Cổng thông tin thành phố Đà Nẵng / UBND xã Phước Thành",
+    "url": "https://phuocthanh.danang.gov.vn/chi-tiet-tin/group/113/nid/4299/khoi-nghiep-doi-moi-sang-tao-da-nang-bat-kip-duoc-xu-huong-phat-trien-cua-the-gioi"
+  },
+  {
+    "id": "olinno_tax",
+    "source_type": "government",
+    "publisher_owner": "Cục Thuế",
+    "url": "https://tracuunnt.gdt.gov.vn/tcnnt/mstdn.jsp"
   }
 ]

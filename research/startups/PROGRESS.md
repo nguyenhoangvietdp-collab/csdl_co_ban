@@ -1,6 +1,13 @@
 # Tiến độ bộ startup — chưa hoàn thành mục tiêu
 
+## Kiểm tra đầu ra20/10/2026
+
+- Hoàn tất hồ sơ Olinno và bản đưa lên GitHub; đọc lại169 ô Sheet khớp, FILTER giữ9 mã, xem vùng dòng50/bằng chứng320–330 ở100%. Không thu lại Thuế hoặc đổi ngày nguồn. Bộ sàng lọc vẫn mốc19/10:57 ứng viên,329 bằng chứng,9 đạt,47 chờ,1 loại pháp nhân Thuế. Olinno tiếp tục chờ chủ nguồn hoạt động gần đây thứ hai.
+
 ## Tra cứu bổ sung 19/10/2026
+
+- **S049 Olinno**: thêm11 bản ghi; cổng Thuế xác nhận0401950376 — CÔNG TY TNHH CÔNG NGHỆ OLINNO — NNT đang hoạt động. Website mã040-195-0376 cùng dãy10 chữ số. ChromeWebStore xác nhận vai trò nhà phát triển EnfueRecruiter; bản HTTP ghi2.1.10/10Sep2026, khác webcache2.1.7/23Aug. Xếp Phi vật lý; tiện ích và lời chào SaaS là hai nguồn gốc nhưng cùng chủ Olinno. Enfue footerJSC giữ riêng, Tasco chỉ thông báo trước; bài SURF04/08/2025 trong730ngày phát hiện nhưng ngoài365ngày hoạt động. Còn thiếu chủ nguồn hoạt động thứ hai. Bản DAVAS cũ hash mismatch tiếp tục giữ ngoài duyệt, không sửa hash. [Hồ sơ Olinno](OLINNO.md).
+- Sheet dòng50, nhãn dòng60 và bằng chứng320–330, đọc lại169 ô khớp/URI đúng; FILTER giữ9 mã. Tổng hiện hành **57 ứng viên, 329 bằng chứng, 9 đạt, 47 chờ, 1 loại pháp nhân Thuế**. Ledger chọn lọc83/83 quote khớp offline, chưa audit ngữ nghĩa toàn bộ329 bằng chứng. Không cài tiện ích, thu hồ sơ ứng viên, chạy bộ test hoặc upload tệp Drive.
 
 - **S026 MEDCAT đã có Thuế**: sau xác nhận CAPTCHA riêng, đọc bảng MST0110578065 — CÔNG TY CỔ PHẦN MEDCAT — NNT đang hoạt động. Giữ MedCAT TPA riêng; không coi trạng thái Thuế như chứng nhận hiệu quả y tế, bảo mật hoặc giấy phép sản phẩm. Thêm1 bản ghi, chạy sàng lọc theo19/10: **57 ứng viên, 318 bằng chứng, 9 đạt, 47 chờ, 1 loại pháp nhân Thuế**. [Hồ sơ MEDCAT](MEDCAT.md).
 - Sheet dòng27 và bằng chứng319, đọc lại143 ô gồm toàn bộ9 hàng kết quả lọc khớp; công thức giữ nguyên, URI Thuế đúng. Xem vùng MEDCAT ở cả ba tab startup tại100%, wrap/chiều cao các hàng kết quả dịch chuyển đã cập nhật. Ledger chọn lọc79/79 quote khớp offline, chưa audit ngữ nghĩa toàn bộ318 bằng chứng. Không chạy bộ test hoặc upload tệp Drive.
