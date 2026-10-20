@@ -1,6 +1,6 @@
 """Collect public source snapshots and screen startups against reviewable evidence.
 
-No CAPTCHA solving. Tax evidence must come from the official tax portal.
+No CAPTCHA solving. Prefer official tax evidence; reviewed TVPL fallback requires a recorded lookup failure.
 Usage: startup_tool.py fetch --sources startup_sources.json
        startup_tool.py screen --as-of YYYY-MM-DD
 """
@@ -167,9 +167,12 @@ def validate_evidence(evidence, today, directory=DATA):
         errors.append('needs_semantic_review')
     if not within(evidence.get('retrieved_at'), today, 30):
         errors.append('stale_or_missing_retrieval_date')
-    if evidence.get('kind') == 'tax':
+    if evidence.get('kind') in {'tax', 'tax_secondary'}:
         host = (parsed.hostname or '').lower()
-        if not (host == 'gdt.gov.vn' or host.endswith('.gdt.gov.vn')):
+        if evidence['kind'] == 'tax_secondary':
+            if host != 'thuvienphapluat.vn' or not evidence.get('fallback_reason'):
+                errors.append('invalid_tax_fallback')
+        elif not (host == 'gdt.gov.vn' or host.endswith('.gdt.gov.vn')):
             errors.append('not_official_tax_source')
         if not within(evidence.get('checked_at'), today, 30):
             errors.append('stale_tax_check')
@@ -193,11 +196,11 @@ def evaluate(company, evidence, today, directory=DATA):
     tax_id = company.get('tax_id', '')
     if not re.fullmatch(r'\d{10}', tax_id):
         reasons.append('missing_parent_company_tax_id')
-    tax = [e for e in valid if e.get('kind') == 'tax' and e.get('tax_id') == tax_id
+    tax = [e for e in valid if e.get('kind') in {'tax', 'tax_secondary'} and e.get('tax_id') == tax_id
            and normal(e.get('legal_name', '')) == normal(company.get('legal_name', ''))]
     if not tax:
         reasons.append('no_matching_official_tax_evidence')
-    elif any(e.get('status') not in ACTIVE_TAX_STATUSES for e in tax):
+    elif any(e.get('status') not in ACTIVE_TAX_STATUSES | {'Đang hoạt động'} for e in tax):
         reasons.append('tax_inactive_or_conflicting_status')
     if any(e.get('kind') == 'negative_activity' for e in valid):
         reasons.append('negative_activity_requires_resolution')

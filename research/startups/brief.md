@@ -10,7 +10,7 @@ Output format: reproducible tool, evidence ledger, screening table, 50 approved 
 ## Sub-questions (acceptance tests — the report must give each a verdict)
 - Q1: Can recent fund, government and contest publications yield a sufficiently broad candidate pool?
 - Q2: Does each selected brand map to one Vietnam legal entity and parent tax ID?
-- Q3: Does a recent official tax result state the entity is active?
+- Q3: Does a recent official tax result state the entity is active? User amendment20/10/2026: when official lookup fails, a reviewed Thư Viện Pháp Luật result may substitute. Record the failure, exact parent name/MST/status, provenance and review date; visibly label secondary evidence. This does not convert the source into official tax confirmation.
 - Q4: Do two independent recent activity signals support operation, after counter-evidence review? [contested]
 - Q5: Does each company have a demonstrable innovative/high-tech product, with physical classification reviewed?
 - Q6: Can all gates be satisfied for 50 unique companies, without filling gaps with assumptions?

@@ -1,5 +1,10 @@
 # Tiến độ bộ startup — chưa hoàn thành mục tiêu
 
+## OpenMind — đã chấp nhận nguồn TVPL thay thế20/10/2026
+
+- Người dùng gửi ảnh TVPL và cho phép tra nguồn này khi cổng Thuế gặp khó. Ghi3703462444 — CÔNG TY TNHH OPENMIND ROBOTICS — Đang hoạt động; áp dụng loại riêng tax_secondary, giới hạn miền TVPL và bắt buộc lý do thất bại nguồn chính thức. Không coi TVPL là cổng Thuế, không suy ngày cập nhật từ đồng hồ đầu trang. [Hồ sơ OpenMind](OPENMIND_ROBOTICS.md).
+- Sheet dòng58/bằng chứng350,26 ô đọc lại khớp; FILTER12 mã, trạng thái ghi rõ TVPL nguồn thay thế và xem tại100%. Tổng **57 ứng viên,349 bằng chứng,12 đạt,44 chờ,1 loại pháp nhân Thuế**. Ledger chọn lọc103/103 quote khớp offline; chưa audit ngữ nghĩa toàn bộ349 bản ghi. Không chạy bộ test hoặc upload tệp Drive.
+
 ## OpenMind Robotics20/10/2026
 
 - Quyền CAPTCHA riêng đã có; ba lượt MST ứng viên3703462444 bị từ chối mã xác nhận, chưa có bảng Thuế. Người dùng được đề nghị hoàn thành tab đang mở; không suy công ty ngừng hoạt động. Bổ sung3 bản ghi về kiến trúc OM-Eye/OM-Twin/OM-Brain, ứng dụng xếp pallet và giới hạn tin KUKA tự công bố. [Hồ sơ OpenMind](OPENMIND_ROBOTICS.md).

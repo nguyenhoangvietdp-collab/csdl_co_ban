@@ -1,5 +1,13 @@
 # S057 — OpenMind Robotics Việt Nam
 
+## Đã nhận ảnh TVPL và áp dụng nguồn thay thế20/10/2026
+
+Người dùng gửi ảnh **Thư Viện Pháp Luật**, đồng thời cho phép dùng nguồn này khi cổng Thuế gặp khó. Ảnh ghi **3703462444 — CÔNG TY TNHH OPENMIND ROBOTICS — Đang hoạt động**, ngày cấp14/04/2026. Tên pháp nhân khớp hồ sơ HASI. Địa chỉ đăng ký Số12, ĐườngD10S, Khu đô thị Oasis City, Khu Phố4, Phường Thới Hòa, TP.HCM được giữ riêng với địa chỉ văn phòng trên website. [Trang TVPL](https://thuvienphapluat.vn/ma-so-thue/cong-ty-tnhh-openmind-robotics-mst-3703462444.html). [C103]
+
+**Đạt theo tiêu chí đã bổ sung nguồn thay thế**, không phải đã có bảng Thuế trực tiếp. Ba lượt CAPTCHA thất bại là lý do sử dụng fallback. Trang web trả403 ở lượt đọc tự động; dùng nguyên ảnh người dùng gửi, lưu cục bộ ngoài Git với bản chép chữ/hash ảnh. Không vượt chặn truy cập. Ngày19/10 trên đầu ảnh là ngày hiển thị trang, không được coi như ngày cập nhật hồ sơ;20/10 là ngày nhận/đọc ảnh. Không yêu cầu gửi lại ảnh.
+
+Sheet dòng58 và bằng chứng350 ghi loại **Thuế — TVPL thay thế**; trạng thái có hậu tố **[TVPL — nguồn thay thế]**, danh sách đạt thêm S057 thành12 mã. Đọc lại26 ô khớp và kiểm tra12 mã lọc; xem nhãn nguồn tại100%. Tổng57 ứng viên,349 bằng chứng,12 đạt,44 chờ,1 loại pháp nhân Thuế. Ledger chọn lọc103/103 quote khớp offline; chưa audit ngữ nghĩa toàn bộ349 bản ghi. Phần nhật ký chờ bên dưới là lịch sử trước khi người dùng cho phép nguồn thay thế.
+
 ## Bổ sung20/10/2026 — vẫn chờ Thuế
 
 Sau quyền CAPTCHA riêng, ba lượt gửi MST ứng viên3703462444 đều bị cổng Thuế từ chối mã xác nhận. Chưa có bảng kết quả tên pháp nhân/trạng thái; không thêm bằng chứng Thuế hoặc chuyển sang đạt. Đã lưu phản hồi tại `work/openmind_tax_pending_20261020.png` và để tab cho người dùng hoàn thành. Lỗi xác nhận không chứng minh công ty ngừng hoạt động hay MST không tồn tại.
