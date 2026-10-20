@@ -1,5 +1,11 @@
 # S029 — OLOGN TECHNOLOGY / NAWI
 
+## Tra cứu bổ sung20/10/2026 — chưa có kết quả Thuế
+
+Sau quyền CAPTCHA riêng của người dùng, gửi hai lượt cùng MST ứng viên0316563337; cổng Thuế đều trả “Vui lòng nhập đúng mã xác nhận!”. Đã lưu ảnh phản hồi cục bộ tại `work/ologn_tax_pending_20261020.png` và để tab tra cứu cho người dùng hoàn thành. Đây là lỗi bước xác nhận, **không phải kết luận doanh nghiệp ngừng hoạt động hoặc MST không tồn tại**. Không thêm bằng chứng Thuế, không đổi MST đã đối chiếu và không chuyển sang đạt.
+
+Tìm bổ sung nguồn gốc tài liệu thực tập theo MST trên miền trường và nguồn HUTECH theo tên công ty chưa tìm được kết quả phù hợp. Mở lại website doanh nghiệp vẫn thấy mô tả dịch vụ/đội ngũ; chưa có nguồn đăng ký gốc nối MST. Không lấy danh bạ hoặc bản sao tài liệu sinh viên thay bảng Thuế. Bộ dữ liệu giữ57 ứng viên,330 bằng chứng,10 đạt,46 chờ,1 loại pháp nhân Thuế.
+
 Cập nhật15/10/2026. **Chờ MST mẹ và Thuế chính thức**; phân loại đầu ra **Vật lý** ở mức mẫu thử.
 
 ## Pháp nhân và sản phẩm

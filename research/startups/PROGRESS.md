@@ -1,5 +1,10 @@
 # Tiến độ bộ startup — chưa hoàn thành mục tiêu
 
+## Tra cứu OLOGN20/10/2026
+
+- Đã được phép tra MST ứng viên0316563337; hai mã xác nhận đều bị cổng Thuế từ chối. Lưu ảnh phản hồi cục bộ, đề nghị người dùng hoàn thành tab đang mở. Chưa có bảng kết quả nên không thêm bằng chứng Thuế hoặc duyệt OLOGN; lỗi CAPTCHA không chứng minh tình trạng doanh nghiệp.
+- Tìm nguồn trường/HUTECH bổ sung chưa có kết quả phù hợp; website doanh nghiệp chưa cung cấp đầu mối đăng ký gốc. [Nhật ký OLOGN](OLOGN.md). Sheet giữ nguyên:57 ứng viên,330 bằng chứng,10 đạt,46 chờ,1 loại pháp nhân Thuế. Tiếp tục mục tiêu50, không upload Drive hoặc chạy bộ test.
+
 ## BUYO đã có kết quả Thuế20/10/2026
 
 - Người dùng hoàn thành lượt tra cứu; đọc trực tiếp MST mẹ0110114634 — CÔNG TY TNHH GIẢI PHÁP CÔNG NGHỆ BUYO — NNT đang hoạt động. Chi nhánh0110114634-001 và Singapore202313125C giữ riêng. Thêm1 bằng chứng, [hoàn thiện hồ sơ BUYO](BUYO.md).
