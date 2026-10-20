@@ -1,5 +1,10 @@
 # Tiến độ bộ startup — chưa hoàn thành mục tiêu
 
+## AirX/Veritas20/10/2026
+
+- Bổ sung đối chiếu thương hiệu AirX Carbon tới tên Veritas Việt Nam/MST0313231485 trong cùng trang doanh nghiệp. TVPL trả công ty mẹ và chi nhánh-001 riêng; chưa có trạng thái vì trang chi tiết yêu cầu xác minh. Hai lượt CAPTCHA cổng Thuế bị từ chối sau quyền riêng; không suy ngừng hoạt động. AirX còn cửa trạng thái doanh nghiệp. [Hồ sơ AirX](AIRX.md).
+- Thêm3 bản ghi, Sheet dòng56/bằng chứng352–354,52 ô đọc lại khớp, xem hàng tại100%. Tổng **57 ứng viên,353 bằng chứng,12 đạt,44 chờ,1 loại pháp nhân Thuế**. Ledger chọn lọc107/107 quote khớp offline; chưa audit ngữ nghĩa toàn bộ353 bản ghi. Không chạy bộ test hoặc upload tệp Drive.
+
 ## OLOGN/ORCO — đối chiếu TVPL20/10/2026
 
 - Tra đúng0316563337 trên TVPL trả tên CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ ORCO, khác ảnh FiinGate OLOGN. Chi tiết bị yêu cầu CAPTCHA; đã có quyền người dùng nhưng công cụ không nhấp được thành phần xác minh. Chưa có trạng thái/lịch sử đổi tên; giữ Chờ, không suy ngừng hoạt động. [Hồ sơ OLOGN](OLOGN.md).

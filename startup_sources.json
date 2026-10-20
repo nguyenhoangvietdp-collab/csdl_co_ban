@@ -1300,5 +1300,17 @@
     "source_type": "company",
     "publisher_owner": "OpenMind Robotics Vietnam",
     "url": "https://www.openmindrobotics.com/en/news/kuka-vietnam-technical-exchange"
+  },
+  {
+    "id": "airx_commercial_20261020",
+    "source_type": "company",
+    "publisher_owner": "AirX / Veritas Việt Nam",
+    "url": "https://airxcoffee.com/pages/qua-tang-doanh-nghiep"
+  },
+  {
+    "id": "airx_tvpl_search",
+    "source_type": "directory",
+    "publisher_owner": "Thư Viện Pháp Luật",
+    "url": "https://thuvienphapluat.vn/ma-so-thue/tra-cuu-ma-so-thue-doanh-nghiep?timtheo=ma-so-thue&tukhoa=0313231485"
   }
 ]

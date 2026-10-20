@@ -67,3 +67,5 @@ Chưa có lịch tự động hoặc CI chạy crawler.
 - [x] Nhận ảnh OpenMind TVPL và quyền dùng nguồn thay thế20/10; cập nhật tiêu chí/validator/export, ghi riêng tax_secondary. OpenMind đạt với nhãn TVPL;12/50 đạt,349 bằng chứng. Sheet26 ô khớp/12 mã, không gọi đây là kết quả Thuế trực tiếp.
 
 - [x] Đối chiếu OLOGN qua TVPL: đúng MST0316563337 nhưng danh sách ghi ORCO; chi tiết chưa đọc được sau quyền CAPTCHA vì công cụ không nhấp được. Ghi1 phản chứng/Sheet26 ô khớp,350 bằng chứng/12 đạt; không tự gộp tên hoặc suy trạng thái.
+
+- [x] Rà AirX/Veritas20/10: thêm3 bản ghi, nối thương hiệu/pháp nhân, phân biệt chi nhánh-001. GDT hai CAPTCHA từ chối, TVPL chi tiết chưa đọc được trạng thái; Sheet52 ô khớp. Tổng353 bằng chứng/12 đạt; còn cửa trạng thái.
