@@ -22,7 +22,7 @@ def main():
     rows=[HEADERS]
     for c in companies:
         taxes=[e for e in evidence if e['company_id']==c['id'] and e['kind'] in {'tax','tax_secondary'} and e.get('tax_id')==c['tax_id'] and not validate_evidence(e,today,DATA)]
-        tax=max(taxes,key=lambda e:e.get('checked_at',''),default={})
+        tax=max(taxes,key=lambda e:(e['kind']=='tax',e.get('checked_at','')),default={})
         tax=dict(tax)
         if tax.get('kind')=='tax_secondary':
             tax['status'] += ' [TVPL — nguồn thay thế]'
@@ -50,5 +50,3 @@ def main():
 
 if __name__=='__main__':
     main()
-
-
