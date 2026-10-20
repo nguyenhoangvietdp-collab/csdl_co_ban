@@ -1,5 +1,10 @@
 # Tiến độ bộ startup — chưa hoàn thành mục tiêu
 
+## Growlab20/10/2026
+
+- Cổng Thuế trả0318576613 — CÔNG TY TNHH GROWLAB — NNT đang hoạt động, sau quyền CAPTCHA riêng/lần thử lại. Website nêu cùng tên pháp nhân; cây giống dừa nuôi cấy mô Multipuno xếp Vật lý. Giải TECHFEST12/12/2025 và lời chào sản phẩm hiện hành khác chủ nguồn/sự kiện; không xác nhận năng suất, bằng sáng chế, giải ngân hoặc dự WorldCup thực tế. [Hồ sơ Growlab](GROWLAB.md).
+- Thêm8 bản ghi; Sheet dòng52/bằng chứng339–346, đọc lại117 ô khớp và URI đúng; FILTER11 mã/công thức giữ nguyên, xem hàng đạt Growlab/BUYO tại100%. Tổng **57 ứng viên,345 bằng chứng,11 đạt,45 chờ,1 loại pháp nhân Thuế**. Ledger chọn lọc99/99 quote khớp offline, chưa audit ngữ nghĩa toàn bộ345 bản ghi. Không chạy bộ test hoặc upload tệp Drive.
+
 ## Plantner20/10/2026
 
 - Bổ sung7 bản ghi cho sản phẩm phân bón/vật liệu alginate, phân loại Vật lý. MSD báo cáo DemoDay15/01/2026; lời chào đối tác trên website là nguồn khác, nhưng chưa xác nhận pháp nhân Việt Nam. Không dùng chỉ số thử nghiệm nội bộ làm hiệu quả độc lập. Tên Cổ phần trên trang trường khác TNHH ở danh bạ, chưa gộp; MST ứng viên0319205202 chưa chốt. [Hồ sơ Plantner](PLANTNER.md).

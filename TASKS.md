@@ -59,3 +59,5 @@ Chưa có lịch tự động hoặc CI chạy crawler.
 - [x] Hoàn thiện BUYO Việt Nam: Thuế mẹ0110114634 đang hoạt động20/10, tách chi nhánh/Singapore; Sheet thêm S056 vào danh sách đạt. Tổng330 bằng chứng,10/50 đạt,46 chờ,1 loại pháp nhân Thuế. Ledger chọn lọc84/84 quote khớp; xem hồ sơ BUYO.
 
 - [x] Rà Plantner: thêm7 bản ghi, xếp Vật lý; giữ riêng tên Cổ phần/TNHH và nhóm Hàn Quốc. Sheet104 ô khớp, tổng337 bằng chứng/10 đạt; còn pháp nhân/MST/Thuế.
+
+- [x] Hoàn thiện Growlab: MST0318576613 Thuế đang hoạt động20/10, cây giống vật lý, thêm8 bằng chứng. Sheet117 ô khớp, FILTER11 mã; tổng345 bằng chứng/11 đạt. Chưa xác minh năng suất hoặc bằng sáng chế.

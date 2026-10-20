@@ -1270,5 +1270,23 @@
     "source_type": "university",
     "publisher_owner": "Đại học Cần Thơ",
     "url": "https://coa.ctu.edu.vn/213-xuat-ban/tuyen-dungnn/1814-thong-tin-tuyen-dung-cong-ty-co-phan-plantner.html"
+  },
+  {
+    "id": "growlab_company",
+    "source_type": "company",
+    "publisher_owner": "Growlab",
+    "url": "https://growlab.com.vn/"
+  },
+  {
+    "id": "growlab_linkedin",
+    "source_type": "company",
+    "publisher_owner": "Growlab",
+    "url": "https://www.linkedin.com/company/growlabvietnam"
+  },
+  {
+    "id": "growlab_tax",
+    "source_type": "government",
+    "publisher_owner": "Cục Thuế",
+    "url": "https://tracuunnt.gdt.gov.vn/tcnnt/mstdn.jsp"
   }
 ]
