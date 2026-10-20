@@ -1,5 +1,11 @@
 # Tiến độ bộ startup — chưa hoàn thành mục tiêu
 
+## BUYO đã có kết quả Thuế20/10/2026
+
+- Người dùng hoàn thành lượt tra cứu; đọc trực tiếp MST mẹ0110114634 — CÔNG TY TNHH GIẢI PHÁP CÔNG NGHỆ BUYO — NNT đang hoạt động. Chi nhánh0110114634-001 và Singapore202313125C giữ riêng. Thêm1 bằng chứng, [hoàn thiện hồ sơ BUYO](BUYO.md).
+- Sàng lọc theo20/10: **57 ứng viên,330 bằng chứng,10 đạt,46 chờ,1 loại pháp nhân Thuế**. Ngày nguồn/Thuế cũ giữ nguyên. Sheet dòng57/bằng chứng331; đọc lại83 ô thay đổi khớp, kiểm tra FILTER10 mã/công thức và URI. Xem BUYO tab đạt tại100%.
+- Ledger chọn lọc84/84 quote khớp offline; chưa audit ngữ nghĩa toàn bộ330 bằng chứng. Chưa kiểm nghiệm sản phẩm, công suất, chứng chỉ hoặc giải ngân. Không upload tệp Drive hoặc chạy bộ test.
+
 ## Kiểm tra đầu ra20/10/2026
 
 - Hoàn tất hồ sơ Olinno và bản đưa lên GitHub; đọc lại169 ô Sheet khớp, FILTER giữ9 mã, xem vùng dòng50/bằng chứng320–330 ở100%. Không thu lại Thuế hoặc đổi ngày nguồn. Bộ sàng lọc vẫn mốc19/10:57 ứng viên,329 bằng chứng,9 đạt,47 chờ,1 loại pháp nhân Thuế. Olinno tiếp tục chờ chủ nguồn hoạt động gần đây thứ hai.

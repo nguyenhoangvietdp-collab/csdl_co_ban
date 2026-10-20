@@ -55,3 +55,5 @@ Chưa có lịch tự động hoặc CI chạy crawler.
 - [x] Đối chiếu giá trị các vùng đã ghi; các lượt xem giao diện và giới hạn được ghi trong PROGRESS.
 - [ ] Hoàn tất duyệt 50 startup theo đủ điều kiện; hiện đạt 7.
 - [ ] Audit đầy đủ danh sách 50 trước khi bàn giao hoàn chỉnh.
+
+- [x] Hoàn thiện BUYO Việt Nam: Thuế mẹ0110114634 đang hoạt động20/10, tách chi nhánh/Singapore; Sheet thêm S056 vào danh sách đạt. Tổng330 bằng chứng,10/50 đạt,46 chờ,1 loại pháp nhân Thuế. Ledger chọn lọc84/84 quote khớp; xem hồ sơ BUYO.
