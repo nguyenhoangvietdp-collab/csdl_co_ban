@@ -1,5 +1,10 @@
 # Tiến độ bộ startup — chưa hoàn thành mục tiêu
 
+## Olinno — phân biệt bài báo Enfue20/10/2026
+
+- Đọc PDF báo Đà Nẵng26/02/2026, trang10–11: phỏng vấn Enfue/Nguyễn Xuân Huy, không nêu Olinno/MST0401950376; chưa tính làm chủ nguồn thứ hai của Olinno. Mục tiêu1triệungười/100nghìncôngty đến2030 giữ dạng kế hoạch. [Hồ sơ Olinno](OLINNO.md).
+- Thêm1 bản ghi, Sheet dòng50/bằng chứng379;26 ô đọc lại khớp, FILTER13 mã giữ nguyên, xem hàng tại100%. Tổng **57 ứng viên,378 bằng chứng,13 đạt,43 chờ,1 loại pháp nhân Thuế**. Ledger chọn lọc137/137 quote khớp offline; chưa audit ngữ nghĩa toàn bộ378 bản ghi. Không chạy bộ test hoặc upload tệp Drive.
+
 ## EM&AI20/10/2026
 
 - Bổ sung10 bản ghi: nối tên/MST0401856849, phần mềm AI phi vật lý, ngữ cảnh InnoBoost2026, hỗ trợ Đà Nẵng19/08 và báo cáo nhóm nghiên cứu Đại học Đà Nẵng14/09. Thuế mẹ đang hoạt động; chi nhánh-001 tạm ngừng có thời hạn giữ riêng. [Hồ sơ EM&AI](EMAI.md).

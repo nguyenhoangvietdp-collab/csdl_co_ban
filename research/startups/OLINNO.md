@@ -1,6 +1,6 @@
 # S049 — Olinno / Olinno Technology
 
-Cập nhật19/10/2026. **Chờ nguồn hoạt động gần đây từ chủ nội dung thứ hai**. Xếp **Phi vật lý**, theo phần mềm/tiện ích đã đọc; chưa xác minh đầu ra thiết bị.
+Cập nhật20/10/2026. **Chờ nguồn hoạt động gần đây từ chủ nội dung thứ hai**. Xếp **Phi vật lý**, theo phần mềm/tiện ích đã đọc; chưa xác minh đầu ra thiết bị.
 
 ## Pháp nhân và phạm vi
 
@@ -31,7 +31,15 @@ Các truy vấn theo tên Olinno/giải thể/closed và Enfue/Olinno2026 chưa 
 
 Một bản ghi DAVAS cũ của Olinno đang **giữ ngoài duyệt do snapshot_hash_mismatch**. Không sửa hash để hợp thức hóa bản đó. Bằng chứng mới có snapshot/hash riêng; chỉ nêu phạm vi ngữ cảnh startup, không suy tuổi doanh nghiệp từ “Since2009”, copyright hoặc ngày ra MVP.
 
-## Nhật ký xử lý
+## Bổ sung PDF gốc ngày20/10/2026
+
+Đã đọc bài **“Xây dựng hệ sinh thái tuyển dụng thông minh”**, tác giả Huỳnh Vũ, trong số báo Đà Nẵng ngày26/02/2026, trang10–11. Bài giới thiệu Nguyễn Xuân Huy tạo ra Enfue [C137]. Đối chiếu toàn bộ hai trang: không có tên Olinno hoặc MST0401950376; chưa nối được hoạt động này tới pháp nhân đang rà soát. Không tính thành chủ nguồn hoạt động thứ hai của Olinno. [PDF gốc](https://bqn.1cdn.vn/2026/02/25/26-2-2026.pdf).
+
+Mục tiêu ít nhất1triệu người và100nghìn công ty sử dụng đến2030 được người sáng lập trình bày như kế hoạch [C136]. Không chuyển thành số người dùng/khách hàng đã đạt. Các tỷ lệ giảm thời gian, công việc thủ công và chi phí trong bài cũng chưa được đối chiếu dữ liệu thử nghiệm hoặc khách hàng gốc. Giữ riêng vai trò tiện ích Olinno với nền tảng enfueJSC; cùng người sáng lập không đủ để hợp nhất pháp nhân.
+
+Nhật ký công cụ: PDF gốc2.940.746byte/16trang, đã lưu chữ/hash và xem ảnh trang10–11. Ngày26/02 lấy từ măng sét;25/02 trong đường dẫn là ngày tải lên, không thay ngày xuất bản. Thêm1 bản ghi giới hạn; hồ sơ có12 bằng chứng hợp lệ theo kiểm tra cơ học. Sheet dòng50/bằng chứng379,26 ô đọc lại khớp; URI nguồn đúng, FILTER giữ13 mã; xem hàng tại100%. Tổng57 ứng viên,378 bằng chứng,13 đạt,43 chờ,1 loại pháp nhân Thuế. Ledger chọn lọc137/137 quote khớp offline; chưa audit ngữ nghĩa toàn bộ378 bản ghi. Không chạy bộ test hoặc upload tệp Drive.
+
+## Nhật ký xử lý19/10/2026
 
 Thêm11 bản ghi; đổi nhãn thành Olinno, giữ bí danh Olinno Technology trong ghi chú. Sheet dòng50, nhãn bằng chứng cũ dòng60 và bằng chứng320–330 đã ghi/đọc lại169 ô khớp; URI nguồn đúng, FILTER giữ9 mã đạt. Tổng **57 ứng viên, 329 bằng chứng, 9 đạt, 47 chờ, 1 loại pháp nhân Thuế**. Ledger chọn lọc83/83 quote khớp offline, không phải audit ngữ nghĩa toàn bộ329 bằng chứng.
 
