@@ -1,5 +1,10 @@
 # Tiến độ bộ startup — chưa hoàn thành mục tiêu
 
+## Plantner20/10/2026
+
+- Bổ sung7 bản ghi cho sản phẩm phân bón/vật liệu alginate, phân loại Vật lý. MSD báo cáo DemoDay15/01/2026; lời chào đối tác trên website là nguồn khác, nhưng chưa xác nhận pháp nhân Việt Nam. Không dùng chỉ số thử nghiệm nội bộ làm hiệu quả độc lập. Tên Cổ phần trên trang trường khác TNHH ở danh bạ, chưa gộp; MST ứng viên0319205202 chưa chốt. [Hồ sơ Plantner](PLANTNER.md).
+- Sheet dòng55 và bằng chứng332–338, đọc lại104 ô khớp, danh sách đạt giữ10 mã. Tổng **57 ứng viên,337 bằng chứng,10 đạt,46 chờ,1 loại pháp nhân Thuế**. Ledger chọn lọc91/91 quote khớp offline; chưa audit ngữ nghĩa toàn bộ337 bản ghi. Không chạy bộ test hoặc upload tệp Drive.
+
 ## Đã nhận ảnh FiinGate OLOGN20/10/2026
 
 - Ảnh người dùng gửi ghi0316563337 — CÔNG TY TNHH OLOGN TECHNOLOGY — Đang hoạt động. Đã lưu nguyên ảnh cục bộ ngoài Git, ghi nhận nguồn FiinGate/FiinGroup và giới hạn thiếu URL/ngày cập nhật. Ngày đăng ký28/10/2020 khác đầu mối danh bạ29/10; chưa chốt ngày từ nguồn gốc.

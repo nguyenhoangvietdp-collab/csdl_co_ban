@@ -1246,5 +1246,29 @@
     "source_type": "government",
     "publisher_owner": "Cục Thuế",
     "url": "https://tracuunnt.gdt.gov.vn/tcnnt/mstdn.jsp"
+  },
+  {
+    "id": "plantner_msd_demo",
+    "source_type": "contest",
+    "publisher_owner": "MSD United Way Vietnam",
+    "url": "https://msdvietnam.org/demo-day-du-an-giai-phap-tuong-lai-shinhan-square-bridge-viet-nam-2025-2026-doi-moi-sang-tao-mo-xa-hoi-soar-bay-len-be-phong-cho-startup-va-he-sinh-thai/"
+  },
+  {
+    "id": "plantner_company_agri",
+    "source_type": "company",
+    "publisher_owner": "Plantner",
+    "url": "https://en.plantner.kr/33"
+  },
+  {
+    "id": "plantner_company_history",
+    "source_type": "company",
+    "publisher_owner": "Plantner",
+    "url": "https://en.plantner.kr/34"
+  },
+  {
+    "id": "plantner_ctu_recruitment",
+    "source_type": "university",
+    "publisher_owner": "Đại học Cần Thơ",
+    "url": "https://coa.ctu.edu.vn/213-xuat-ban/tuyen-dungnn/1814-thong-tin-tuyen-dung-cong-ty-co-phan-plantner.html"
   }
 ]
