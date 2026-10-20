@@ -71,3 +71,5 @@ Chưa có lịch tự động hoặc CI chạy crawler.
 - [x] Rà AirX/Veritas20/10: thêm3 bản ghi, nối thương hiệu/pháp nhân, phân biệt chi nhánh-001. GDT hai CAPTCHA từ chối, TVPL chi tiết chưa đọc được trạng thái; Sheet52 ô khớp. Tổng353 bằng chứng/12 đạt; còn cửa trạng thái.
 
 - [x] Bổ sung UDATA20/10: ảnh chứng nhận Uboard/pháp nhân không có MST, ngữ cảnh Ugate/phạm vi logo tiêu chuẩn. Hai MST ứng viên vẫn chưa chọn; quyền CAPTCHA đang chờ, chưa gửi. Sheet52 ô khớp, tổng356 bằng chứng/12 đạt.
+
+- [x] Rà FASTDO20/10:7 bản ghi mới, tên pháp nhân/MST tự công bố0401799975, xếp Phi vật lý. DAVAS2025 ngoài365ngày, một lời chào dịch vụ gần đây; còn Thuế/chủ nguồn thứ hai. Sheet104 ô khớp, tổng363 bằng chứng/12 đạt.

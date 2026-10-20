@@ -1324,5 +1324,17 @@
     "source_type": "directory",
     "publisher_owner": "VNBIS",
     "url": "https://vnbis.com/products/companies/translated-name-udata-joint-stock-company-3006340/"
+  },
+  {
+    "id": "fastdo_company",
+    "source_type": "company",
+    "publisher_owner": "FASTDO",
+    "url": "https://fastdo.vn/"
+  },
+  {
+    "id": "fastdo_danang_202506",
+    "source_type": "government",
+    "publisher_owner": "Cổng khởi nghiệp Đà Nẵng",
+    "url": "https://startupdanang.vn/fastdo-pha-vo-rao-can-chuyen-doi-so-cho-smes-bang-giai-phap-quan-ly-cong-viec-tich-hop-ai-gia-tot-de-dung"
   }
 ]

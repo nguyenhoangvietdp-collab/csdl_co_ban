@@ -1,5 +1,10 @@
 # Tiến độ bộ startup — chưa hoàn thành mục tiêu
 
+## FASTDO20/10/2026
+
+- Rà tên Công ty TNHH Quản trị số Fastdo/MST0401799975 tự công bố, bộ phần mềm và AI theo mô tả; xếp Phi vật lý. Bài Đà Nẵng10/06/2025 hỗ trợ nguồn phát hiện/startup, DAVAS30/05/2025 ngoài365ngày hoạt động. Mới có một lời chào dịch vụ hiện hành, chưa đủ chủ nguồn/sự kiện thứ hai; kết quả Thuế còn thiếu. [Hồ sơ FASTDO](FASTDO.md).
+- Thêm7 bản ghi, Sheet dòng40/bằng chứng358–364;104 ô đọc lại khớp, xem hàng tại100%. Tổng **57 ứng viên,363 bằng chứng,12 đạt,44 chờ,1 loại pháp nhân Thuế**. Ledger chọn lọc118/118 quote khớp offline; chưa audit ngữ nghĩa toàn bộ363 bản ghi. Không chạy bộ test hoặc upload tệp Drive.
+
 ## UDATA20/10/2026
 
 - Đọc ảnh chứng nhận Uboard/Công ty Cổ phần Udata trên website; không có MST. Hai đầu mối0110848057/0110902473 chưa chọn, không tự đồng nhất từ tên/địa chỉ. Bổ sung ngữ cảnh Ugate phần mềm và giới hạn logo ISO/khách hàng/bộ đếm0; không suy chứng nhận hoặc hiệu suất. Đã hỏi quyền CAPTCHA GDT0110848057, chưa gửi khi chưa có xác nhận. [Hồ sơ UDATA](UDATA.md).
