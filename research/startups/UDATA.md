@@ -1,5 +1,15 @@
 # S031 — UDATA
 
+## Bổ sung20/10/2026 — chưa chọn giữa hai MST
+
+Đã đọc trực quan ảnh chứng nhận Sao Khuê2025 do website doanh nghiệp lưu, ghi **“Nền tảng thu thập, giám sát và phân tích dữ liệu - Uboard của Công ty Cổ phần Udata”**. Ảnh nối tên sản phẩm/pháp nhân nhưng không có MST; chưa kiểm tra với đơn vị cấp VINASA. Lưu ảnh trình duyệt/bản chép chữ/hash cục bộ, không coi ảnh doanh nghiệp đăng như xác nhận mới độc lập. [Ảnh chứng nhận](https://udata.ai/image/about_us/award-cert.webp). [C108]
+
+Website hiện mô tả Ugate là lớp AI kết nối/phân tích dữ liệu vận hành. Đây là ngữ cảnh phần mềm; không dùng tên “gateway” để suy sản xuất phần cứng. Các logo ISO27001/50001, COP28, TCFD hoặc khách hàng chưa được đối chiếu chứng chỉ/hợp đồng. Các bộ đếm khởi tạo0 trong HTML không chứng minh không có khách hàng, mức tiết kiệm hay SLA thực bằng0. [Website](https://udata.ai/). [C109–C110]
+
+Nguồn TVPL dẫn0110848057; VNBIS và CVWork dẫn0110902473 cùng tên UDATA. Đây vẫn là đầu mối, chưa chọn MST từ trùng tên/địa chỉ. Trang chủ, trang giới thiệu và văn bản PDF19trang đã lưu không cung cấp MST; không suy ngày đổi mã hoặc lịch sử pháp nhân. VNBIS tải snapshot HTTP thất bại, chỉ giữ đầu mối đã đọc qua web; TVPL trả403. [TVPL](https://thuvienphapluat.vn/ma-so-thue/cong-ty-co-phan-udata-mst-0110848057.html), [VNBIS](https://vnbis.com/products/companies/translated-name-udata-joint-stock-company-3006340/), [CVWork](https://cvwork.vn/viec-lam/cong-ty/cong-ty-co-phan-udata-2842).
+
+Đã chuẩn bị biểu mẫu GDT0110848057 và hỏi quyền CAPTCHA; **chưa gửi tra cứu khi chưa có câu trả lời**. Không ghi lỗi CAPTCHA hoặc trạng thái doanh nghiệp khi chưa thực hiện. Thêm3 bản ghi, Sheet dòng32/bằng chứng355–357;52 ô đọc lại khớp, xem hàng tại100%. Tổng57 ứng viên,356 bằng chứng,12 đạt,44 chờ,1 loại pháp nhân Thuế. Ledger chọn lọc110/110 quote khớp offline; chưa audit ngữ nghĩa toàn bộ356 bản ghi. Không chạy bộ test hoặc upload tệp Drive.
+
 Cập nhật15/10/2026. **Chờ MST mẹ và Thuế chính thức**; phân loại **Kết hợp** theo phần mềm và catalogue gateway, chưa chứng minh tự chế tạo toàn bộ phần cứng.
 
 ## Danh tính và startup

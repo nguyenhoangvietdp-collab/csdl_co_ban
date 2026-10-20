@@ -1312,5 +1312,17 @@
     "source_type": "directory",
     "publisher_owner": "Thư Viện Pháp Luật",
     "url": "https://thuvienphapluat.vn/ma-so-thue/tra-cuu-ma-so-thue-doanh-nghiep?timtheo=ma-so-thue&tukhoa=0313231485"
+  },
+  {
+    "id": "udata_home_20261020",
+    "source_type": "company",
+    "publisher_owner": "UDATA",
+    "url": "https://udata.ai/"
+  },
+  {
+    "id": "udata_vnbis_tax_lead",
+    "source_type": "directory",
+    "publisher_owner": "VNBIS",
+    "url": "https://vnbis.com/products/companies/translated-name-udata-joint-stock-company-3006340/"
   }
 ]

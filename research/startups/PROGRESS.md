@@ -1,5 +1,10 @@
 # Tiến độ bộ startup — chưa hoàn thành mục tiêu
 
+## UDATA20/10/2026
+
+- Đọc ảnh chứng nhận Uboard/Công ty Cổ phần Udata trên website; không có MST. Hai đầu mối0110848057/0110902473 chưa chọn, không tự đồng nhất từ tên/địa chỉ. Bổ sung ngữ cảnh Ugate phần mềm và giới hạn logo ISO/khách hàng/bộ đếm0; không suy chứng nhận hoặc hiệu suất. Đã hỏi quyền CAPTCHA GDT0110848057, chưa gửi khi chưa có xác nhận. [Hồ sơ UDATA](UDATA.md).
+- Thêm3 bản ghi, Sheet dòng32/bằng chứng355–357;52 ô đọc lại khớp, xem hàng tại100%. Tổng **57 ứng viên,356 bằng chứng,12 đạt,44 chờ,1 loại pháp nhân Thuế**. Ledger chọn lọc110/110 quote khớp offline; chưa audit ngữ nghĩa toàn bộ356 bản ghi. Không chạy bộ test hoặc upload tệp Drive.
+
 ## AirX/Veritas20/10/2026
 
 - Bổ sung đối chiếu thương hiệu AirX Carbon tới tên Veritas Việt Nam/MST0313231485 trong cùng trang doanh nghiệp. TVPL trả công ty mẹ và chi nhánh-001 riêng; chưa có trạng thái vì trang chi tiết yêu cầu xác minh. Hai lượt CAPTCHA cổng Thuế bị từ chối sau quyền riêng; không suy ngừng hoạt động. AirX còn cửa trạng thái doanh nghiệp. [Hồ sơ AirX](AIRX.md).

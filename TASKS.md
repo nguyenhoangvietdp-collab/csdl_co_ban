@@ -69,3 +69,5 @@ Chưa có lịch tự động hoặc CI chạy crawler.
 - [x] Đối chiếu OLOGN qua TVPL: đúng MST0316563337 nhưng danh sách ghi ORCO; chi tiết chưa đọc được sau quyền CAPTCHA vì công cụ không nhấp được. Ghi1 phản chứng/Sheet26 ô khớp,350 bằng chứng/12 đạt; không tự gộp tên hoặc suy trạng thái.
 
 - [x] Rà AirX/Veritas20/10: thêm3 bản ghi, nối thương hiệu/pháp nhân, phân biệt chi nhánh-001. GDT hai CAPTCHA từ chối, TVPL chi tiết chưa đọc được trạng thái; Sheet52 ô khớp. Tổng353 bằng chứng/12 đạt; còn cửa trạng thái.
+
+- [x] Bổ sung UDATA20/10: ảnh chứng nhận Uboard/pháp nhân không có MST, ngữ cảnh Ugate/phạm vi logo tiêu chuẩn. Hai MST ứng viên vẫn chưa chọn; quyền CAPTCHA đang chờ, chưa gửi. Sheet52 ô khớp, tổng356 bằng chứng/12 đạt.
