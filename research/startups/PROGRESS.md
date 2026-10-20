@@ -1,5 +1,10 @@
 # Tiến độ bộ startup — chưa hoàn thành mục tiêu
 
+## Đã nhận ảnh FiinGate OLOGN20/10/2026
+
+- Ảnh người dùng gửi ghi0316563337 — CÔNG TY TNHH OLOGN TECHNOLOGY — Đang hoạt động. Đã lưu nguyên ảnh cục bộ ngoài Git, ghi nhận nguồn FiinGate/FiinGroup và giới hạn thiếu URL/ngày cập nhật. Ngày đăng ký28/10/2020 khác đầu mối danh bạ29/10; chưa chốt ngày từ nguồn gốc.
+- Đây là đối chiếu bổ sung, chưa phải bảng Thuế trực tiếp theo tiêu chí hiện hành; không thêm bản ghi Thuế hoặc chuyển OLOGN sang đạt. Người dùng đã gửi ảnh, không yêu cầu gửi lại. [Hồ sơ OLOGN](OLOGN.md). Tổng giữ57 ứng viên,330 bằng chứng có cấu trúc,10 đạt.
+
 ## Tra cứu OLOGN20/10/2026
 
 - Đã được phép tra MST ứng viên0316563337; hai mã xác nhận đều bị cổng Thuế từ chối. Lưu ảnh phản hồi cục bộ, đề nghị người dùng hoàn thành tab đang mở. Chưa có bảng kết quả nên không thêm bằng chứng Thuế hoặc duyệt OLOGN; lỗi CAPTCHA không chứng minh tình trạng doanh nghiệp.

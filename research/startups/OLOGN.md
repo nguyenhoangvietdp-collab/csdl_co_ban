@@ -1,5 +1,13 @@
 # S029 — OLOGN TECHNOLOGY / NAWI
 
+## Ảnh người dùng cung cấp20/10/2026
+
+Người dùng đã gửi ảnh FiinGate (sản phẩm của FiinGroup), ghi **CÔNG TY TNHH OLOGN TECHNOLOGY**, MST **0316563337**, trạng thái **Đang hoạt động**; địa chỉ49 Bùi Đình Túy, Phường Bình Thạnh, Thành phố Hồ Chí Minh. Đây là nguồn đối chiếu bổ sung cho MST ứng viên, **không phải ảnh bảng kết quả cổng Thuế**. Không tiếp tục ghi rằng người dùng chưa gửi ảnh.
+
+Ảnh còn ghi ngày đăng ký kinh doanh28/10/2020, khác ngày29/10/2020 ở đầu mối danh bạ trước đó; chưa có tài liệu đăng ký gốc để chốt ngày. Không dùng chỉ số “5 năm” trong ảnh làm ngày thành lập. Ảnh không hiện URL trang chi tiết hoặc thời điểm cập nhật dữ liệu, nên không tự gán URL/ngày kiểm tra của FiinGate và không tạo bản ghi Thuế hợp lệ từ ảnh này.
+
+Lưu nguyên ảnh ngoài Git tại `data/startups/sources/ologn_fiingate_user_20261020.png`. Tiêu chí hiện hành vẫn yêu cầu kết quả trực tiếp từ miền gdt.gov.vn; OLOGN giữ trạng thái chờ cửa Thuế, không suy ngừng hoạt động. Bộ hồ sơ đã nhận được bằng chứng thứ cấp do người dùng gửi, không yêu cầu gửi lại cùng ảnh.
+
 ## Tra cứu bổ sung20/10/2026 — chưa có kết quả Thuế
 
 Sau quyền CAPTCHA riêng của người dùng, gửi hai lượt cùng MST ứng viên0316563337; cổng Thuế đều trả “Vui lòng nhập đúng mã xác nhận!”. Đã lưu ảnh phản hồi cục bộ tại `work/ologn_tax_pending_20261020.png` và để tab tra cứu cho người dùng hoàn thành. Đây là lỗi bước xác nhận, **không phải kết luận doanh nghiệp ngừng hoạt động hoặc MST không tồn tại**. Không thêm bằng chứng Thuế, không đổi MST đã đối chiếu và không chuyển sang đạt.
