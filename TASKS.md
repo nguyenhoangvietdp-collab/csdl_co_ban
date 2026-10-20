@@ -75,3 +75,5 @@ Chưa có lịch tự động hoặc CI chạy crawler.
 - [x] Rà FASTDO20/10:7 bản ghi mới, tên pháp nhân/MST tự công bố0401799975, xếp Phi vật lý. DAVAS2025 ngoài365ngày, một lời chào dịch vụ gần đây; còn Thuế/chủ nguồn thứ hai. Sheet104 ô khớp, tổng363 bằng chứng/12 đạt.
 
 - [x] Đọc PDF Plantner gốc đính kèm CTU:3trang/513588byte, xem trang2. Bên tuyển Hàn Quốc, lập công ty Việt Nam còn dự kiến tại thời điểm tài liệu; không gán tiêu đề Cổ phần thành pháp nhân Việt Nam. Sheet26 ô khớp,364 bằng chứng/12 đạt.
+
+- [x] Rà giới hạn NHTC20/10:3 bản ghi về demo AI/đơn sáng chế/giai đoạn doanh nghiệp. Sheet52 ô API khớp, UI chụp lỗi nên chưa xác nhận trực quan;367 bằng chứng/12 đạt. Còn Thuế/startup/chủ nguồn hoạt động thứ hai.

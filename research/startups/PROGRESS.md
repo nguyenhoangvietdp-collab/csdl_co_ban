@@ -1,5 +1,10 @@
 # Tiến độ bộ startup — chưa hoàn thành mục tiêu
 
+## Nha Trang Hitech20/10/2026
+
+- Bổ sung3 bản ghi giới hạn từ nguồn doanh nghiệp: một số demo dùng ảnh AI, mã1-2026-06996 là đơn đăng ký theo tự công bố, profileFounded2011 chưa chốt giai đoạn startup. Không tính video thành triển khai hoặc bài LinkedIn thành chủ nguồn độc lập với app. [Hồ sơ NHTC](NHA_TRANG_HITECH.md).
+- Web đọc được trích đoạn, HTTP/browser nguồn thất bại; ghi rõ web_text_excerpt. Sheet dòng29/bằng chứng366–368,52 ô API khớp; chụp UI lỗi hai lượt, chưa xác nhận trực quan hàng mới. Tổng **57 ứng viên,367 bằng chứng,12 đạt,44 chờ,1 loại pháp nhân Thuế**. Ledger chọn lọc122/122 quote khớp offline; chưa audit ngữ nghĩa toàn bộ367 bản ghi. Không chạy bộ test hoặc upload tệp Drive.
+
 ## Plantner — phạm vi PDF tuyển dụng gốc20/10/2026
 
 - Mở PDF đính kèm CTU,513.588byte/3trang, xem trang2: bên tuyển là tập đoàn Hàn Quốc, lập công ty Việt Nam vẫn dự kiến tại thời điểm tài liệu. Tiêu đề Cổ phần trên trang trường không chứng minh pháp nhân cổ phần Việt Nam; không suy kế hoạch cũ thành trạng thái hiện hành. [Hồ sơ Plantner](PLANTNER.md).
