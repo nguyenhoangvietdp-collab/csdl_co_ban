@@ -1,5 +1,13 @@
 # S054 — Plantner
 
+## Đã đọc PDF tuyển dụng gốc20/10/2026
+
+Tải bản đính kèm trực tiếp từ trang Đại học Cần Thơ: **513.588 byte,3 trang**, trích văn bản và xem trực quan trang2. Tài liệu nêu bên tuyển là tập đoàn Hàn Quốc, việc thành lập công ty Việt Nam **dự kiến** hoàn thành cùng tuyển dụng; cuối tài liệu ghi PLANTNER INC., Republic of Korea. Vì vậy tiêu đề “Công ty Cổ phần Plantner” trên trang trường chưa chứng minh có một công ty cổ phần Việt Nam. [PDF gốc](https://coa.ctu.edu.vn/images/upload/tuyendung/2025/Thang1/Recruitment-Opportunity-for-Graduates---Vietnamese.pdf). [C119]
+
+Điều này làm rõ phạm vi tài liệu tuyển dụng, chưa xác nhận pháp nhân/MST Việt Nam hiện hành. Không có ngày phát hành chính xác trong phần đã kiểm tra; thư mục2025/Thang1 chỉ là bối cảnh lưu trữ. Không đổi “năm ngoái/năm nay” thành ngày sự kiện và không coi kế hoạch lịch sử là bằng chứng hiện nay chưa có công ty Việt Nam. Bản PDF/text/hash giữ cục bộ ngoài Git/Drive; SHA256PDF `57869d2968f94b5b34265b72fe451db135caf2e4a3e9e5cdee03a2ee0ab2eae4`.
+
+Thêm1 bản ghi phản chứng; Sheet dòng55/bằng chứng365,26 ô đọc lại khớp, xem hàng tại100%. Tổng57 ứng viên,364 bằng chứng,12 đạt,44 chờ,1 loại pháp nhân Thuế. Ledger chọn lọc119/119 quote khớp offline; chưa audit ngữ nghĩa toàn bộ364 bản ghi. Chênh lệch tên ghi bên dưới là đầu mối lịch sử trước khi mở PDF, không còn được dùng như bằng chứng có hai pháp nhân Việt Nam khác loại hình.
+
 Rà20/10/2026. **Chờ pháp nhân Việt Nam/MST mẹ và kết quả Thuế**. Xếp **Vật lý** theo sản phẩm phân bón/vật liệu được mô tả; chưa kiểm nghiệm hiệu quả.
 
 ## Sản phẩm và công nghệ

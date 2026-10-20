@@ -73,3 +73,5 @@ Chưa có lịch tự động hoặc CI chạy crawler.
 - [x] Bổ sung UDATA20/10: ảnh chứng nhận Uboard/pháp nhân không có MST, ngữ cảnh Ugate/phạm vi logo tiêu chuẩn. Hai MST ứng viên vẫn chưa chọn; quyền CAPTCHA đang chờ, chưa gửi. Sheet52 ô khớp, tổng356 bằng chứng/12 đạt.
 
 - [x] Rà FASTDO20/10:7 bản ghi mới, tên pháp nhân/MST tự công bố0401799975, xếp Phi vật lý. DAVAS2025 ngoài365ngày, một lời chào dịch vụ gần đây; còn Thuế/chủ nguồn thứ hai. Sheet104 ô khớp, tổng363 bằng chứng/12 đạt.
+
+- [x] Đọc PDF Plantner gốc đính kèm CTU:3trang/513588byte, xem trang2. Bên tuyển Hàn Quốc, lập công ty Việt Nam còn dự kiến tại thời điểm tài liệu; không gán tiêu đề Cổ phần thành pháp nhân Việt Nam. Sheet26 ô khớp,364 bằng chứng/12 đạt.

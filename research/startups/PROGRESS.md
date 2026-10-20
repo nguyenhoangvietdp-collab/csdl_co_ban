@@ -1,5 +1,10 @@
 # Tiến độ bộ startup — chưa hoàn thành mục tiêu
 
+## Plantner — phạm vi PDF tuyển dụng gốc20/10/2026
+
+- Mở PDF đính kèm CTU,513.588byte/3trang, xem trang2: bên tuyển là tập đoàn Hàn Quốc, lập công ty Việt Nam vẫn dự kiến tại thời điểm tài liệu. Tiêu đề Cổ phần trên trang trường không chứng minh pháp nhân cổ phần Việt Nam; không suy kế hoạch cũ thành trạng thái hiện hành. [Hồ sơ Plantner](PLANTNER.md).
+- Thêm1 bản ghi, Sheet dòng55/bằng chứng365;26 ô khớp, xem hàng tại100%. Tổng **57 ứng viên,364 bằng chứng,12 đạt,44 chờ,1 loại pháp nhân Thuế**. Ledger chọn lọc119/119 quote khớp offline; chưa audit ngữ nghĩa toàn bộ364 bản ghi. Không chạy bộ test hoặc upload tệp Drive.
+
 ## FASTDO20/10/2026
 
 - Rà tên Công ty TNHH Quản trị số Fastdo/MST0401799975 tự công bố, bộ phần mềm và AI theo mô tả; xếp Phi vật lý. Bài Đà Nẵng10/06/2025 hỗ trợ nguồn phát hiện/startup, DAVAS30/05/2025 ngoài365ngày hoạt động. Mới có một lời chào dịch vụ hiện hành, chưa đủ chủ nguồn/sự kiện thứ hai; kết quả Thuế còn thiếu. [Hồ sơ FASTDO](FASTDO.md).
