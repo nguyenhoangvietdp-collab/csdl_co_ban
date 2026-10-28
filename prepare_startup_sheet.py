@@ -11,7 +11,7 @@ from startup_tool import DATA, validate_evidence
 
 HEADERS = ['Mã hồ sơ','Thương hiệu','Pháp nhân','MST mẹ','Đầu ra vật lý','Kết quả','Còn thiếu','Bằng chứng hợp lệ','Ngày bộ lọc','Ngày kiểm tra Thuế','Trạng thái Thuế','Nguồn phát hiện','Giới hạn / ghi chú']
 REASONS = dict(missing_parent_company_tax_id='Chưa xác minh MST mẹ',no_matching_official_tax_evidence='Thiếu kết quả Thuế chính thức',tax_inactive_or_conflicting_status='Thuế ngừng hoạt động hoặc xung đột',counter_evidence_review_missing='Chưa rà soát phản chứng',brand_legal_entity_mapping_unverified='Chưa nối thương hiệu với pháp nhân',no_recent_fund_government_contest_publication='Thiếu công bố gần đây từ quỹ/chính phủ/cuộc thi',startup_unverified='Chưa xác minh tiêu chí startup',technology_unverified='Chưa xác minh công nghệ',product_unverified='Chưa xác minh sản phẩm',vietnam_legal_entity_unverified='Chưa xác minh pháp nhân Việt Nam',need_two_independent_recent_activity_publishers='Thiếu hai chủ nguồn hoạt động gần đây',need_two_distinct_activity_origins='Thiếu hai sự kiện hoạt động khác nhau',product_classification_unreviewed='Chưa phân loại đầu ra vật lý',source_integrity_requires_resolution='Cờ chất lượng nguồn chưa xử lý',negative_activity_requires_resolution='Bằng chứng hoạt động tiêu cực chưa xử lý')
-KINDS = dict(tax='Thuế',tax_secondary='Thuế — TVPL thay thế',identity='Thương hiệu / pháp nhân',discovery='Nguồn phát hiện',startup='Tiêu chí startup',product='Sản phẩm',technology='Công nghệ',activity='Hoạt động',counter_review='Rà soát phản chứng',source_integrity_flag='Chất lượng nguồn',negative_activity='Hoạt động tiêu cực')
+KINDS = dict(user_observation='Ảnh tham khảo chưa dùng duyệt',tax='Thuế',tax_secondary='Thuế — TVPL thay thế',identity='Thương hiệu / pháp nhân',discovery='Nguồn phát hiện',startup='Tiêu chí startup',product='Sản phẩm',technology='Công nghệ',activity='Hoạt động',counter_review='Rà soát phản chứng',source_integrity_flag='Chất lượng nguồn',negative_activity='Hoạt động tiêu cực')
 
 def main():
     with (DATA/'screening.csv').open(encoding='utf-8-sig',newline='') as f:
@@ -26,6 +26,8 @@ def main():
         tax=dict(tax)
         if tax.get('kind')=='tax_secondary':
             tax['status'] += ' [TVPL — nguồn thay thế]'
+        elif tax.get('method')=='image_transcription':
+            tax['status'] += ' [ảnh người dùng gửi]'
         rows.append([c['id'],c['brand'],c['legal_name'],c['tax_id'],{'yes':'Vật lý','hybrid':'Kết hợp','no':'Phi vật lý'}.get(c['physical'],'Chưa phân loại'),{'approved':'Đạt','pending':'Chờ','excluded_tax_entity':'Loại pháp nhân Thuế'}[c['decision']],'; '.join(REASONS.get(r,r) for r in c['reasons'].split('; ') if r),int(c['valid_evidence']),c['as_of'],tax.get('checked_at',''),tax.get('status',''),c['discovery_url'],c['notes']])
     proof=[['Mã bằng chứng','Mã hồ sơ','Thương hiệu','Loại bằng chứng','Chủ nội dung','Ngày sự kiện','Ngày công bố','Ngày thu thập','Ngày kiểm tra Thuế','Trạng thái Thuế','Đánh giá sử dụng','URL nguồn','Giới hạn / bối cảnh (ghi chú nghiên cứu)']]
     for e in evidence:

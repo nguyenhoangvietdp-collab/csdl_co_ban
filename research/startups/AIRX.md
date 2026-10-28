@@ -1,6 +1,6 @@
 # S055 — AirX Carbon / Veritas Việt Nam
 
-Rà20/10/2026. **Chờ kết quả trạng thái doanh nghiệp**; đã bổ sung đối chiếu thương hiệu với pháp nhân. Đầu ra Vật lý giữ theo hồ sơ sản phẩm hiện có.
+Rà28/10/2026. **Đạt sàng lọc theo ảnh bảng Thuế do người dùng cung cấp**; đầu ra Vật lý giữ theo hồ sơ sản phẩm hiện có. Ảnh ghi công ty mẹ0313231485 đang hoạt động [C138]. Chi nhánh-001 ngừng hoạt động giữ riêng; phần cuối trạng thái chi nhánh bị cắt trong ảnh. Ngày28/10 là ngày nhận/đọc ảnh, không phải ngày truy vấn gốc được kiểm chứng; không gọi là lượt đọc trực tiếp mới của Codex. Xem [đối chiếu đợt ảnh](USER_IMAGES_20261028.md).
 
 ## Đối chiếu danh tính
 
@@ -8,7 +8,7 @@ Trang thương mại có đoạn giới thiệu AirX Carbon và footer **Công T
 
 TVPL tìm đúng0313231485 trả **CÔNG TY CỔ PHẦN VERITAS VIỆT NAM**, đồng thời có chi nhánh0313231485-001. Không dùng kết quả chi nhánh thay công ty mẹ. Danh sách tìm kiếm chưa có trạng thái hoạt động, tháng04/2015 chưa phải ngày thành lập chính xác. [TVPL](https://thuvienphapluat.vn/ma-so-thue/tra-cuu-ma-so-thue-doanh-nghiep?timtheo=ma-so-thue&tukhoa=0313231485). [C106]
 
-## Lượt tra cứu chưa hoàn tất
+## Lượt tra cứu chưa hoàn tất ngày20/10/2026
 
 Sau quyền CAPTCHA riêng cho AirX/Veritas, hai mã gửi tới cổng Thuế đều bị từ chối. Đã thử nguồn TVPL theo quyền thay thế; trang chi tiết yêu cầu xác minh người dùng nên chưa đọc được trạng thái. Không thêm tax/tax_secondary và không chuyển sang đạt. Lỗi bước xác nhận không chứng minh công ty ngừng hoạt động. Ảnh phản hồi lưu cục bộ tại `work/airx_tax_pending_20261020.png`.
 

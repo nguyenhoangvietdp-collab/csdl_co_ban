@@ -1,5 +1,10 @@
 # Tiến độ bộ startup — chưa hoàn thành mục tiêu
 
+## Đợt ảnh người dùng28/10/2026
+
+- Lưu26 ảnh/21 hồ sơ,24 bản ghi sau khi giữ riêng2 góc chụp bổ sung. AirX/Forte qua cửa Thuế theo ảnh người dùng gửi;21 ảnh thứ cấp và1 biểu mẫu cá nhân không dùng duyệt Thuế. Không gộp VOLTERRA/VOLNEXUS,3 pháp nhân Stride hoặc lịch sử OLOGN/ORCO. [Đối chiếu cả đợt](USER_IMAGES_20261028.md).
+- Bộ lọc ngày28/10: Enfarm/Alpha Asimov cần nguồn hoạt động mới vì tín hiệu27/10/2025 ra ngoài365ngày, không kết luận ngừng hoạt động. Tổng **57 ứng viên,402 bằng chứng,13 đạt,43 chờ,1 loại pháp nhân Thuế**. Sheet1.222 ô đọc lại khớp;37 link/ô đính kèm đối chiếu, FILTER13 mã. Ledger chọn lọc161/161 quote khớp offline; chưa audit ngữ nghĩa toàn bộ402 bản ghi. Không chạy bộ test hoặc upload tệp Drive.
+
 ## Olinno — phân biệt bài báo Enfue20/10/2026
 
 - Đọc PDF báo Đà Nẵng26/02/2026, trang10–11: phỏng vấn Enfue/Nguyễn Xuân Huy, không nêu Olinno/MST0401950376; chưa tính làm chủ nguồn thứ hai của Olinno. Mục tiêu1triệungười/100nghìncôngty đến2030 giữ dạng kế hoạch. [Hồ sơ Olinno](OLINNO.md).

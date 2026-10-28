@@ -81,3 +81,5 @@ Chưa có lịch tự động hoặc CI chạy crawler.
 - [x] Rà EM&AI20/10:10 bản ghi; Thuế mẹ0401856849 hoạt động, chi nhánh-001 tạm ngừng tách riêng. Sheet195 ô gốc/FILTER khớp;377 bằng chứng/13 đạt. Mục tiêu50 còn tiếp tục.
 
 - [x] Đọc PDF báo Đà Nẵng26/02/2026 về Enfue; chưa gán sang Olinno. Thêm1 bản ghi, Sheet26 ô khớp;378 bằng chứng/13 đạt. Olinno vẫn thiếu chủ nguồn hoạt động thứ hai.
+
+- [x] Nhập26 ảnh28/10/2026:24 bản ghi, phân biệt2 ảnh bảng Thuế với22 quan sát giữ ngoài duyệt. AirX/Forte mới đạt; Enfarm/Alpha cần nguồn hoạt động mới. Tổng402 bằng chứng/13 đạt; Sheet1.222 ô khớp.
